@@ -1,0 +1,37 @@
+[
+    {
+      "number": 2,
+      "topic": "The Evolution and Future of Indian Economics",
+      "maxWords": 3840,
+      "useImage": {
+        "use": true,
+        "TotalImagesToBeUsed": 3,
+        "searchQueryForImages": [
+          "Indian economy growth",
+          "Indian market infrastructure",
+          "future of Indian economy"
+        ]
+      },
+      "useCharts": {
+        "use": true,
+        "TotalChartsToBeUsed": 3
+      },
+      "usePreviewCode": {
+        "use": false,
+        "Total": 0
+      },
+      "useTable": {
+        "use": true,
+        "TotalTablesToBeUsed": 1
+      },
+      "language": "English",
+      "targetAudience": [
+        "economics students",
+        "policy analysts",
+        "finance enthusiasts"
+      ],
+      "difficultyLevel": "Advanced",
+      "category": "Economics"
+    }
+  ]
+  

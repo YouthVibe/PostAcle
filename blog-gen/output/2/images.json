@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Indian economy growth",
+    "images": [
+      {
+        "largeImageURL": "https://pixabay.com/get/g17eb17ba8ada3713b23369576c9fd436250ac787348247ca9e65e83bd2ca9a2e330b5637d54b8183b3821a387122d31325ab277d8b172075b565dd16a4c8bfd8_1280.jpg",
+        "width": 3846,
+        "height": 2599
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/gdea546732cdf94a83f9c063751ce90964b318bacae45d2b898cd25d8c07a87ea165e4e708ae2456060849f4e681f355ae37e624bff1e626825b27cf897896fa5_1280.jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/g0715165709e52787f789f186f585806e765e52ad66f12cb38a0e5993f13306184b5a23bf1ed9a236e425b5fd612fec3e31c441b8fac6243608768833c5f32abd_1280.jpg",
+        "width": 3952,
+        "height": 2529
+      }
+    ]
+  },
+  {
+    "query": "Indian market infrastructure",
+    "images": [
+      {
+        "largeImageURL": "https://pixabay.com/get/gb49855055f445e3858257afaebb1261f1ad6aa867d24c6a79bae340bdaba1a8f1a10fc1e2978febd192f3842f36d8dd6d0bb6a0a09dc284825a23960104c34dc_1280.jpg",
+        "width": 5923,
+        "height": 3949
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/g9475fe986742abc1d7ddd5d626b82ccc069f93d8685db94ddabab4e43693060df1b2793f9e269e0c0cfe3d0771225b98c191802bdeb74e35346371ded9dce3f3_1280.jpg",
+        "width": 5168,
+        "height": 3448
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/gb89c8604717065019432ab0e5b8028a2b56e9998f31173c086499d09203c2aab3e6b10c8d1a2fb67a35e09b66250fd045bc21413b841731418c8a871dc3a15af_1280.jpg",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "query": "future of Indian economy",
+    "images": [
+      {
+        "largeImageURL": "https://pixabay.com/get/g4cf709049ec51016c07be9d103e5e8d1a3047b66c95967ed41f0d0e8b4cf8608bc8f4141b0fbad64dc7dc5c946027c6b2e69284b6de6741ce84d3d9fa9c29388_1280.jpg",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/gc466dd9f16f5ae4ec5c6945e733b400e527824e63f6f090ac29736d692a46d464f42e6701268885087073b4839f84f987749cd822f9f3313e62c5a13a0460748_1280.jpg",
+        "width": 4234,
+        "height": 2361
+      },
+      {
+        "largeImageURL": "https://pixabay.com/get/g3b348fce8d15dd86dd9eba5b7c4b1f345ef733a6c1a2363cec337603463d72eb43606999de905d47ee881669e2a1ad0f89f1eda831018a2cc5ccc63235034be9_1280.jpg",
+        "width": 5760,
+        "height": 3840
+      }
+    ]
+  }
+]
