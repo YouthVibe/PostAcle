@@ -46,7 +46,7 @@ export default function Hero() {
         {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Create Card */}
-          <div className="group relative bg-gradient-to-br from-purple-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-purple-500/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)]">
+          <div className="group relative bg-gradient-to-br from-purple-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
               <Image src="/create-icon.svg" alt="Create" width={48} height={48} />
             </div>
@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
 
           {/* Share Card */}
-          <div className="group relative bg-gradient-to-br from-pink-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-pink-500/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(236,72,153,0.15)]">
+          <div className="group relative bg-gradient-to-br from-pink-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
               <Image src="/share-icon.svg" alt="Share" width={48} height={48} />
             </div>
@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
 
           {/* Grow Card */}
-          <div className="group relative bg-gradient-to-br from-blue-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)]">
+          <div className="group relative bg-gradient-to-br from-blue-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
               <Image src="/grow-icon.svg" alt="Grow" width={48} height={48} />
             </div>

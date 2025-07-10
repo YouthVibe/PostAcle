@@ -1,0 +1,92 @@
+[
+    {
+      "title": "The AI Scalpel: Revolutionizing Healthcare Diagnostics with Precision and Prediction",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Medical Diagnostics",
+        "Machine Learning",
+        "Deep Learning",
+        "Health Tech",
+        "Europe"
+      ],
+      "category": "Technology",
+      "previewImage": "https://pixabay.com/get/g8b96f28896e05f14eb53babff4c1b871bfbed7f83f1480691d2ac4af9414890c4931966b1026fb4d3d7a72006e16bcd0b7b9f62bc3b4c8048edfe23cf196f272_1280.jpg",
+      "blogNumber": 10,
+      "blogID": "the-ai-scalpel-revolutionizing-healthcare-diagnostics-with-precision-and-prediction",
+      "wordsUsed": 1152,
+      "publishedDate": "2025-07-10T21:45:19.347355",
+      "author": "PostAcle"
+    },
+    {
+      "title": "The Evolution of Blockchain Beyond Cryptocurrency",
+      "tags": [
+        "Blockchain",
+        "Smart Contracts",
+        "DeFi",
+        "Web3",
+        "Decentralized Technology",
+        "Ethereum"
+      ],
+      "category": "Technology",
+      "previewImage": "https://pixabay.com/get/gf063e47fe4dd109938c6936c2a932d2205adc85b583c61b4902f4d671aa29697b8b56f2ae37ddbcb0e49b82ef0fdf3a53de94c171d7540db4da2b6e4a72cb059_1280.jpg",
+      "blogNumber": 7,
+      "blogID": "the-evolution-of-blockchain-beyond-cryptocurrency",
+      "wordsUsed": 1057,
+      "publishedDate": "2025-07-10T21:42:24.168465",
+      "author": "PostAcle"
+    },
+    {
+      "title": "The Quantum Revolution: Unpacking the Rise of Quantum Computing in Everyday Applications",
+      "tags": [
+        "quantum computing",
+        "technology",
+        "future tech",
+        "AI",
+        "cryptography",
+        "python",
+        "qiskit"
+      ],
+      "category": "Technology",
+      "previewImage": "https://pixabay.com/get/g5d16a345cbfbe718a83a29b55910749ef01f13442dd7a80daecc73fe20f566916e23f87988f2cf5de4192736de65b9075094775d17b823ea01dc4a803d10f338_1280.jpg",
+      "blogNumber": 2,
+      "blogID": "the-quantum-revolution-unpacking-the-rise-of-quantum-computing-in-everyday-applications",
+      "wordsUsed": 985,
+      "publishedDate": "2025-07-10T21:37:38.704735",
+      "author": "PostAcle"
+    },
+    {
+      "title": "Exploring Minimalist Living: Decluttering Your Space and Mind",
+      "tags": [
+        "minimalism",
+        "decluttering",
+        "home organization",
+        "simple living",
+        "mental wellness"
+      ],
+      "category": "Day-to-Day Life",
+      "previewImage": "https://pixabay.com/get/g518afc26c89a73d7f3005691eea789ee927e58178ac265b25b95796c9f8bc9b2d512f16f7921249fe7bcb7e34cf6e2c8953b4e151f5a27d596dc6474f3817534_1280.jpg",
+      "blogNumber": 3,
+      "blogID": "exploring-minimalist-living-decluttering-your-space-and-mind",
+      "wordsUsed": 978,
+      "publishedDate": "2025-07-10T21:38:30.361210",
+      "author": "PostAcle"
+    },
+    {
+      "title": "Powering Tomorrow's Metropolis: The Transformative Impact of 5G on India's Smart Cities",
+      "tags": [
+        "5G",
+        "Smart Cities",
+        "IoT",
+        "Urban Planning",
+        "Technology India"
+      ],
+      "category": "Technology",
+      "previewImage": "https://pixabay.com/get/ge9aaed1a0ee8aa2808520518c9b9fcd4976ae0c0b68fd118e40134a16af04e5bc7637442cd3afcb0015631b4214b5f2bf05f7cb98a1f0f33f76134b0bd1d8f0b_1280.jpg",
+      "blogNumber": 4,
+      "blogID": "powering-tomorrow-s-metropolis-the-transformative-impact-of-5g-on-india-s-smart-cities",
+      "wordsUsed": 958,
+      "publishedDate": "2025-07-10T21:39:34.914572",
+      "author": "PostAcle"
+    }
+  ]

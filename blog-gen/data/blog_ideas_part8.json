@@ -1,0 +1,383 @@
+[
+  {
+    "number": 71,
+    "topic": "How to Create a Minimalist Budget for Financial Freedom",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "minimalist budget",
+        "financial planning"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "young adults",
+      "budget-conscious individuals"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 72,
+    "topic": "The Role of Extended Reality (XR) in Remote Collaboration",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "extended reality",
+        "remote collaboration",
+        "virtual workspace"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "JavaScript"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "tech enthusiasts",
+      "remote workers",
+      "business professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 73,
+    "topic": "The Joy of DIY Home Decor on a Budget",
+    "maxWords": 2500,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "DIY home decor",
+        "budget interior design"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "homeowners",
+      "DIY enthusiasts",
+      "general public"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 74,
+    "topic": "The Impact of AI-Powered Chatbots on Customer Service",
+    "maxWords": 3000,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "AI chatbots",
+        "customer service automation",
+        "conversational AI"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "business professionals",
+      "tech enthusiasts",
+      "customer service managers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "India"
+  },
+  {
+    "number": 75,
+    "topic": "How to Foster Creativity in Everyday Life",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "creativity",
+        "creative thinking"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "students",
+      "artists"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 76,
+    "topic": "The Evolution of Street Art as a Cultural Movement",
+    "maxWords": 2800,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "street art",
+        "urban murals",
+        "cultural movement"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "art enthusiasts",
+      "culture enthusiasts",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 77,
+    "topic": "The Future of Smart Grids in Energy Management",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "smart grids",
+        "energy management",
+        "renewable energy systems"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "engineers",
+      "environmentalists",
+      "tech enthusiasts"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 78,
+    "topic": "The Benefits of Journaling for Personal Growth",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "journaling",
+        "personal growth"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "students",
+      "self-improvement enthusiasts"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "India"
+  },
+  {
+    "number": 79,
+    "topic": "The Impact of Global Literature on Cultural Understanding",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "global literature",
+        "cultural books"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "book lovers",
+      "culture enthusiasts",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 80,
+    "topic": "The Role of Machine Vision in Industrial Automation",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "machine vision",
+        "industrial automation",
+        "computer vision"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "engineers",
+      "tech enthusiasts",
+      "manufacturing professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  }
+]

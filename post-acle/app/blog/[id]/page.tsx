@@ -25,7 +25,7 @@ export default function BlogPost() {
   useEffect(() => {
     const fetchBlogPost = async () => {
       try {
-        const response = await fetch('/sampleBlog.json');
+        const response = await fetch(`/blogs/${id}.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
