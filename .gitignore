@@ -1,3 +1,5 @@
+./output/*
+./data/*
 # Logs
 logs
 *.log

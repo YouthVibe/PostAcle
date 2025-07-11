@@ -54,6 +54,10 @@
       "content": "Quantum computing is no longer just for theoretical physicists. Cloud platforms from IBM, Google, and others allow anyone to run algorithms on real quantum hardware. Using Python libraries like Qiskit, developers can build and test quantum circuits. The following code snippet demonstrates the creation of a Bell state, a simple two-qubit circuit that illustrates the principles of superposition and entanglement. This is the 'Hello, World!' of quantum programming."
     },
     {
+      "contentType": "code",
+      "content": "<pre><code class=\"language-python bg-gray-900 text-white p-4 rounded-md block\"><span class=\"text-purple-400\">from</span> qiskit <span class=\"text-purple-400\">import</span> QuantumCircuit, Aer, execute\n\n<span class=\"text-green-400\"># Create a quantum circuit with 2 qubits and 2 classical bits</span>\nqc = QuantumCircuit(2, 2)\n\n<span class=\"text-green-400\"># Apply a Hadamard gate to the first qubit to create superposition</span>\nqc.h(0)\n\n<span class=\"text-green-400\"># Apply a CNOT gate to entangle the two qubits</span>\nqc.cx(0, 1)\n\n<span class=\"text-green-400\"># Measure the qubits</span>\nqc.measure([0, 1], [0, 1])\n\n<span class=\"text-green-400\"># Execute the circuit on a simulator</span>\nsimulator = Aer.get_backend('qasm_simulator')\njob = execute(qc, simulator, shots=1024)\nresult = job.result()\ncounts = result.get_counts(qc)\n\n<span class=\"text-blue-400\">print</span>(<span class=\"text-yellow-300\">\"Resulting counts:\"</span>, counts)</code></pre>"
+    },
+    {
       "contentType": "text",
       "content": "When you run this circuit, you will find that the results are always either '00' or '11', with roughly equal probability. You will never get '01' or '10'. This is entanglement in action: the measurement of one qubit determines the outcome of the other, perfectly correlated."
     },

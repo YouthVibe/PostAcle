@@ -66,10 +66,13 @@ os.makedirs("output/previewBlogs", exist_ok=True)
 
 # Initialize index for all blogs
 index_data = []
+with open("output/index.json", "r") as f:
+    index_data = json.load(f)
+    f.close()
 
 try:
     # Process each blog_ideas_part{n}.json file (n from 1 to 10)
-    for n in range(1, 2):
+    for n in range(1, 11):
         # Load blog topics from data/blog_ideas_part{n}.json
         # input(f"Press Enter to process blog_ideas_part{n}.json...")
         file_path = f"data/blog_ideas_part{n}.json"
@@ -213,6 +216,7 @@ Your output should be in the following format:
 
             blog["author"] = "PostAcle"
             blog["publishedDate"] = datetime.now().isoformat()
+            blog["targetRegion"] = data["targetRegion"]
 
             # Generate blogID from title
             blog_id = generate_blog_id(blog["title"])
@@ -235,7 +239,8 @@ Your output should be in the following format:
                 "blogID": blog_id,
                 "wordsUsed": blog["wordsUsed"],
                 "publishedDate": datetime.now().isoformat(),
-                "author": blog["author"]
+                "author": blog["author"],
+                "targetRegion": data["targetRegion"]
             })
 
             print(f"✅ Generated blog {blog_id} for blog number {blog_number}")
