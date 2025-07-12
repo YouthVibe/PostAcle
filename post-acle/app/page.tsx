@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import NavbarStatic from './components/NavbarStatic';
+import HeroStatic from './components/HeroStatic';
 import TrendingBlogs from './components/TrendingBlogs';
-import Footer from './components/Footer';
+import FooterStatic from './components/FooterStatic';
 
 export default function Home() {
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
-      <Navbar />
-      <Hero />
+      <NavbarStatic />
+      <HeroStatic />
       <TrendingBlogs />
-      <Footer />
+      <FooterStatic />
     </main>
   );
 }

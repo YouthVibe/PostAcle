@@ -1,8 +1,8 @@
-'use client';
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import fs from 'fs/promises';
+import path from 'path';
 
 interface Blog {
   title: string;
@@ -15,15 +15,19 @@ interface Blog {
   author: string;
 }
 
-export default function TrendingBlogs() {
-  const [blogs, setBlogs] = useState<Blog[]>([]);
+async function getBestBlogs(): Promise<Blog[]> {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'best.json');
+    const fileContent = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(fileContent);
+  } catch (error) {
+    console.error('Error loading best blogs:', error);
+    return [];
+  }
+}
 
-  useEffect(() => {
-    fetch('/best.json')
-      .then(res => res.json())
-      .then(data => setBlogs(data))
-      .catch(err => console.error('Error loading blogs:', err));
-  }, []);
+export default async function TrendingBlogs() {
+  const blogs = await getBestBlogs();
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">

@@ -1,7 +1,10 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Metadata } from 'next';
-import BlogPostClient from './BlogPostClient';
+import NavbarStatic from '../../components/NavbarStatic';
+import FooterStatic from '../../components/FooterStatic';
+import BlogPostContent from './BlogPostContent';
+// import BlogPostContent from './BlogPostClient';
 
 interface BlogJSON {
   title: string;
@@ -14,51 +17,46 @@ interface BlogJSON {
   targetRegion?: string;
 }
 
+export async function generateStaticParams() {
+  const files = await fs.readdir(path.join(process.cwd(), 'public', 'blogs'));
+  return files.map((file) => ({
+    id: file.replace('.json', ''),
+  }));
+}
+
 export async function generateMetadata(
-  { params }: { params: { id: string } }
+  { params }: any
 ): Promise<Metadata> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'blogs', `${params.id}.json`);
+    const { id } = params;
+    const filePath = path.join(process.cwd(), 'public', 'blogs', `${id}.json`);
     const fileContent = await fs.readFile(filePath, 'utf-8');
     const blogData: BlogJSON = JSON.parse(fileContent);
 
-    const tagsString = blogData.tags?.join(', ');
-    const title = blogData.title || 'Blog';
-    const description =
-      blogData.previewDescription ||
-      `Read ${title} by ${blogData.author || 'our author'} on PostAcle.`;
-
     return {
-      title,
-      description,
+      title: blogData.title,
+      description: blogData.previewDescription,
       openGraph: {
-        title,
-        description,
+        title: blogData.title,
+        description: blogData.previewDescription,
         images: [
           {
             url: blogData.previewImageURL || '/images/defaultBlog.jpg',
             width: 1200,
             height: 600,
-            alt: title,
+            alt: blogData.title,
           },
         ],
-        type: 'article',
-        locale: 'en_US',
-        publishedTime: blogData.publishedDate,
-        authors: blogData.author ? [blogData.author] : undefined,
-        tags: blogData.tags,
       },
       twitter: {
         card: 'summary_large_image',
-        title,
-        description,
+        title: blogData.title,
+        description: blogData.previewDescription,
         images: [blogData.previewImageURL || '/images/defaultBlog.jpg'],
       },
-      keywords: tagsString,
-      metadataBase: new URL('https://postacle.vercel.app'), // change this to your final domain
+      metadataBase: new URL('https://postacle.vercel.app'),
     };
   } catch (err) {
-    console.error('Metadata error:', err);
     return {
       title: 'Blog Not Found',
       description: 'This blog post could not be loaded.',
@@ -66,6 +64,16 @@ export async function generateMetadata(
   }
 }
 
-export default async function BlogPage({ params }: { params: { id: string } }) {
-  return <BlogPostClient id={params.id} />;
+interface BlogPageProps {
+  params: { id: string };
+}
+
+export default function BlogPage({ params }: any) {
+  return (
+    <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
+      <NavbarStatic />
+      <BlogPostContent id={params.id} />
+      <FooterStatic />
+    </main>
+  );
 }
