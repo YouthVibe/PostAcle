@@ -77,7 +77,7 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
         {blogPost.title}
       </h1>
 
-      {blogPost.previewImageURL && (
+      {/* {blogPost.previewImageURL && (
         <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
           <Image
             src={blogPost.previewImageURL}
@@ -87,7 +87,20 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
             className="rounded-lg"
           />
         </div>
-      )}
+      )} */}
+      {/* {blogPost.previewImageURL && (
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg" id="preview-image-wrapper">
+          <img
+            src={blogPost.previewImageURL}
+            alt={blogPost.title}
+            className="rounded-lg w-full h-auto"
+            onError={(e) => {
+              const wrapper = document.getElementById('preview-image-wrapper');
+              if (wrapper) wrapper.remove();
+            }}
+          />
+        </div>
+      )} */}
 
       <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
         {blogPost.previewDescription}

@@ -35,7 +35,7 @@ for blog_entry in index_data:
 
         # Fix previewImage in blog too
         if blog_data.get("previewImageURL") == preview_url and not is_valid_image(preview_url):
-            blog_data["previewImageURL"] = None
+            blog_data["previewImageURL"] = 'null'
 
         # Filter out broken image blocks in content
         cleaned_content = []

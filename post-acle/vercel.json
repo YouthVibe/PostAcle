@@ -1,19 +1,9 @@
 {
   "version": 2,
   "buildCommand": "next build",
-  "outputDirectory": ".next",
+  "outputDirectory": "out",
   "framework": "nextjs",
   "images": {
-    "domains": ["pixabay.com"]
-  },
-  "routes": [
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    }
-  ]
+    "sizes": [320, 420, 768, 1024, 1200]
+  }
 }
