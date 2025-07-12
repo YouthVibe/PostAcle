@@ -55,7 +55,7 @@ export async function generateMetadata(
         images: [blogData.previewImageURL || '/images/defaultBlog.jpg'],
       },
       keywords: tagsString,
-      metadataBase: new URL('https://postacle.blog'), // change this to your final domain
+      metadataBase: new URL('https://postacle.vercel.app'), // change this to your final domain
     };
   } catch (err) {
     console.error('Metadata error:', err);

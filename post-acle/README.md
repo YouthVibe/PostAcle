@@ -31,6 +31,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is configured for seamless deployment on Vercel. Follow these steps to deploy:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push your code to a GitHub, GitLab, or Bitbucket repository
+2. Import your repository on Vercel: https://vercel.com/new
+3. Vercel will automatically detect the Next.js project and use the optimal build settings
+4. Click "Deploy" and your site will be live in minutes
+
+### Environment Variables
+
+The following environment variables are pre-configured in the `.env.production` file:
+
+- `NEXT_PUBLIC_SITE_URL`: The production URL of your site
+- `NEXT_PUBLIC_VERCEL_ENV`: Set to 'production' for production builds
+
+### Custom Domain
+
+To use a custom domain with your Vercel deployment:
+
+1. Go to your project on Vercel
+2. Navigate to "Settings" > "Domains"
+3. Add your custom domain and follow the verification steps
+4. Update the `NEXT_PUBLIC_SITE_URL` in `.env.production` to match your custom domain
+5. Update the URLs in `sitemap.xml` and `robots.txt` to match your custom domain
