@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
     formats: ["image/webp"],
+    sizes: [320, 420, 768, 1024, 1200], // Add this to fix the error
     deviceSizes: [320, 420, 768, 1024, 1200], // ✅ valid key
     imageSizes: [16, 32, 48, 64, 96],         // ✅ optional additional sizes
     remotePatterns: [
