@@ -15,7 +15,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gfabf25c59f7d6545a214b07c0dcc8e104771fe4ef7fb7d9d2ee221aa64c580c9c102dd4249ee3ddbb9fec94028cf6f7413c15154d35a1a3a7a3b47ada49ba56d_1280.jpg"
+      "content": "/images/gfabf25c59f7d6545a214b07c0dcc8e104771fe4ef7fb7d9d2ee221aa64c580c9c102dd4249ee3ddbb9fec94028cf6f7413c15154d35a1a3a7a3b47ada49ba56d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,7 +55,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g1d65e60c09d1fe722fd7edd7ec8a8d7fd449af2a7cd7612a17fadcf1904e26ccc6c38b412de3b9b967efdbffaef7f69fc2525327301bd040eb4bd57cae5c488a_1280.jpg"
+      "content": "/images/g1d65e60c09d1fe722fd7edd7ec8a8d7fd449af2a7cd7612a17fadcf1904e26ccc6c38b412de3b9b967efdbffaef7f69fc2525327301bd040eb4bd57cae5c488a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -63,7 +63,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gdede1dfdb3dd4aeb023a2f4f8d24faa112daff8ec8b47c94b9d62747ce783b4a559ded7780c8f87aa96f47fc04065adcefa07dbd8fc701207984b6fa4a1d5724_1280.jpg"
+      "content": "/images/gdede1dfdb3dd4aeb023a2f4f8d24faa112daff8ec8b47c94b9d62747ce783b4a559ded7780c8f87aa96f47fc04065adcefa07dbd8fc701207984b6fa4a1d5724_1280.jpg"
     },
     {
       "contentType": "text",
@@ -74,7 +74,7 @@
       "content": "From a goat herder's curious observation to the meticulously crafted pour-over in your local caf\u00e9, coffee has had an extraordinary journey. It has fueled economies, sparked revolutions, and connected people for centuries. It is a beverage that is simultaneously a global commodity and an intensely personal ritual. So, the next time you hold a warm mug, take a moment to appreciate the incredible history and cultural evolution that has gone into every single drop. Your daily cup is part of a story that\u2019s still being written."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gdede1dfdb3dd4aeb023a2f4f8d24faa112daff8ec8b47c94b9d62747ce783b4a559ded7780c8f87aa96f47fc04065adcefa07dbd8fc701207984b6fa4a1d5724_1280.jpg",
+  "previewImageURL": "/images/gdede1dfdb3dd4aeb023a2f4f8d24faa112daff8ec8b47c94b9d62747ce783b4a559ded7780c8f87aa96f47fc04065adcefa07dbd8fc701207984b6fa4a1d5724_1280.jpg",
   "previewDescription": "From an Ethiopian legend to the artisanal cafes of today, discover the incredible journey of coffee. Explore its history, the rise of coffee houses, and the 'waves' that shaped the culture surrounding our favorite brew.",
   "category": "General",
   "tags": [

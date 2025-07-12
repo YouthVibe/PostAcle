@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gac15f158d4e7b28290c1082e67bd58d20a3afffdf6b0864eb34da654bd2e06e30cf3b20081f987b6f39f4a22d32623ef5db368b36b5320915979989d6e90da21_1280.jpg"
+      "content": "/images/gac15f158d4e7b28290c1082e67bd58d20a3afffdf6b0864eb34da654bd2e06e30cf3b20081f987b6f39f4a22d32623ef5db368b36b5320915979989d6e90da21_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g701b81382f6a042c6d9a64b807972290de1efe3f152d3a9c8f3fc5278f20f00fc238f559e8398504b2a024d0f0df0f2bf1d346d6ff1026f12b39deffdf2f4658_1280.jpg"
+      "content": "/images/g701b81382f6a042c6d9a64b807972290de1efe3f152d3a9c8f3fc5278f20f00fc238f559e8398504b2a024d0f0df0f2bf1d346d6ff1026f12b39deffdf2f4658_1280.jpg"
     },
     {
       "contentType": "text",
@@ -59,10 +59,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g450b3b05b8b07df30005d137b207bdd7aa7b24143cad115f2cb761ad34573486801b478cff7e81238f5ed173a73ad4080f6622663d0159cff86d09157d70af65_1280.jpg"
+      "content": "/images/g450b3b05b8b07df30005d137b207bdd7aa7b24143cad115f2cb761ad34573486801b478cff7e81238f5ed173a73ad4080f6622663d0159cff86d09157d70af65_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g88c386845ea9a91e90d4b2bdb24e19d20ec39f160bbb0de7e0bb6cd96df44f610eedaf9de4ac5ad18be07653c05d4f2c7a709aaf7e879c20c8aba86fecbfd232_1280.jpg",
+  "previewImageURL": "/images/g88c386845ea9a91e90d4b2bdb24e19d20ec39f160bbb0de7e0bb6cd96df44f610eedaf9de4ac5ad18be07653c05d4f2c7a709aaf7e879c20c8aba86fecbfd232_1280.jpg",
   "previewDescription": "As quantum computers threaten to shatter our current digital defenses, a new paradigm emerges. Dive deep into Quantum Cryptography, exploring how the laws of physics themselves are being harnessed to create the next generation of unbreachable data security. This article covers QKD, PQC, and the future of secure communication.",
   "category": "Technology",
   "tags": [
@@ -75,5 +75,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:39:54.151899",
-  "wordsUsed": 1088
+  "wordsUsed": 1088,
+  "targetRegion": "Europe"
 }

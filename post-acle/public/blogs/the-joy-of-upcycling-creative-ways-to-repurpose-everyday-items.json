@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gd83939b8af6a2b538b9ac72185bdfe2822d2ebe7ee45d58fb52890477d824cde251ea739d5bf1fe6a022eb4404320d88690e5e9f3481831aa579d22fb6f57ba5_1280.jpg"
+      "content": "/images/gd83939b8af6a2b538b9ac72185bdfe2822d2ebe7ee45d58fb52890477d824cde251ea739d5bf1fe6a022eb4404320d88690e5e9f3481831aa579d22fb6f57ba5_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g5c2f09e3f42630024f3a741019e8531ddb1028b01af5c393726d500d867d94c221cc9322edbc15f7d51d4e3bbc8962018357dd3942e2ac08e3a7fdb8ae695d2c_1280.jpg"
+      "content": "/images/g5c2f09e3f42630024f3a741019e8531ddb1028b01af5c393726d500d867d94c221cc9322edbc15f7d51d4e3bbc8962018357dd3942e2ac08e3a7fdb8ae695d2c_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,10 +35,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g37e43a71047bdeba3276cb16ab66e2edea075bcd4184428d8a8fe197c369dff0c9f1ac1787a6d10cb38832dc62099c7cd7e79c4b53ef5cca29a611cd7c630d82_1280.jpg"
+      "content": "/images/g37e43a71047bdeba3276cb16ab66e2edea075bcd4184428d8a8fe197c369dff0c9f1ac1787a6d10cb38832dc62099c7cd7e79c4b53ef5cca29a611cd7c630d82_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gd83939b8af6a2b538b9ac72185bdfe2822d2ebe7ee45d58fb52890477d824cde251ea739d5bf1fe6a022eb4404320d88690e5e9f3481831aa579d22fb6f57ba5_1280.jpg",
+  "previewImageURL": "/images/gd83939b8af6a2b538b9ac72185bdfe2822d2ebe7ee45d58fb52890477d824cde251ea739d5bf1fe6a022eb4404320d88690e5e9f3481831aa579d22fb6f57ba5_1280.jpg",
   "previewDescription": "Tired of waste? Discover the joy of upcycling! Learn how to transform everyday items like glass jars, old clothes, and tin cans into beautiful, functional treasures. This guide offers creative ideas, tips, and a step-by-step project to help you start your sustainable DIY journey.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -51,5 +51,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:10:21.650645",
-  "wordsUsed": 798
+  "wordsUsed": 798,
+  "targetRegion": "Global"
 }

@@ -10,10 +10,6 @@
       "content": "### 1. The Engine Room: Machine Learning and Deep Learning in Diagnostics\n\nAt the heart of this revolution are Machine Learning (ML) and its sophisticated subfield, Deep Learning (DL). Unlike traditional software that follows explicit programmed instructions, ML algorithms learn to identify patterns from vast datasets. For diagnostics, this means training models on millions of medical images, electronic health records (EHRs), and genomic sequences. Deep Learning, particularly through architectures like Convolutional Neural Networks (CNNs), has become the gold standard for image analysis. CNNs mimic the human visual cortex, applying hierarchical filters to learn features\u2014from simple edges in a CT scan to complex textures indicative of a malignant tumor. These models can process and analyze medical imagery with a speed and consistency that surpasses human capability, identifying subtle anomalies that might be missed by the naked eye."
     },
     {
-      "contentType": "image",
-      "content": "https://pixabay.com/get/g9e471bbb9afde6075b7e2180ee100e6d0ae0503f50ecf975bb3478f5a48ac58f8824f92f5d017e957b3f8ff3d71e72f66fcc281708ef838bc76cb528b8acfd80_1280.jpg"
-    },
-    {
       "contentType": "text",
       "content": "### 2. A New Lens for Medical Imaging: AI in Radiology and Pathology\n\nMedical imaging is the field where AI's impact is most pronounced. In radiology, AI algorithms are now capable of screening mammograms for breast cancer, identifying lung nodules on chest X-rays, and detecting signs of stroke or aneurysms in brain MRIs. A key advantage is triage; AI systems can rapidly analyze an entire queue of scans, flagging high-risk cases for immediate review by a radiologist. This not only accelerates diagnosis but also optimizes the workflow of overburdened departments. In pathology, the digitization of tissue slides has opened the door for AI to perform quantitative analysis of cellular structures, helping to grade cancers and predict treatment response with greater objectivity. The evolution of these models shows a clear and rapid improvement in their diagnostic capabilities."
     },
@@ -28,10 +24,6 @@
     {
       "contentType": "code",
       "content": "{\"language\": \"Python\", \"code\": \"# Conceptual Python code for predicting disease risk\\n# This is for illustrative purposes only.\\n\\nimport pandas as pd\\nfrom sklearn.model_selection import train_test_split\\nfrom sklearn.ensemble import RandomForestClassifier\\nfrom sklearn.metrics import accuracy_score\\n\\n# 1. Load and prepare patient data (fictional)\\n# Columns might include: age, blood_pressure, cholesterol, genetic_marker_1, etc.\\ndata = pd.read_csv('patient_ehr_data.csv')\\nX = data[['age', 'blood_pressure', 'cholesterol', 'genetic_marker_1']]\\ny = data['has_disease_risk'] # Target variable (0 or 1)\\n\\n# 2. Split data into training and testing sets\\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\\n\\n# 3. Initialize and train a classification model\\nmodel = RandomForestClassifier(n_estimators=100, random_state=42)\\nmodel.fit(X_train, y_train)\\n\\n# 4. Make predictions on new, unseen data\\npredictions = model.predict(X_test)\\n\\n# 5. Evaluate the model's performance\\naccuracy = accuracy_score(y_test, predictions)\\nprint(f'Model Diagnostic Accuracy: {accuracy * 100:.2f}%')\\n\\n# 6. Predict risk for a new patient\\nnew_patient_data = [[65, 140, 220, 1]] # Example data\\nrisk_prediction = model.predict_proba(new_patient_data)\\nprint(f'Predicted Risk of Disease for New Patient: {risk_prediction[0][1] * 100:.2f}%')\"}"
-    },
-    {
-      "contentType": "image",
-      "content": "https://pixabay.com/get/g442c1be26de28e3da9c2f1414d78ff6e6b5ee272e0d5518317bf56832defa4726e36d344f908905974bc7dd9ab737cc3bc4766c7f5e97da67172d6759f87cf69_1280.jpg"
     },
     {
       "contentType": "text",
@@ -52,10 +44,6 @@
     {
       "contentType": "text",
       "content": "### 6. The Future is Collaborative: AI and the Clinician\n\nThe future of diagnostics is not a binary choice between human and machine. It is a symbiotic partnership. AI will handle the data-intensive, repetitive, and analytical tasks, freeing clinicians to focus on what they do best: complex decision-making, patient communication, and providing empathetic care. We are moving towards a 'human-in-the-loop' model, where AI provides a data-driven second opinion, a list of differential diagnoses with confidence scores, or an early warning, which the medical expert then validates and integrates into a holistic patient assessment. The integration of real-time data from IoT-enabled health monitors will further enhance this, creating a continuous feedback loop for proactive and preventative health management."
-    },
-    {
-      "contentType": "image",
-      "content": "https://pixabay.com/get/g035a432f314010c486a9ffc7ebf6feed46e3a9b70cf65320d9ee6207207cf6e3f46af320ecda65804f9eb3f38b707c0b26514304f857023b4bfcb4065cac27d6_1280.jpg"
     },
     {
       "contentType": "text",

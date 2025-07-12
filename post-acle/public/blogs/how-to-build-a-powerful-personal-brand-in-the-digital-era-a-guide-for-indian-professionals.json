@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g373c53db7a55f925616adae2c44d6ce097eee24f6d497bac84801e49e1afbd19e632c1ce2c11087338cf2fb442f59a1c2678af46c326b250b67cd9ea7ba763e3_1280.jpg"
+      "content": "/images/g373c53db7a55f925616adae2c44d6ce097eee24f6d497bac84801e49e1afbd19e632c1ce2c11087338cf2fb442f59a1c2678af46c326b250b67cd9ea7ba763e3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ge04000aa5f07ad6164ce5bb2b27442a352a42c805651f517016b49554c272a9c9b6ed29899c5c20572611d9b0e5a7cd94ae4f7cc94913888dc1b2dbe349f10dd_1280.jpg"
+      "content": "/images/ge04000aa5f07ad6164ce5bb2b27442a352a42c805651f517016b49554c272a9c9b6ed29899c5c20572611d9b0e5a7cd94ae4f7cc94913888dc1b2dbe349f10dd_1280.jpg"
     },
     {
       "contentType": "text",
@@ -42,7 +42,7 @@
       "content": "Building a personal brand is a marathon, not a sprint. It's a continuous process of discovering who you are, building your digital presence, creating valuable content, engaging with your community, and refining your approach. It is the single most important investment you can make in your career. Your story is unique and your expertise is valuable. Start telling that story today."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g373c53db7a55f925616adae2c44d6ce097eee24f6d497bac84801e49e1afbd19e632c1ce2c11087338cf2fb442f59a1c2678af46c326b250b67cd9ea7ba763e3_1280.jpg",
+  "previewImageURL": "/images/g373c53db7a55f925616adae2c44d6ce097eee24f6d497bac84801e49e1afbd19e632c1ce2c11087338cf2fb442f59a1c2678af46c326b250b67cd9ea7ba763e3_1280.jpg",
   "previewDescription": "In today's competitive digital landscape, your personal brand is your most valuable asset. This guide provides actionable steps for Indian entrepreneurs, professionals, and creators to define their niche, build a strong online presence, and create content that resonates. Learn how to turn your expertise into opportunity.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -54,5 +54,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:04:04.263054",
-  "wordsUsed": 715
+  "wordsUsed": 715,
+  "targetRegion": "India"
 }

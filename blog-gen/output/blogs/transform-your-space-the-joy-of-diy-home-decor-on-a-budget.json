@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g0fad0af8f6869b5ad1d15f7b5fa8a1f16422b84e7f73983ce920173fd1938937b6a02252cdce9515ae2bfa9a42fa95c1da19f8ce68a94b72f6fcaaa3c06eab7d_1280.jpg"
+      "content": "/images/g0fad0af8f6869b5ad1d15f7b5fa8a1f16422b84e7f73983ce920173fd1938937b6a02252cdce9515ae2bfa9a42fa95c1da19f8ce68a94b72f6fcaaa3c06eab7d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ge33aca194c77be26337c523ca43568310bdc624cd3f21da524fd19ac626490212ec261009ed39435bf5c912afa21c892ffbf6ab62182a9efd177af622a31fc7a_1280.jpg"
+      "content": "/images/ge33aca194c77be26337c523ca43568310bdc624cd3f21da524fd19ac626490212ec261009ed39435bf5c912afa21c892ffbf6ab62182a9efd177af622a31fc7a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,14 +35,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g93d0dcbb7a407549ce52dd83d5bc0ac90f4715f55a5c5d670db438bf2f8f979895cc3f3e3ecf2c93c3ca9aa4ed04ff70169a1bc741eef587ecb8479f306eed0f_1280.jpg"
+      "content": "/images/g93d0dcbb7a407549ce52dd83d5bc0ac90f4715f55a5c5d670db438bf2f8f979895cc3f3e3ecf2c93c3ca9aa4ed04ff70169a1bc741eef587ecb8479f306eed0f_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "DIY home decor is more than just a way to save money; it's about crafting a home that truly tells your story. It's about empowerment, creativity, and the joy found in making your living space a direct reflection of you. So, take a look around your home. What's one small thing you could create or transform this weekend? Your dream home is just a paintbrush away."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g0fad0af8f6869b5ad1d15f7b5fa8a1f16422b84e7f73983ce920173fd1938937b6a02252cdce9515ae2bfa9a42fa95c1da19f8ce68a94b72f6fcaaa3c06eab7d_1280.jpg",
+  "previewImageURL": "/images/g0fad0af8f6869b5ad1d15f7b5fa8a1f16422b84e7f73983ce920173fd1938937b6a02252cdce9515ae2bfa9a42fa95c1da19f8ce68a94b72f6fcaaa3c06eab7d_1280.jpg",
   "previewDescription": "Unlock the secrets to a beautiful home without breaking the bank. This guide explores the joy of DIY home decor, offering simple, budget-friendly ideas for beginners to personalize their space, upcycle items, and create a home that truly reflects their style.",
   "category": "Day-to-Day Life",
   "tags": [

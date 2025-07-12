@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g096c91fa3d8ca4895c0d9bc22a6edec4af23ba22a23e809df9daf9b3f13b7ac53640787f258f1c5cff0a3cf445e3476785086ccae118fc2c7c1e6d0cb09f2f53_1280.jpg"
+      "content": "/images/g096c91fa3d8ca4895c0d9bc22a6edec4af23ba22a23e809df9daf9b3f13b7ac53640787f258f1c5cff0a3cf445e3476785086ccae118fc2c7c1e6d0cb09f2f53_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8712d74a6290947d6987704496cfe71a5622abf08a0356f666ca1c32f582f3117ab7720831ce43309999e7d5503314c58fb38107d1644592f00ec6fdf987f808_1280.jpg"
+      "content": "/images/g8712d74a6290947d6987704496cfe71a5622abf08a0356f666ca1c32f582f3117ab7720831ce43309999e7d5503314c58fb38107d1644592f00ec6fdf987f808_1280.jpg"
     },
     {
       "contentType": "text",
@@ -38,7 +38,7 @@
       "content": "A minimalist budget is more than a financial strategy; it's a philosophy. It's about trading complexity for clarity, mindless consumption for mindful intention, and financial anxiety for financial freedom. By focusing on the big picture, automating your system, and aligning your spending with your deepest values, you create a simple yet powerful engine that will drive you toward the life you truly want to live. Start today, and discover the peace that comes with a decluttered wallet."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g096c91fa3d8ca4895c0d9bc22a6edec4af23ba22a23e809df9daf9b3f13b7ac53640787f258f1c5cff0a3cf445e3476785086ccae118fc2c7c1e6d0cb09f2f53_1280.jpg",
+  "previewImageURL": "/images/g096c91fa3d8ca4895c0d9bc22a6edec4af23ba22a23e809df9daf9b3f13b7ac53640787f258f1c5cff0a3cf445e3476785086ccae118fc2c7c1e6d0cb09f2f53_1280.jpg",
   "previewDescription": "Tired of financial clutter and stress? Learn how to create a simple, effective minimalist budget. This guide will help you align your spending with your values, automate your finances, and build a clear path to financial freedom.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -50,5 +50,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:40:57.822426",
-  "wordsUsed": 863
+  "wordsUsed": 863,
+  "targetRegion": "Global"
 }

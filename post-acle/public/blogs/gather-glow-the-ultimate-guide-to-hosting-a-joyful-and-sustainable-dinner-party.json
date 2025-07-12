@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gd5f8aa4f59d3696fbf6c31ba7167d4a2044bd56c4b11e58cb7c6a91b42a34df48aa17ced04252020146a84d15d2374cb1bbc20aa8f2bea39c6fa8730370ce51b_1280.jpg"
+      "content": "/images/gd5f8aa4f59d3696fbf6c31ba7167d4a2044bd56c4b11e58cb7c6a91b42a34df48aa17ced04252020146a84d15d2374cb1bbc20aa8f2bea39c6fa8730370ce51b_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g7b822734cbeb6c1443708bbde1f3cee28c779b791ed48befb5f6141b716e57c1d5fb33295289094262a11ee1bae30bf141370a182dc49d4b0102c2023ccf1969_1280.jpg"
+      "content": "/images/g7b822734cbeb6c1443708bbde1f3cee28c779b791ed48befb5f6141b716e57c1d5fb33295289094262a11ee1bae30bf141370a182dc49d4b0102c2023ccf1969_1280.jpg"
     },
     {
       "contentType": "text",
@@ -34,7 +34,7 @@
       "content": "## A Celebration of Connection\nHosting a sustainable dinner party is a powerful statement. It says that you care\u2014about your guests, your community, and the world you share. It\u2019s a celebration not just of food and friendship, but of a more mindful, intentional way of living. Every small choice, from the menu to the napkins, contributes to a larger positive impact. So go ahead, gather your loved ones, and host a party that feels good in every sense of the word. You\u2019ll find that the joy of hosting is magnified when you know you\u2019re making a difference."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gd5f8aa4f59d3696fbf6c31ba7167d4a2044bd56c4b11e58cb7c6a91b42a34df48aa17ced04252020146a84d15d2374cb1bbc20aa8f2bea39c6fa8730370ce51b_1280.jpg",
+  "previewImageURL": "/images/gd5f8aa4f59d3696fbf6c31ba7167d4a2044bd56c4b11e58cb7c6a91b42a34df48aa17ced04252020146a84d15d2374cb1bbc20aa8f2bea39c6fa8730370ce51b_1280.jpg",
   "previewDescription": "Discover how to host a stylish and joyful dinner party that's kind to the planet. Our guide covers everything from local, seasonal menus and natural decor to zero-waste tips. Make your next gathering a celebration of community and sustainability!",
   "category": "Day-to-Day Life",
   "tags": [
@@ -47,5 +47,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T21:03:41.211933",
-  "wordsUsed": 930
+  "wordsUsed": 930,
+  "targetRegion": "Europe"
 }

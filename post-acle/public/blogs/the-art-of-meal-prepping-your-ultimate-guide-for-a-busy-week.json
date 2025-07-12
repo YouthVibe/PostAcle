@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8051113d4c556ffc5574c8dd7828c1cc4e3dbcb93138ce44ff5c491b6a174185c92df0eee1ac52f7373558874a0722dd69d1c61493ac4d0a88151e937adf8bc5_1280.jpg"
+      "content": "/images/g8051113d4c556ffc5574c8dd7828c1cc4e3dbcb93138ce44ff5c491b6a174185c92df0eee1ac52f7373558874a0722dd69d1c61493ac4d0a88151e937adf8bc5_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gd21b1e3e2b93315967f7913b55fef3c1d14fd49f9aaed3c0900c97b4f54a2b005c48c9764b6485d747fa3b5be80233c05abcb009dd7838c1caa34cbd0b42f7e3_1280.jpg"
+      "content": "/images/gd21b1e3e2b93315967f7913b55fef3c1d14fd49f9aaed3c0900c97b4f54a2b005c48c9764b6485d747fa3b5be80233c05abcb009dd7838c1caa34cbd0b42f7e3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -43,14 +43,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g35d382a5c51ba66a896ec1cf77691127e89b9743089812f2325799225f7364b1966cc2beed7f2f865af3c8080ddd6ae7b925a87199a2ab9a25f91c9acc48b331_1280.jpg"
+      "content": "/images/g35d382a5c51ba66a896ec1cf77691127e89b9743089812f2325799225f7364b1966cc2beed7f2f865af3c8080ddd6ae7b925a87199a2ab9a25f91c9acc48b331_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "## Your Journey Starts Now\n\nMeal prepping is a skill, and like any skill, it gets easier and more intuitive with practice. Don't feel pressured to prep every single meal from day one. Start small. Try prepping just your lunches for the next three days. As you build confidence, you can expand your repertoire. Embrace the process, reclaim your weeks, and discover the art of eating well, no matter how busy life gets."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g8051113d4c556ffc5574c8dd7828c1cc4e3dbcb93138ce44ff5c491b6a174185c92df0eee1ac52f7373558874a0722dd69d1c61493ac4d0a88151e937adf8bc5_1280.jpg",
+  "previewImageURL": "/images/g8051113d4c556ffc5574c8dd7828c1cc4e3dbcb93138ce44ff5c491b6a174185c92df0eee1ac52f7373558874a0722dd69d1c61493ac4d0a88151e937adf8bc5_1280.jpg",
   "previewDescription": "Tired of stressful weeknight dinners? Master the art of meal prepping! This guide helps busy professionals and parents in Europe save time, money, and eat healthier. Learn our 5-step process, get a sample plan, and discover tips to make your week delicious and stress-free.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -63,5 +63,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:01:10.387013",
-  "wordsUsed": 1055
+  "wordsUsed": 1055,
+  "targetRegion": "Europe"
 }

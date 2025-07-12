@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gd20406d6f4cec70a39134c9111070632460ba9550cdccbb7090100d1ad915e9cb2b079027095d26f003d0999d424905a5223ef0ff14f5d7b89084617402476c6_1280.jpg"
+      "content": "/images/gd20406d6f4cec70a39134c9111070632460ba9550cdccbb7090100d1ad915e9cb2b079027095d26f003d0999d424905a5223ef0ff14f5d7b89084617402476c6_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g05752c9261185eb247ec4e555762a2386219e287e0a4cd8c47dd94ba1c8d0b3e495325a75d32e2113df9f535e6695650e9bd3307ac2c88dab25618853c295794_1280.jpg"
+      "content": "/images/g05752c9261185eb247ec4e555762a2386219e287e0a4cd8c47dd94ba1c8d0b3e495325a75d32e2113df9f535e6695650e9bd3307ac2c88dab25618853c295794_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,14 +39,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g7531912d463f9df9826dafbb5015e202954e99ac8889e2f6d9d5eaf538ac7f5da3227b150c54ae7def8063007114478f7eac1464922bd78f974bb5f38f40f170_1280.jpg"
+      "content": "/images/g7531912d463f9df9826dafbb5015e202954e99ac8889e2f6d9d5eaf538ac7f5da3227b150c54ae7def8063007114478f7eac1464922bd78f974bb5f38f40f170_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "Solo travel is more than a vacation; it's an investment in yourself. It teaches you that you are more capable, resilient, and brave than you ever imagined. It strips away the familiar and forces you to grow. You return home not just with photos and souvenirs, but with a deeper understanding of the world and your place in it. The world is vast and waiting for you. The only permission you need is your own."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gd20406d6f4cec70a39134c9111070632460ba9550cdccbb7090100d1ad915e9cb2b079027095d26f003d0999d424905a5223ef0ff14f5d7b89084617402476c6_1280.jpg",
+  "previewImageURL": "/images/gd20406d6f4cec70a39134c9111070632460ba9550cdccbb7090100d1ad915e9cb2b079027095d26f003d0999d424905a5223ef0ff14f5d7b89084617402476c6_1280.jpg",
   "previewDescription": "Thinking about traveling alone? This guide explores the profound joys of solo travel, from ultimate freedom and self-discovery to practical tips on safety, planning, and making the most of your independent journey. Take the leap and discover the world on your own terms.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -58,5 +58,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:41:46.096015",
-  "wordsUsed": 798
+  "wordsUsed": 798,
+  "targetRegion": "Global"
 }

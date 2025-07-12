@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g808ee4720c8b2b671577b67e85476f995a4ce85b7bae2dfb56da58fe1f3da385e3940e08fcdd488178f707d573761af8212775ad1cc708865cf586d5f6152396_1280.jpg"
+      "content": "/images/g808ee4720c8b2b671577b67e85476f995a4ce85b7bae2dfb56da58fe1f3da385e3940e08fcdd488178f707d573761af8212775ad1cc708865cf586d5f6152396_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g90c4a9eb7de173b12c2b1a170c5a6cba5bd3f397f7ade1caa90d2ffb8ff710bcc633c94156c3a71a0bed97acf4d67389414c6d3cc99c4c1b67f27e0b81454670_1280.jpg"
+      "content": "/images/g90c4a9eb7de173b12c2b1a170c5a6cba5bd3f397f7ade1caa90d2ffb8ff710bcc633c94156c3a71a0bed97acf4d67389414c6d3cc99c4c1b67f27e0b81454670_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -51,7 +51,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g009b7533c156cd9e5bb172dd19c150dbdcdf5b17016bb97124d88a18b0f77aaa7e6ce32d706cb03970770faec01f2f8506136c955e90c68e1c98de27106d7476_1280.jpg"
+      "content": "/images/g009b7533c156cd9e5bb172dd19c150dbdcdf5b17016bb97124d88a18b0f77aaa7e6ce32d706cb03970770faec01f2f8506136c955e90c68e1c98de27106d7476_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -62,7 +62,7 @@
       "content": "## Conclusion: The Dawn of a Collaborative Era\n\nGenerative AI is not a fleeting trend; it is a foundational technology that is irrevocably reshaping the creative industries. For artists, designers, and tech enthusiasts, the path forward is not one of resistance but of critical engagement. Understanding the technology's capabilities and limitations, mastering its application as a collaborative tool, and actively participating in the ethical debates are paramount. The future of creativity will not be human versus machine, but human *with* machine. It will be defined by new workflows, new aesthetics, and new questions about the nature of art itself. The canvas is changing, the instruments are evolving, and the story is just beginning to be written."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g6520326a820dec4b58c156c9957494c0a2e48e562d6114a491c65dbf7196031e7a44b8a984e67d2cdbe4c44b6572c7213bb585a6183fd8615edb938301c59d7c_1280.jpg",
+  "previewImageURL": "/images/g6520326a820dec4b58c156c9957494c0a2e48e562d6114a491c65dbf7196031e7a44b8a984e67d2cdbe4c44b6572c7213bb585a6183fd8615edb938301c59d7c_1280.jpg",
   "previewDescription": "Dive deep into the transformative power of Generative AI in the creative industries. This advanced analysis explores the underlying technology, its impact on workflows from art to music, the European regulatory landscape, practical code examples, and the critical ethical questions facing artists and designers today.",
   "category": "Technology",
   "tags": [
@@ -74,5 +74,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:11:20.028015",
-  "wordsUsed": 1345
+  "wordsUsed": 1345,
+  "targetRegion": "Europe"
 }

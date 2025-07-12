@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g85a70365123519d821a233960af844e64c4e3caec5ea5ee1b73fe8c23d47394a923608cfae7aed72ca6d1ad40d6e28053c2651085e6784be995cabf3083eb69a_1280.jpg"
+      "content": "/images/g85a70365123519d821a233960af844e64c4e3caec5ea5ee1b73fe8c23d47394a923608cfae7aed72ca6d1ad40d6e28053c2651085e6784be995cabf3083eb69a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,7 +39,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gf36e838f4b652423e00e27edb6ddca2b91d13a9b9c07731efce028199e374a2c1b209c473ecbf8de448c3417d375e1a175eb47de2419fbc5a511b9dfc8c54d2d_1280.jpg"
+      "content": "/images/gf36e838f4b652423e00e27edb6ddca2b91d13a9b9c07731efce028199e374a2c1b209c473ecbf8de448c3417d375e1a175eb47de2419fbc5a511b9dfc8c54d2d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,14 +55,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gbf8957a1e83c26063cc661c7d52f823c7d4b2f63285172bb775cb209400fa925be3fdcf1d820529f1801afaa684e4a3eb4bc42061f87bc3791c88a309680cab7_1280.png"
+      "content": "/images/gbf8957a1e83c26063cc661c7d52f823c7d4b2f63285172bb775cb209400fa925be3fdcf1d820529f1801afaa684e4a3eb4bc42061f87bc3791c88a309680cab7_1280.png"
     },
     {
       "contentType": "text",
       "content": "Autonomous vehicles are more than just a new feature in a car; they are a keystone technology that will unlock a more efficient, equitable, and sustainable model of urban mobility. The journey is complex and filled with profound technical and societal questions. However, through the concerted efforts of engineers, visionary urban planners, and forward-thinking policymakers, we can navigate these challenges to build cities that are not just smarter, but better for everyone who lives in them."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g85a70365123519d821a233960af844e64c4e3caec5ea5ee1b73fe8c23d47394a923608cfae7aed72ca6d1ad40d6e28053c2651085e6784be995cabf3083eb69a_1280.jpg",
+  "previewImageURL": "/images/g85a70365123519d821a233960af844e64c4e3caec5ea5ee1b73fe8c23d47394a923608cfae7aed72ca6d1ad40d6e28053c2651085e6784be995cabf3083eb69a_1280.jpg",
   "previewDescription": "An advanced analysis of the technological, infrastructural, and societal shifts driven by autonomous vehicles. We explore the sensor technology, AI algorithms, urban planning implications, and ethical challenges that define the future of mobility.",
   "category": "Technology",
   "tags": [
@@ -74,5 +74,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:11:38.802651",
-  "wordsUsed": 948
+  "wordsUsed": 948,
+  "targetRegion": "US"
 }

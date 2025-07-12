@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gdbd116c078abdff352b70237d07d5b676b90355a6470cc28c2a18f9a33d08596d081022f0ab45364b959701e6d94ebfbb8ff35b6a6065cf2376abbd0ed64731a_1280.jpg"
+      "content": "/images/gdbd116c078abdff352b70237d07d5b676b90355a6470cc28c2a18f9a33d08596d081022f0ab45364b959701e6d94ebfbb8ff35b6a6065cf2376abbd0ed64731a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,14 +35,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gdf87c752370a17a7a68b5a9ad557992d9c8806114a9ab3a0347248ee7795038239bce22596cc215f6df3bb1b85b017301801bddc9b9275a7baef7612e882d3ab_1280.jpg"
+      "content": "/images/gdf87c752370a17a7a68b5a9ad557992d9c8806114a9ab3a0347248ee7795038239bce22596cc215f6df3bb1b85b017301801bddc9b9275a7baef7612e882d3ab_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "The journey of mindful parenting is not about achieving a destination of perfection; it's a continuous practice of returning to the present moment. It's about choosing connection over distraction, compassion over criticism, and presence over presents. By embracing mindfulness, you give your children the greatest gift of all: your full, loving attention. And in doing so, you'll find that parenting becomes not just more effective, but also more joyful and rewarding."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gdbd116c078abdff352b70237d07d5b676b90355a6470cc28c2a18f9a33d08596d081022f0ab45364b959701e6d94ebfbb8ff35b6a6065cf2376abbd0ed64731a_1280.jpg",
+  "previewImageURL": "/images/gdbd116c078abdff352b70237d07d5b676b90355a6470cc28c2a18f9a33d08596d081022f0ab45364b959701e6d94ebfbb8ff35b6a6065cf2376abbd0ed64731a_1280.jpg",
   "previewDescription": "In a world of constant distractions, discover how mindful parenting can help you build a stronger connection with your children. Learn practical techniques to trade chaos for calm, respond with intention, and foster a resilient, compassionate family environment.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -54,5 +54,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:17:32.926705",
-  "wordsUsed": 668
+  "wordsUsed": 668,
+  "targetRegion": "Global"
 }

@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g17e27f83da06d92b1c50349d79527d8e28089fe525e5a336c09029283cb00885fa46581520ad63ec4af7d8d0244b85017f79d48f27ed975f955bdc8d701720cc_1280.jpg"
+      "content": "/images/g17e27f83da06d92b1c50349d79527d8e28089fe525e5a336c09029283cb00885fa46581520ad63ec4af7d8d0244b85017f79d48f27ed975f955bdc8d701720cc_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga8666ae76ae15de320c0ab73c3b6d670643b6a8fdad4d565abe693fc49b7a90dc599f2f55cb7dfc18ab5e5455be6e55e110b6a4da2c4a9d96363e1e2b8a44b57_1280.jpg"
+      "content": "/images/ga8666ae76ae15de320c0ab73c3b6d670643b6a8fdad4d565abe693fc49b7a90dc599f2f55cb7dfc18ab5e5455be6e55e110b6a4da2c4a9d96363e1e2b8a44b57_1280.jpg"
     },
     {
       "contentType": "text",
@@ -42,7 +42,7 @@
       "content": "Every community is a living library, its shelves filled with the tales of its people. As community members, we are both the librarians and the authors of this collection. Our duty is not only to preserve the stories of the past but to actively create and share the narratives that will define our future. The strength of our community is measured by the richness and diversity of its stories. So, listen deeply to the tales around you, honor them, and have the courage to share your own. What story will you tell?"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/ga8666ae76ae15de320c0ab73c3b6d670643b6a8fdad4d565abe693fc49b7a90dc599f2f55cb7dfc18ab5e5455be6e55e110b6a4da2c4a9d96363e1e2b8a44b57_1280.jpg",
+  "previewImageURL": "/images/ga8666ae76ae15de320c0ab73c3b6d670643b6a8fdad4d565abe693fc49b7a90dc599f2f55cb7dfc18ab5e5455be6e55e110b6a4da2c4a9d96363e1e2b8a44b57_1280.jpg",
   "previewDescription": "Discover how the ancient art of storytelling is not just entertainment, but a vital tool for forging identity, fostering empathy, and inspiring action. Learn to weave the narrative fabric that holds your community together.",
   "category": "General",
   "tags": [

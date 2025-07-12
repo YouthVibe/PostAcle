@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g56f6d704f1363916e31a68bf7976ed3ac615e70da7c30c7df76f5817647ba1289ca6c1afda68e7255c02f6ff606673cb8f00a8cd729d3c18d2197607ddbd580f_1280.jpg"
+      "content": "/images/g56f6d704f1363916e31a68bf7976ed3ac615e70da7c30c7df76f5817647ba1289ca6c1afda68e7255c02f6ff606673cb8f00a8cd729d3c18d2197607ddbd580f_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g605f2382c32fcbf00fbc1df111501a55496cabe3ddc93e3ce0d54429b52aee61fe698d1df24a4c59efb4315ab03744f5282d068717337dfb3e091e1a0c6ebc1c_1280.jpg"
+      "content": "/images/g605f2382c32fcbf00fbc1df111501a55496cabe3ddc93e3ce0d54429b52aee61fe698d1df24a4c59efb4315ab03744f5282d068717337dfb3e091e1a0c6ebc1c_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,7 +35,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g246e4e70e30e06be90c097d953c5795d31bcf59be00389b03d109173190b37e79f7e46847c66fbdaa4b4e63311a1b9551687a4554d23118c7c45009d1279f05e_1280.jpg"
+      "content": "/images/g246e4e70e30e06be90c097d953c5795d31bcf59be00389b03d109173190b37e79f7e46847c66fbdaa4b4e63311a1b9551687a4554d23118c7c45009d1279f05e_1280.jpg"
     },
     {
       "contentType": "text",
@@ -46,7 +46,7 @@
       "content": "In conclusion, the global influence of K-Pop is a testament to its dynamic and multifaceted appeal. It is far more than just a music genre; it's a comprehensive cultural movement that has skillfully leveraged musical innovation, stunning visuals, and unprecedented fan engagement to carve out a permanent space in the global consciousness. By breaking language barriers and building a powerful, interconnected global community, K-Pop has not only achieved commercial success but has also become a vibrant platform for cultural exchange and expression. As it continues to evolve, one thing is certain: the Hallyu wave is no longer rising; it has arrived, and its impact on pop culture will be felt for generations to come."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g605f2382c32fcbf00fbc1df111501a55496cabe3ddc93e3ce0d54429b52aee61fe698d1df24a4c59efb4315ab03744f5282d068717337dfb3e091e1a0c6ebc1c_1280.jpg",
+  "previewImageURL": "/images/g605f2382c32fcbf00fbc1df111501a55496cabe3ddc93e3ce0d54429b52aee61fe698d1df24a4c59efb4315ab03744f5282d068717337dfb3e091e1a0c6ebc1c_1280.jpg",
   "previewDescription": "From BTS's chart-topping hits to the global rise of K-beauty, discover how South Korean pop music has become a dominant force, reshaping fashion, music, and fan culture worldwide. This deep dive explores the multifaceted impact of the Hallyu wave.",
   "category": "General",
   "tags": [
@@ -60,5 +60,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:56:03.894569",
-  "wordsUsed": 934
+  "wordsUsed": 934,
+  "targetRegion": "Global"
 }

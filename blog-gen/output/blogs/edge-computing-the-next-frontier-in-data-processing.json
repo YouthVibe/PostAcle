@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gcd17fb5dbf44fd027fac961645ffbfc0e070be90e9320ecaeda138300fda09a91e88c0e201bbbf577933392cffa5baaca410e71994f863a868557cf6176111c8_1280.jpg"
+      "content": "/images/gcd17fb5dbf44fd027fac961645ffbfc0e070be90e9320ecaeda138300fda09a91e88c0e201bbbf577933392cffa5baaca410e71994f863a868557cf6176111c8_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g6c4c0629e820f9adf976443ad97ac2deeaf1fcd2d8c6fdd33cc02fb6d94ee6500dd7c66dd7ebefa2c989af0a3df76013bd254808f0b21e442b8d4eb52b757da8_1280.jpg"
+      "content": "/images/g6c4c0629e820f9adf976443ad97ac2deeaf1fcd2d8c6fdd33cc02fb6d94ee6500dd7c66dd7ebefa2c989af0a3df76013bd254808f0b21e442b8d4eb52b757da8_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -35,7 +35,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g4d0a1419f600ed350abf6eefd220707304ed803c36e42e06c46a49313471016eabaa24b2ccce650a6192718f4b08ca27261238c22052ebd80ae6e7e4cb9dc8d4_1280.jpg"
+      "content": "/images/g4d0a1419f600ed350abf6eefd220707304ed803c36e42e06c46a49313471016eabaa24b2ccce650a6192718f4b08ca27261238c22052ebd80ae6e7e4cb9dc8d4_1280.jpg"
     },
     {
       "contentType": "text",
@@ -58,7 +58,7 @@
       "content": "## Conclusion: Embracing the Edge\n\nEdge Computing is far more than a buzzword; it's a fundamental re-architecting of our digital world to meet the demands of real-time, data-intensive applications. It does not signal the death of the cloud but rather its evolution into a more powerful, hybrid model. The cloud will remain essential for heavy-duty computation, big data analytics, and long-term storage, while the edge handles the immediate, latency-sensitive tasks. For developers, IT professionals, and technology leaders, understanding and embracing the edge is no longer optional. It is the new frontier, and it's essential for building the next generation of intelligent, responsive, and resilient systems that will define our future."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gb389e7c9e91688ed73dd2475e7b29679e236a64bad0d9ccc9b81ec4ce1c6b41fef20364b050d02c9cb787208c779ece506906b932b1a226cb101aef644e1b1b6_1280.jpg",
+  "previewImageURL": "/images/gb389e7c9e91688ed73dd2475e7b29679e236a64bad0d9ccc9b81ec4ce1c6b41fef20364b050d02c9cb787208c779ece506906b932b1a226cb101aef644e1b1b6_1280.jpg",
   "previewDescription": "Dive deep into Edge Computing, the paradigm shifting data processing from centralized clouds to the network's edge. Explore its architecture, real-world use cases, developer insights, and the future it's shaping for IoT, AI, and 5G. An essential read for tech professionals and developers.",
   "category": "Technology",
   "tags": [

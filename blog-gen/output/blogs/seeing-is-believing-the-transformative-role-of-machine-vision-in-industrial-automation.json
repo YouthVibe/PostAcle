@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g395570a583620e0948ecaa5448f4ffa9e819a36514fb231c7eae7e9040e2fe1c1a3ec60105ca2495bbd8a484dc902f9e75496c8347e9c49a9fea0dc2e5c389ba_1280.jpg"
+      "content": "/images/g395570a583620e0948ecaa5448f4ffa9e819a36514fb231c7eae7e9040e2fe1c1a3ec60105ca2495bbd8a484dc902f9e75496c8347e9c49a9fea0dc2e5c389ba_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g513c52c1fc2538d09c74a6dd90643ec5574e12440e6ac44f32ceb89b03a9a2b5545769e3d9ca6df4895025f8b4cece37461cf0dfbd06eb5e73504162090a3a3b_1280.jpg"
+      "content": "/images/g513c52c1fc2538d09c74a6dd90643ec5574e12440e6ac44f32ceb89b03a9a2b5545769e3d9ca6df4895025f8b4cece37461cf0dfbd06eb5e73504162090a3a3b_1280.jpg"
     },
     {
       "contentType": "table",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8827eed2a35d0733c3804ec167d401b8dcd46de07564e5bbf05641968a084117d4bf2c389994650ec348733b58547d09de36bc908638fa5da9a9f7146dacb5a3_1280.jpg"
+      "content": "/images/g8827eed2a35d0733c3804ec167d401b8dcd46de07564e5bbf05641968a084117d4bf2c389994650ec348733b58547d09de36bc908638fa5da9a9f7146dacb5a3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "## Conclusion: The Indispensable Eyes of Industry 4.0\n\nMachine vision has evolved from a niche technology into a fundamental pillar of modern industrial automation. It is the sensory input that powers intelligent robotics, guarantees uncompromising quality, and provides the granular data needed for the smart, adaptive factories of the future. For engineers and manufacturing leaders, understanding and leveraging machine vision is no longer optional\u2014it is essential for maintaining a competitive edge in a global market. As AI models become more powerful and 3D sensors more accessible, the ability of machines to perceive and interact with the physical world will only continue to expand, making the automated factory more efficient, flexible, and intelligent than ever before."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g395570a583620e0948ecaa5448f4ffa9e819a36514fb231c7eae7e9040e2fe1c1a3ec60105ca2495bbd8a484dc902f9e75496c8347e9c49a9fea0dc2e5c389ba_1280.jpg",
+  "previewImageURL": "/images/g395570a583620e0948ecaa5448f4ffa9e819a36514fb231c7eae7e9040e2fe1c1a3ec60105ca2495bbd8a484dc902f9e75496c8347e9c49a9fea0dc2e5c389ba_1280.jpg",
   "previewDescription": "An in-depth analysis for engineers and manufacturing professionals on how machine vision technology is revolutionizing industrial automation. Explore its core components, key applications from inspection to robotic guidance, the impact of AI, and future trends in the era of Industry 4.0.",
   "category": "Technology",
   "tags": [

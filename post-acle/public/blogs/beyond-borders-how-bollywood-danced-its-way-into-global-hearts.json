@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g958a9b97b7bf3914941c7545ebb3a2939319c3f99146710c7410920d056c251f1ec4dcb9c36635db5b3221fbcd49d92e986b988c0ca5464f95ad2a03daeaa20c_1280.jpg"
+      "content": "/images/g958a9b97b7bf3914941c7545ebb3a2939319c3f99146710c7410920d056c251f1ec4dcb9c36635db5b3221fbcd49d92e986b988c0ca5464f95ad2a03daeaa20c_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g73f3adbc4e6abaaffa495bc78fa9ba19927db338274b85420422e87c8e57a569e1a3af5363f80c4566ef21347eadbe0b2b8003d954b45a674938d32ea7ff0a4a_1280.jpg"
+      "content": "/images/g73f3adbc4e6abaaffa495bc78fa9ba19927db338274b85420422e87c8e57a569e1a3af5363f80c4566ef21347eadbe0b2b8003d954b45a674938d32ea7ff0a4a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,14 +39,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g290d0888a371e4ead62e3e3c2ede7468317baf3b171e2e92dd297985d950953e94cb95996b593adfb8513e293c26834f637e79aa12764495dc888039a4383db0_1280.jpg"
+      "content": "/images/g290d0888a371e4ead62e3e3c2ede7468317baf3b171e2e92dd297985d950953e94cb95996b593adfb8513e293c26834f637e79aa12764495dc888039a4383db0_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "## The Future is Global\n\nAs Bollywood continues to evolve, it is embracing more diverse stories, experimenting with new genres, and engaging in more international collaborations. While the classic 'masala' film will always have its place, the industry is also producing critically acclaimed narratives that resonate with global cinematic trends. The line between a 'Bollywood film' and an 'international film' is blurring. From its humble beginnings to its current status as a global entertainment juggernaut, Bollywood's journey is a testament to the power of storytelling. It has proven that a good story, filled with emotion, music, and heart, knows no language and respects no borders. The dance is far from over; in fact, the world is just beginning to learn the steps."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g2256542ddddae2dcbc921f05ad0b05ba7692b2cb36d1f1afc6fdcae64dfa6893a1a316d9c1b6d0ffda3ad13c23e48b86a5c55f33f6ecdb263a0fd215d563878e_1280.jpg",
+  "previewImageURL": "/images/g2256542ddddae2dcbc921f05ad0b05ba7692b2cb36d1f1afc6fdcae64dfa6893a1a316d9c1b6d0ffda3ad13c23e48b86a5c55f33f6ecdb263a0fd215d563878e_1280.jpg",
   "previewDescription": "Explore the phenomenal journey of Bollywood from a local film industry to a global cultural powerhouse. Discover how its unique blend of music, dance, and drama has captivated audiences worldwide, influencing entertainment, fashion, and international relations.",
   "category": "General",
   "tags": [
@@ -59,5 +59,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:15:25.918066",
-  "wordsUsed": 948
+  "wordsUsed": 948,
+  "targetRegion": "India"
 }

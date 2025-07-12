@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga335a678be30382d68a28c408b85bd0273fed83ea18268f9377270ea331e203834d176e1e619a75a16be703ddaa5cb57b73cbac6e3971728e00f71627583fa3b_1280.jpg"
+      "content": "/images/ga335a678be30382d68a28c408b85bd0273fed83ea18268f9377270ea331e203834d176e1e619a75a16be703ddaa5cb57b73cbac6e3971728e00f71627583fa3b_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gcb3ea816e5901f4a8369fb39a65f0e8902fef1bb2806b2e93da64bc6c163c243d9431bd9811fac8881cb7fe0f93f799f44a89a84e4f8f16bc0b49782df751401_1280.jpg"
+      "content": "/images/gcb3ea816e5901f4a8369fb39a65f0e8902fef1bb2806b2e93da64bc6c163c243d9431bd9811fac8881cb7fe0f93f799f44a89a84e4f8f16bc0b49782df751401_1280.jpg"
     },
     {
       "contentType": "text",
@@ -38,7 +38,7 @@
       "content": "Gratitude journaling is more than just writing in a diary; it's an active practice of rewiring your brain for happiness, resilience, and connection. It costs nothing, takes only a few minutes, and offers life-changing rewards. By taking the time to consciously acknowledge the good in your life, you open the door to a more joyful and fulfilling existence. So, why not pick up a pen or open a new note today? Your future self will thank you for it."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/ga335a678be30382d68a28c408b85bd0273fed83ea18268f9377270ea331e203834d176e1e619a75a16be703ddaa5cb57b73cbac6e3971728e00f71627583fa3b_1280.jpg",
+  "previewImageURL": "/images/ga335a678be30382d68a28c408b85bd0273fed83ea18268f9377270ea331e203834d176e1e619a75a16be703ddaa5cb57b73cbac6e3971728e00f71627583fa3b_1280.jpg",
   "previewDescription": "Feeling overwhelmed? Discover how the simple practice of gratitude journaling can significantly boost your mental and physical well-being. Learn the science-backed benefits and get started today with our easy guide and practical prompts.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -51,5 +51,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:52:52.930387",
-  "wordsUsed": 736
+  "wordsUsed": 736,
+  "targetRegion": "Europe"
 }

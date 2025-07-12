@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gdd6bc42b19a6c8975d112e59111e6bac02c2007ab56d70592d5a20ff8e079fe864e913661986d005df60d7127bdc2d1bbef455c2600b616662c85d3183d89ec9_1280.jpg"
+      "content": "/images/gdd6bc42b19a6c8975d112e59111e6bac02c2007ab56d70592d5a20ff8e079fe864e913661986d005df60d7127bdc2d1bbef455c2600b616662c85d3183d89ec9_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g668703c3d4674aab0cdae28ac2da31b877823f2fa774d3b9a7341b0f6e8044ecc0baa7f6f92ad6c0570a425868623e63c9de846fe7394e454811cd768e0a6ca7_1280.jpg"
+      "content": "/images/g668703c3d4674aab0cdae28ac2da31b877823f2fa774d3b9a7341b0f6e8044ecc0baa7f6f92ad6c0570a425868623e63c9de846fe7394e454811cd768e0a6ca7_1280.jpg"
     },
     {
       "contentType": "text",
@@ -42,7 +42,7 @@
       "content": "## A More Connected World\n\nIn the end, reading global literature is an act of connection. It's a declaration that we are interested in the lives of people who are different from us, and that we believe their stories matter. In a world often fractured by misunderstanding, filling our bookshelves with voices from every corner of the globe is not just a hobby\u2014it's a quiet, powerful movement towards a more empathetic, intelligent, and compassionate global community."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g663ee268a1322c2c97d6d1d6d2da3b168c697ac624656fcf553546983522f13b87cc6f060214eca204bbaf26dc536d4fcedf00ada4f316ecf412fbbd12b23272_1280.jpg",
+  "previewImageURL": "/images/g663ee268a1322c2c97d6d1d6d2da3b168c697ac624656fcf553546983522f13b87cc6f060214eca204bbaf26dc536d4fcedf00ada4f316ecf412fbbd12b23272_1280.jpg",
   "previewDescription": "Discover how reading stories from around the globe can break down stereotypes, foster deep empathy, and build bridges between diverse cultures. Dive into the world of global literature and change the way you see the world.",
   "category": "General",
   "tags": [
@@ -55,5 +55,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:48:31.818597",
-  "wordsUsed": 934
+  "wordsUsed": 934,
+  "targetRegion": "Global"
 }

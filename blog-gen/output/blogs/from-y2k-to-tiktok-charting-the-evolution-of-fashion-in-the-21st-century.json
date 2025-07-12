@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g58c6867fe35d30626ee9636c7c3675da253ed9605f5f4312bfc7b062e77e33c8275f85811618451eb5f8270cf70aed2a82a663a3e2988ed3c3709f60c05158de_1280.jpg"
+      "content": "/images/g58c6867fe35d30626ee9636c7c3675da253ed9605f5f4312bfc7b062e77e33c8275f85811618451eb5f8270cf70aed2a82a663a3e2988ed3c3709f60c05158de_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g5abaa8989507ced7d102f685117419ca54b93409ed24bf275bd0424f7227a5a1027b3ec54c49e9a37bd0d7d0ca46cfbb97df602bc256122f9f50485412de54ad_1280.jpg"
+      "content": "/images/g5abaa8989507ced7d102f685117419ca54b93409ed24bf275bd0424f7227a5a1027b3ec54c49e9a37bd0d7d0ca46cfbb97df602bc256122f9f50485412de54ad_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,14 +39,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gbfc7db6d17fc54e4e9b4dbad3aefd359532da83867ed3543f54eab6deb48b23f3f35af011dd363ecf0a1a4691c81c9184e5076fd35911d8730d41e0bda159ea7_1280.jpg"
+      "content": "/images/gbfc7db6d17fc54e4e9b4dbad3aefd359532da83867ed3543f54eab6deb48b23f3f35af011dd363ecf0a1a4691c81c9184e5076fd35911d8730d41e0bda159ea7_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "The evolution of fashion in the 21st century is a story of accelerating cycles and decentralizing influence. We've moved from a world where trends were set by a select few to one where anyone with a smartphone can become a style catalyst. Fashion is more personal, more fragmented, and more referential than ever. As we look forward, the tension between hyper-fast, TikTok-driven micro-trends and the slow, conscious movement of sustainability will likely define the future of what we wear. One thing is certain: the pace of change shows no signs of slowing down."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g58c6867fe35d30626ee9636c7c3675da253ed9605f5f4312bfc7b062e77e33c8275f85811618451eb5f8270cf70aed2a82a663a3e2988ed3c3709f60c05158de_1280.jpg",
+  "previewImageURL": "/images/g58c6867fe35d30626ee9636c7c3675da253ed9605f5f4312bfc7b062e77e33c8275f85811618451eb5f8270cf70aed2a82a663a3e2988ed3c3709f60c05158de_1280.jpg",
   "previewDescription": "Explore the whirlwind journey of fashion from the low-rise jeans of the Y2K era to the TikTok-driven micro-trends of today. This deep dive uncovers how technology, culture, and social media have reshaped our wardrobes over the past two decades.",
   "category": "General",
   "tags": [

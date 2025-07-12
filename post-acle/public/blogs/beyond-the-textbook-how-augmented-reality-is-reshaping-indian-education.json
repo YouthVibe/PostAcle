@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g32055ac631b56dec42a1139a16814ac81e26d987ba68a742484d8a8f531af42f2e4a4771ffe40e8ad07a018bdb1fc8bf149680536d90ac8114a396ee8b87b5b8_1280.jpg"
+      "content": "/images/g32055ac631b56dec42a1139a16814ac81e26d987ba68a742484d8a8f531af42f2e4a4771ffe40e8ad07a018bdb1fc8bf149680536d90ac8114a396ee8b87b5b8_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,7 +35,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g92854c577deb8e02e83162356ac8f6ecd5951bd6809af254151f4e0a7130f8f28e4bd2b148e8952d1f5a7b73454f4ed0354160e6862a1894854e8767569eb6e2_1280.jpg"
+      "content": "/images/g92854c577deb8e02e83162356ac8f6ecd5951bd6809af254151f4e0a7130f8f28e4bd2b148e8952d1f5a7b73454f4ed0354160e6862a1894854e8767569eb6e2_1280.jpg"
     },
     {
       "contentType": "text",
@@ -51,10 +51,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gf811312e84da17f95053b85556067a028940b3406673e1dd71ecc56b19f65519973ba802758121b3a9b5e79b247707b75beab1ba87d4537baa20666bed630536_1280.jpg"
+      "content": "/images/gf811312e84da17f95053b85556067a028940b3406673e1dd71ecc56b19f65519973ba802758121b3a9b5e79b247707b75beab1ba87d4537baa20666bed630536_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g32055ac631b56dec42a1139a16814ac81e26d987ba68a742484d8a8f531af42f2e4a4771ffe40e8ad07a018bdb1fc8bf149680536d90ac8114a396ee8b87b5b8_1280.jpg",
+  "previewImageURL": "/images/g32055ac631b56dec42a1139a16814ac81e26d987ba68a742484d8a8f531af42f2e4a4771ffe40e8ad07a018bdb1fc8bf149680536d90ac8114a396ee8b87b5b8_1280.jpg",
   "previewDescription": "Explore how Augmented Reality (AR) is revolutionizing the educational landscape by transforming static textbooks into immersive 3D experiences. This article delves into the benefits, technical aspects, and future growth of AR in education, with a special focus on the opportunities and challenges within the Indian context.",
   "category": "Technology",
   "tags": [
@@ -67,5 +67,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:44:38.911224",
-  "wordsUsed": 756
+  "wordsUsed": 756,
+  "targetRegion": "India"
 }

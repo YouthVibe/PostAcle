@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g46cbc7fefe4bb06bb6c49f5313eb527835a8eb0fc0a61c7ea6061093da0081aaea56d46e027c46381344fb59478e729e620a708b55a75039486a83e17bf6825c_1280.jpg"
+      "content": "/images/g46cbc7fefe4bb06bb6c49f5313eb527835a8eb0fc0a61c7ea6061093da0081aaea56d46e027c46381344fb59478e729e620a708b55a75039486a83e17bf6825c_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g97028bb02cd045b2ae920c2c3117a3a978c1777f957252e7a813dfaf5522813f93688397b129f86fbf0ee83e4ae962e8fddfc4ffb6864e9d290871e097d8b827_1280.jpg"
+      "content": "/images/g97028bb02cd045b2ae920c2c3117a3a978c1777f957252e7a813dfaf5522813f93688397b129f86fbf0ee83e4ae962e8fddfc4ffb6864e9d290871e097d8b827_1280.jpg"
     },
     {
       "contentType": "text",
@@ -51,10 +51,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gffd0ed56f1634fe620a4701922428f2bcbc08030cb67616baae0a85501172ad2ecebf5e4be86f17792266d239e884235f787e360d1cd4c5e3ba1c899e2f2b52a_1280.jpg"
+      "content": "/images/gffd0ed56f1634fe620a4701922428f2bcbc08030cb67616baae0a85501172ad2ecebf5e4be86f17792266d239e884235f787e360d1cd4c5e3ba1c899e2f2b52a_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g46cbc7fefe4bb06bb6c49f5313eb527835a8eb0fc0a61c7ea6061093da0081aaea56d46e027c46381344fb59478e729e620a708b55a75039486a83e17bf6825c_1280.jpg",
+  "previewImageURL": "/images/g46cbc7fefe4bb06bb6c49f5313eb527835a8eb0fc0a61c7ea6061093da0081aaea56d46e027c46381344fb59478e729e620a708b55a75039486a83e17bf6825c_1280.jpg",
   "previewDescription": "Explore how Extended Reality (XR)\u2014encompassing VR, AR, and MR\u2014is moving beyond video calls to create truly immersive, collaborative, and productive virtual workspaces. This deep dive covers the technology, benefits, real-world applications, and the future of remote work.",
   "category": "Technology",
   "tags": [
@@ -68,5 +68,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:42:07.556852",
-  "wordsUsed": 1058
+  "wordsUsed": 1058,
+  "targetRegion": "US"
 }

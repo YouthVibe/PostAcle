@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g58b70e3fff4fb42d6b9297b6afad0bc32b9dacf0af669066dba34667172ad194f7f28d506e9749950160aac8f385ab8140a69711107e22cc4d7d8a297b2c861d_1280.jpg"
+      "content": "/images/g58b70e3fff4fb42d6b9297b6afad0bc32b9dacf0af669066dba34667172ad194f7f28d506e9749950160aac8f385ab8140a69711107e22cc4d7d8a297b2c861d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,14 +31,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gfecfcde7b8eec26d56f1482fc10c09e571fc8d08a3bb69e61a3363b6756459df51d44cfa231b1747d89b754b77e6cb99cbf55e6eb21fad9302f38e7942483bcb_1280.jpg"
+      "content": "/images/gfecfcde7b8eec26d56f1482fc10c09e571fc8d08a3bb69e61a3363b6756459df51d44cfa231b1747d89b754b77e6cb99cbf55e6eb21fad9302f38e7942483bcb_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "Getting fit doesn't have to be a drain on your finances. By embracing bodyweight exercises, making smart, minimal equipment purchases, and tapping into the vast world of free online resources, you can build a formidable workout routine that delivers results. Consistency is your most important investment. Start today, stay committed, and enjoy the dual benefits of a healthier body and a healthier bank account."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g58b70e3fff4fb42d6b9297b6afad0bc32b9dacf0af669066dba34667172ad194f7f28d506e9749950160aac8f385ab8140a69711107e22cc4d7d8a297b2c861d_1280.jpg",
+  "previewImageURL": "/images/g58b70e3fff4fb42d6b9297b6afad0bc32b9dacf0af669066dba34667172ad194f7f28d506e9749950160aac8f385ab8140a69711107e22cc4d7d8a297b2c861d_1280.jpg",
   "previewDescription": "Ditch expensive gym fees! Learn how to build an effective and affordable home workout routine using bodyweight exercises, minimal equipment, and free online resources. Get fit without breaking the bank.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -50,5 +50,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:58:34.593342",
-  "wordsUsed": 529
+  "wordsUsed": 529,
+  "targetRegion": "US"
 }

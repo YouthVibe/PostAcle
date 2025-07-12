@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg"
+      "content": "/images/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g96836f44224d9484100f2adb1a5381e03cf6c0f2339e0f274ef5a63d889fdf27b92e39b2977725523d48f9dfbbd899ecc8239b2cfda8038cb532665c31cdffc0_1280.jpg"
+      "content": "/images/g96836f44224d9484100f2adb1a5381e03cf6c0f2339e0f274ef5a63d889fdf27b92e39b2977725523d48f9dfbbd899ecc8239b2cfda8038cb532665c31cdffc0_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8fa894d904273e901e5eace418fade9e7b7280a520eebef28feac61c94fb5520b023bad7eb7c748418f3eb6f763de1ab9c64d53c41c0d07abeac1843d77b28ac_1280.jpg"
+      "content": "/images/g8fa894d904273e901e5eace418fade9e7b7280a520eebef28feac61c94fb5520b023bad7eb7c748418f3eb6f763de1ab9c64d53c41c0d07abeac1843d77b28ac_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "In conclusion, Virtual Reality has firmly established itself as a new computing platform. For entertainment and gaming, it offers an unparalleled medium for immersion, agency, and social connection. From its humble beginnings to its current state as a burgeoning market, VR's rise has been nothing short of remarkable. As the technology continues to mature and converge with augmented reality, it poses a fundamental question: are we simply building better games and movies, or are we architecting the next evolution of human experience itself? The answer is unfolding in real-time, one virtual world at a time."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg",
+  "previewImageURL": "/images/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg",
   "previewDescription": "Dive deep into the technological revolution of Virtual Reality. Explore how VR is reshaping gaming and entertainment, from immersive gameplay and live events to the technical marvels that power it all. A must-read for gamers, tech enthusiasts, and industry pros.",
   "category": "Technology",
   "tags": [

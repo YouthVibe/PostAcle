@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g4ee974cc5be2711f86dfa25d0c1235d896281f08d179ec560b1647f187cc4699eb18ede7b826e5ac2e3ccdaca692d8f939da9eda5d9fd3e7d6d3481ee8973a18_1280.jpg"
+      "content": "/images/g4ee974cc5be2711f86dfa25d0c1235d896281f08d179ec560b1647f187cc4699eb18ede7b826e5ac2e3ccdaca692d8f939da9eda5d9fd3e7d6d3481ee8973a18_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gf4b570bce4b32ff4a5a81f0681f7dd40d0c5cb5ef4ad6292fc765a207337939f91b2e0dce6afa6319170e6decbcb2aa3c557c1c1458a0f7eee012aa1937e5a16_1280.jpg"
+      "content": "/images/gf4b570bce4b32ff4a5a81f0681f7dd40d0c5cb5ef4ad6292fc765a207337939f91b2e0dce6afa6319170e6decbcb2aa3c557c1c1458a0f7eee012aa1937e5a16_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -43,7 +43,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gb78bdc896e4fd99738cfffbe9ea602f3eca3f92b5c0934b737d8a0c2634cbca930e9c0d8295c636b7630871177cb83b3322ed3010d09992f5a010ff02b9d5a47_1280.jpg"
+      "content": "/images/gb78bdc896e4fd99738cfffbe9ea602f3eca3f92b5c0934b737d8a0c2634cbca930e9c0d8295c636b7630871177cb83b3322ed3010d09992f5a010ff02b9d5a47_1280.jpg"
     },
     {
       "contentType": "text",
@@ -58,7 +58,7 @@
       "content": "## Conclusion: A New Symbiosis\n\nBrain-Computer Interfaces represent a paradigm shift in healthcare, promising a future where paralysis can be overcome, communication can be restored, and mental illness can be treated with unprecedented precision. The path forward is one of immense potential, driven by the synergy of AI and neuro-engineering. For nations like India, this technology offers a chance to leapfrog traditional healthcare challenges. However, this journey must be co-piloted by rigorous scientific validation and a deep, unwavering commitment to ethical principles. The future is not just about connecting brains to computers; it's about doing so responsibly, equitably, and in a way that truly enhances the human condition."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g4ee974cc5be2711f86dfa25d0c1235d896281f08d179ec560b1647f187cc4699eb18ede7b826e5ac2e3ccdaca692d8f939da9eda5d9fd3e7d6d3481ee8973a18_1280.jpg",
+  "previewImageURL": "/images/g4ee974cc5be2711f86dfa25d0c1235d896281f08d179ec560b1647f187cc4699eb18ede7b826e5ac2e3ccdaca692d8f939da9eda5d9fd3e7d6d3481ee8973a18_1280.jpg",
   "previewDescription": "Dive deep into the revolutionary world of Brain-Computer Interfaces (BCIs). Explore how this cutting-edge technology is set to redefine healthcare, from restoring motor functions to revolutionizing mental health treatment, and uncover the unique opportunities and challenges in the Indian context.",
   "category": "Technology",
   "tags": [

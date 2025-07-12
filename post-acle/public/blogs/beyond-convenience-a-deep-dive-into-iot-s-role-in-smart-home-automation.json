@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g0c584a102e1cf300b78cabdf0337b4f6d9b87809c06078f1751ee87dadef8b363af319a911e07475dd348484b39e8ccace504cabb4b997409533412e3f8489bc_1280.jpg"
+      "content": "/images/g0c584a102e1cf300b78cabdf0337b4f6d9b87809c06078f1751ee87dadef8b363af319a911e07475dd348484b39e8ccace504cabb4b997409533412e3f8489bc_1280.jpg"
     },
     {
       "contentType": "text",
@@ -15,7 +15,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g9c608624d92b9b54a1b9d87cee3f30a089d382fb9717ea88ad30cd77d9c8fd1a616739a57c382077d2b91222ce8df55b4b232065fc27c43910d05227cbc65577_1280.jpg"
+      "content": "/images/g9c608624d92b9b54a1b9d87cee3f30a089d382fb9717ea88ad30cd77d9c8fd1a616739a57c382077d2b91222ce8df55b4b232065fc27c43910d05227cbc65577_1280.jpg"
     },
     {
       "contentType": "text",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g3456de0b67725f5be8b2ca7526e06fb4573cbc39944e3ba634993f48dc7b113756b66a014dcc506c9526781a8eeccf6c33b292accba56a68769fd49d89f3a00d_1280.jpg"
+      "content": "/images/g3456de0b67725f5be8b2ca7526e06fb4573cbc39944e3ba634993f48dc7b113756b66a014dcc506c9526781a8eeccf6c33b292accba56a68769fd49d89f3a00d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "The Internet of Things is undeniably the bedrock of modern home automation. It has transformed our living spaces into dynamic environments that can learn, adapt, and respond to our needs. By moving beyond the surface-level convenience, we've seen that the real power lies in a well-architected system of devices, protocols, and intelligent data processing. As technology continues to evolve, with emerging standards like Matter promising greater interoperability and edge AI enabling faster, more private processing, the future of the smart home is brighter than ever. For those in India and around the world, the journey of building a smarter, more efficient, and secure home has just begun."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g0c584a102e1cf300b78cabdf0337b4f6d9b87809c06078f1751ee87dadef8b363af319a911e07475dd348484b39e8ccace504cabb4b997409533412e3f8489bc_1280.jpg",
+  "previewImageURL": "/images/g0c584a102e1cf300b78cabdf0337b4f6d9b87809c06078f1751ee87dadef8b363af319a911e07475dd348484b39e8ccace504cabb4b997409533412e3f8489bc_1280.jpg",
   "previewDescription": "An advanced exploration of the Internet of Things (IoT) as the backbone of modern smart homes. This article covers IoT architecture, communication protocols, security challenges, and future trends, with a special focus on the evolving market in India for developers and tech enthusiasts.",
   "category": "Technology",
   "tags": [
@@ -76,5 +76,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:00:10.907044",
-  "wordsUsed": 950
+  "wordsUsed": 950,
+  "targetRegion": "India"
 }

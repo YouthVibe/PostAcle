@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g3c1c3d4168b5fa3e446eb6d205f1d18ade7d906b384cb16b402418252617eb296beff5ad63e4de1ef9c25bfa1ec21bd4bf2c4df0f476235c1ee954558857ff83_1280.jpg"
+      "content": "/images/g3c1c3d4168b5fa3e446eb6d205f1d18ade7d906b384cb16b402418252617eb296beff5ad63e4de1ef9c25bfa1ec21bd4bf2c4df0f476235c1ee954558857ff83_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,7 +39,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga86d94fb2b73e8fe57883017f911f4d173899bd4f0f6a1364c1d9966377a9c2fa9d2e1de4973911d900fa818d822d2742d0296b3b481554d38d9ec4ce27734f8_1280.jpg"
+      "content": "/images/ga86d94fb2b73e8fe57883017f911f4d173899bd4f0f6a1364c1d9966377a9c2fa9d2e1de4973911d900fa818d822d2742d0296b3b481554d38d9ec4ce27734f8_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -67,14 +67,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g18ca08d637fe85dae00deafc1e41228eaad4087a140c9eae17a43d05572603299500f336b9fb61767c82bafa4fe8fe2b993e82f3df49ba06e6363fff12a50fa2_1280.jpg"
+      "content": "/images/g18ca08d637fe85dae00deafc1e41228eaad4087a140c9eae17a43d05572603299500f336b9fb61767c82bafa4fe8fe2b993e82f3df49ba06e6363fff12a50fa2_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "## Conclusion: A Smarter Future Awaits\n\nAugmented analytics is more than just a buzzword; it's the engine driving the future of business intelligence. By automating complex data tasks and delivering proactive insights directly into the hands of business users, it is breaking down the final barriers to creating truly data-driven organizations. Businesses that embrace this transformation will not only gain a significant competitive advantage but will also unlock a new level of operational intelligence, navigating the future with clarity and confidence."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g3c1c3d4168b5fa3e446eb6d205f1d18ade7d906b384cb16b402418252617eb296beff5ad63e4de1ef9c25bfa1ec21bd4bf2c4df0f476235c1ee954558857ff83_1280.jpg",
+  "previewImageURL": "/images/g3c1c3d4168b5fa3e446eb6d205f1d18ade7d906b384cb16b402418252617eb296beff5ad63e4de1ef9c25bfa1ec21bd4bf2c4df0f476235c1ee954558857ff83_1280.jpg",
   "previewDescription": "Dive deep into the future of business intelligence. Discover how augmented analytics, powered by AI and machine learning, is automating data insights, democratizing data access, and transforming how businesses make decisions. A must-read for data analysts and business leaders.",
   "category": "Technology",
   "tags": [
@@ -87,5 +87,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T21:10:51.577024",
-  "wordsUsed": 945
+  "wordsUsed": 945,
+  "targetRegion": "US"
 }

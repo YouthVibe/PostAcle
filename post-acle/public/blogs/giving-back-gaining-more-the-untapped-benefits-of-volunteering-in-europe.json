@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gb80abf4b508affa33fd17a48fefee0630b5a7988ad2aa9de1bbc52f20fe2261373676dd89f50f7bf1c7860e0aa3d3a6ca30d1cbfbedf1af833e094e4b2ff5932_1280.jpg"
+      "content": "/images/gb80abf4b508affa33fd17a48fefee0630b5a7988ad2aa9de1bbc52f20fe2261373676dd89f50f7bf1c7860e0aa3d3a6ca30d1cbfbedf1af833e094e4b2ff5932_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,14 +27,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g13d428d83b2d9eaeed06932b8650ddbc328e6d462a3001bdf2a4d91e5a8fadbe13f9ad9c112d4a7a1552d2a759455e5684642ae67454853ac03cd2311f977a3b_1280.jpg"
+      "content": "/images/g13d428d83b2d9eaeed06932b8650ddbc328e6d462a3001bdf2a4d91e5a8fadbe13f9ad9c112d4a7a1552d2a759455e5684642ae67454853ac03cd2311f977a3b_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "The narrative that volunteering is purely an act of altruism only tells half the story. It is a symbiotic relationship where giving your time, energy, and passion enriches your own life as much as it does the lives of others. It\u2019s a chance to learn, grow, and connect while making a concrete, positive impact on the world around you. So, why wait? Explore the opportunities in your local community today. Take that step, lend a hand, and discover the transformative power of giving back. You have more to gain than you can imagine."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gb80abf4b508affa33fd17a48fefee0630b5a7988ad2aa9de1bbc52f20fe2261373676dd89f50f7bf1c7860e0aa3d3a6ca30d1cbfbedf1af833e094e4b2ff5932_1280.jpg",
+  "previewImageURL": "/images/gb80abf4b508affa33fd17a48fefee0630b5a7988ad2aa9de1bbc52f20fe2261373676dd89f50f7bf1c7860e0aa3d3a6ca30d1cbfbedf1af833e094e4b2ff5932_1280.jpg",
   "previewDescription": "Discover how giving your time to community service can do more than just help others. Explore the profound personal and professional benefits of volunteering, from developing new skills and boosting your career to improving your mental and physical health. A guide for anyone in Europe looking to make a meaningful impact.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -47,5 +47,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:14:34.703245",
-  "wordsUsed": 554
+  "wordsUsed": 554,
+  "targetRegion": "Europe"
 }

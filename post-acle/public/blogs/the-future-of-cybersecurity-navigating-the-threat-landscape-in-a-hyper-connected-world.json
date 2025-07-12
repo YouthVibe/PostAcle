@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gaa88615dc0c6a229ace2767d923e28a2f9ce6ff492b63d796474a77ef10e3f024824ff7f9d4fe2717e81b9d86e35d42484eeaa2c3eb164dd6c141b1d41a3a1cc_1280.jpg"
+      "content": "/images/gaa88615dc0c6a229ace2767d923e28a2f9ce6ff492b63d796474a77ef10e3f024824ff7f9d4fe2717e81b9d86e35d42484eeaa2c3eb164dd6c141b1d41a3a1cc_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ge5d781c02245f5aa117c6a917382106d405c24f659d6408b29d15da326d12f12ed15893f12668a6e671f0b11cc80f3a277175b9da71b82bc96f3b2a746e307cf_1280.jpg"
+      "content": "/images/ge5d781c02245f5aa117c6a917382106d405c24f659d6408b29d15da326d12f12ed15893f12668a6e671f0b11cc80f3a277175b9da71b82bc96f3b2a746e307cf_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,10 +55,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g3e95bbd344646223eab4cc6f90cbb5e3f84af2c8509f9b735d443077818f571095e694b7dcf2f86f0bafd4129e160b4625c4596f590772d562e7e1c11a10b61d_1280.jpg"
+      "content": "/images/g3e95bbd344646223eab4cc6f90cbb5e3f84af2c8509f9b735d443077818f571095e694b7dcf2f86f0bafd4129e160b4625c4596f590772d562e7e1c11a10b61d_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g54402d63a78d5bd5213eba6b240642a629f94b560955e4a246d398dc247d02255fd98be451660735afad4dcd4262eee821e2358c6a3a6af09cbf3c0b8e73694a_1280.jpg",
+  "previewImageURL": "/images/g54402d63a78d5bd5213eba6b240642a629f94b560955e4a246d398dc247d02255fd98be451660735afad4dcd4262eee821e2358c6a3a6af09cbf3c0b8e73694a_1280.jpg",
   "previewDescription": "As IoT, AI, and 5G redefine our world, the cybersecurity threat landscape is evolving at an unprecedented pace. This deep dive explores the future of digital defense, from AI-driven threat intelligence and Zero Trust Architecture to the looming challenge of quantum computing. Essential reading for IT professionals and security experts.",
   "category": "Technology",
   "tags": [
@@ -71,5 +71,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:16:38.263861",
-  "wordsUsed": 948
+  "wordsUsed": 948,
+  "targetRegion": "US"
 }

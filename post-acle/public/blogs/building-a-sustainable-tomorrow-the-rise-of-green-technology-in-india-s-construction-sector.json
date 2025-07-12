@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g46961a25c0ac3418dd6eac8ca2dd587056f328d72d0914443553172297267e8a4bea8db2c10fdf5b9600732a42ebeee9d8da70591320316bff05021b637a800a_1280.jpg"
+      "content": "/images/g46961a25c0ac3418dd6eac8ca2dd587056f328d72d0914443553172297267e8a4bea8db2c10fdf5b9600732a42ebeee9d8da70591320316bff05021b637a800a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g93abcaaa684f206872713f164a56eb7a599de89641a7a32a0cb55b1d6f5f69dd27aa887d3b762a60e319acb1ba6d9b82a9a7f408a0afdd4e880ee1e658350fba_1280.jpg"
+      "content": "/images/g93abcaaa684f206872713f164a56eb7a599de89641a7a32a0cb55b1d6f5f69dd27aa887d3b762a60e319acb1ba6d9b82a9a7f408a0afdd4e880ee1e658350fba_1280.jpg"
     },
     {
       "contentType": "text",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g281aa6175c32221f4a97deeea917984d72a82a433d374b8b7ac49b61a4d58408b998bd7dc0cbe3943f91aced96163d923060917e2e14a3156954d8c8e43bcb3e_1280.jpg"
+      "content": "/images/g281aa6175c32221f4a97deeea917984d72a82a433d374b8b7ac49b61a4d58408b998bd7dc0cbe3943f91aced96163d923060917e2e14a3156954d8c8e43bcb3e_1280.jpg"
     },
     {
       "contentType": "code",
@@ -58,7 +58,7 @@
       "content": "### Conclusion: Engineering a Greener Legacy\n\nThe integration of green technology in construction is no longer a matter of choice but a professional and ethical obligation. For Indian architects and engineers, it represents a paradigm shift from a conventional, linear model to a holistic, lifecycle-based approach. By embracing sustainable materials, leveraging digital tools like BIM, and designing for energy and water resilience, the construction industry can transform from a major environmental liability into a powerful engine for a sustainable and prosperous India. The blueprint is ready; it is time to build the future."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g46961a25c0ac3418dd6eac8ca2dd587056f328d72d0914443553172297267e8a4bea8db2c10fdf5b9600732a42ebeee9d8da70591320316bff05021b637a800a_1280.jpg",
+  "previewImageURL": "/images/g46961a25c0ac3418dd6eac8ca2dd587056f328d72d0914443553172297267e8a4bea8db2c10fdf5b9600732a42ebeee9d8da70591320316bff05021b637a800a_1280.jpg",
   "previewDescription": "An in-depth analysis for architects and engineers on the rise of green construction technology in India. Explore sustainable materials, energy-efficient systems, key certifications like GRIHA and IGBC, and the future of eco-friendly buildings in the Indian context.",
   "category": "Technology",
   "tags": [
@@ -73,5 +73,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:13:40.084108",
-  "wordsUsed": 1058
+  "wordsUsed": 1058,
+  "targetRegion": "India"
 }

@@ -15,7 +15,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g97d06710f2d37019c78329bc12424683390f9d95ca7bb68bbb1d94b9a7ae44f89931d5cc456e658f3709a32d37efab3515a886b9166ce089a17af92e1bb6f408_1280.jpg"
+      "content": "/images/g97d06710f2d37019c78329bc12424683390f9d95ca7bb68bbb1d94b9a7ae44f89931d5cc456e658f3709a32d37efab3515a886b9166ce089a17af92e1bb6f408_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g21447cd5fe55d4308782081b29fca12a6d753ed1b9e645b1e5fcbdeed6ff9f6691055ce16dd23c0928cd496d1f5f8e635144b12713005b459a1a4ed8cf62b28f_1280.jpg"
+      "content": "/images/g21447cd5fe55d4308782081b29fca12a6d753ed1b9e645b1e5fcbdeed6ff9f6691055ce16dd23c0928cd496d1f5f8e635144b12713005b459a1a4ed8cf62b28f_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "### Conclusion: Your Wardrobe, Your Rules\nCreating a capsule wardrobe is a journey of self-discovery. It's about clearing out the excess to make room for what truly matters\u2014not just in your closet, but in your life. It frees you from the consumer trend cycle and empowers you to build a sustainable, functional, and deeply personal style. Embrace the process, have fun with it, and enjoy the effortless style and peace of mind that follows."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g97d06710f2d37019c78329bc12424683390f9d95ca7bb68bbb1d94b9a7ae44f89931d5cc456e658f3709a32d37efab3515a886b9166ce089a17af92e1bb6f408_1280.jpg",
+  "previewImageURL": "/images/g97d06710f2d37019c78329bc12424683390f9d95ca7bb68bbb1d94b9a7ae44f89931d5cc456e658f3709a32d37efab3515a886b9166ce089a17af92e1bb6f408_1280.jpg",
   "previewDescription": "Tired of a cluttered closet and decision fatigue? Learn how to build a functional capsule wardrobe with our step-by-step guide. Discover how to define your style, select a color palette, and curate a collection of versatile pieces that will save you time, money, and stress, all while looking effortlessly chic.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -74,5 +74,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:27:54.525579",
-  "wordsUsed": 1020
+  "wordsUsed": 1020,
+  "targetRegion": "Global"
 }

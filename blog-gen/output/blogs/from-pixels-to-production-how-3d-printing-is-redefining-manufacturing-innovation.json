@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg"
+      "content": "/images/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,7 +39,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga94c71741417fd101664ad28cd421173755fa92fe2244030450e94f2373296ac17c4251fe9fbdce4d7e4183f806cb8351297e0026cd3cdbad585a548e44574b9_1280.jpg"
+      "content": "/images/ga94c71741417fd101664ad28cd421173755fa92fe2244030450e94f2373296ac17c4251fe9fbdce4d7e4183f806cb8351297e0026cd3cdbad585a548e44574b9_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,14 +55,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g6994fd3cbc396de4b296e5dc722f0fd99b8452af7818a16bd914c56a2b5cd28deac533623386bf303be22c62db3c66b8ed4f0a76353bd65b6da3f85caedd89b7_1280.jpg"
+      "content": "/images/g6994fd3cbc396de4b296e5dc722f0fd99b8452af7818a16bd914c56a2b5cd28deac533623386bf303be22c62db3c66b8ed4f0a76353bd65b6da3f85caedd89b7_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "In conclusion, 3D printing is no longer a futuristic concept; it is a present-day reality that is actively disrupting and innovating the manufacturing sector. It offers unparalleled design freedom, enables mass customization, and is creating more agile and resilient supply chains. For a nation like India, poised for exponential industrial growth, embracing additive manufacturing is not just an option but a strategic imperative. As the technology continues to evolve with AI-driven design, new materials, and faster printing speeds, its impact will only deepen, cementing its role as a cornerstone of modern manufacturing."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg",
+  "previewImageURL": "/images/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg",
   "previewDescription": "Explore the profound impact of additive manufacturing on modern production. This deep dive for engineers and tech professionals covers rapid prototyping, complex geometries, material science, and the rise of 3D printing in India's Industry 4.0 revolution.",
   "category": "Technology",
   "tags": [

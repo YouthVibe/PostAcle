@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g847d9c08cb2887ff8ed6cd996962d7be0747a4b6210fca9ff0db28354e180a18381acf43b62ceec9d86f3e62620744de6f044657f1ee5e348e6b04cf6583b844_1280.jpg"
+      "content": "/images/g847d9c08cb2887ff8ed6cd996962d7be0747a4b6210fca9ff0db28354e180a18381acf43b62ceec9d86f3e62620744de6f044657f1ee5e348e6b04cf6583b844_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga2330093a27b1e16c755606ae0e538b6cc0e71ad38a86d6da3fc209841f8900a964ee3f2bbc62ec7bd4a59d8306b1d59321c06da0a2901b5f5eb70daef4f736b_1280.jpg"
+      "content": "/images/ga2330093a27b1e16c755606ae0e538b6cc0e71ad38a86d6da3fc209841f8900a964ee3f2bbc62ec7bd4a59d8306b1d59321c06da0a2901b5f5eb70daef4f736b_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,14 +55,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gbcda5bbb936e2f184981b76d6622069641d7879957298fb9fc135fe14607ac126d85994f0fc7b55ff72a97e1a27d408e8019b448d8acb7ea1af03a2d9eb4b20f_1280.jpg"
+      "content": "/images/gbcda5bbb936e2f184981b76d6622069641d7879957298fb9fc135fe14607ac126d85994f0fc7b55ff72a97e1a27d408e8019b448d8acb7ea1af03a2d9eb4b20f_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "## Challenges and the Road Ahead\n\nDespite its immense potential, the path to widespread Edge AI adoption is not without its hurdles. Key challenges include:\n\n*   **Computational Constraints:** Edge devices have limited processing power and memory compared to cloud servers.\n*   **Model Optimization:** AI models must be significantly compressed and optimized (using techniques like quantization and pruning) to run efficiently on edge hardware.\n*   **Power Consumption:** Many edge devices are battery-powered, making energy-efficient processing a critical concern.\n*   **Security and Management:** Securing and managing thousands or even millions of distributed edge nodes presents a significant logistical and security challenge.\n\nHowever, continuous advancements in specialized AI hardware (like NPUs and TPUs), more efficient model architectures, and sophisticated device management platforms are actively addressing these issues.\n\n## Conclusion\n\nEdge AI is not merely an extension of the cloud; it is a fundamental re-architecture of intelligent systems. By bringing AI processing to the data's source, it breaks the chains of latency and bandwidth that have constrained real-time applications for years. It unlocks a future where intelligence is not remote and delayed but local, instantaneous, and context-aware. For tech enthusiasts, developers, and data scientists in India and beyond, the message is clear: the edge is the new frontier, and its impact on real-time data processing is just beginning."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g847d9c08cb2887ff8ed6cd996962d7be0747a4b6210fca9ff0db28354e180a18381acf43b62ceec9d86f3e62620744de6f044657f1ee5e348e6b04cf6583b844_1280.jpg",
+  "previewImageURL": "/images/g847d9c08cb2887ff8ed6cd996962d7be0747a4b6210fca9ff0db28354e180a18381acf43b62ceec9d86f3e62620744de6f044657f1ee5e348e6b04cf6583b844_1280.jpg",
   "previewDescription": "Dive deep into Edge AI and discover how processing data at the source is revolutionizing industries by enabling ultra-low latency, enhanced security, and cost-effective real-time analytics. Explore use cases, code examples, and the future of intelligent devices.",
   "category": "Technology",
   "tags": [

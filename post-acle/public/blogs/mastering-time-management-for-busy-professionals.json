@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g93f337daa3598dae8ab5c3693c587e223677ffdabdb4e3c8ac74cb7d3a2491539798983567c2d7632009d2cfaef7569a4149560dd4450a4b43d8a0ea60ff4597_1280.jpg"
+      "content": "/images/g93f337daa3598dae8ab5c3693c587e223677ffdabdb4e3c8ac74cb7d3a2491539798983567c2d7632009d2cfaef7569a4149560dd4450a4b43d8a0ea60ff4597_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g7f9825e3ab17cae1ace1ce63bd103b1b3a3decf117345d39f25fe56ef400c38b2a6f369cd41647fec08df851771d22015183846a8f0d2128a9d0d09480ea9c04_1280.jpg"
+      "content": "/images/g7f9825e3ab17cae1ace1ce63bd103b1b3a3decf117345d39f25fe56ef400c38b2a6f369cd41647fec08df851771d22015183846a8f0d2128a9d0d09480ea9c04_1280.jpg"
     },
     {
       "contentType": "text",
@@ -38,7 +38,7 @@
       "content": "Mastering time management is a journey, not a destination. It's about finding the right blend of strategies and tools that work for you and your unique workflow. Start small. Pick one technique from this guide\u2014perhaps Time Blocking your next week or trying the Pomodoro Technique on your next big task. By consistently applying these principles, you'll transform your relationship with time, moving from a state of constant busyness to one of meaningful productivity and control. Your future, less-stressed self will thank you for it."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g54b0f1b327152fef6ab41cbfd8a338544079251d9905192ac699568076bfa343f7a478d117374d44aeb9809b6c3cdd4c672050880af9c38f42dfb56b13724682_1280.jpg",
+  "previewImageURL": "/images/g54b0f1b327152fef6ab41cbfd8a338544079251d9905192ac699568076bfa343f7a478d117374d44aeb9809b6c3cdd4c672050880af9c38f42dfb56b13724682_1280.jpg",
   "previewDescription": "Feeling overwhelmed? Learn practical, beginner-friendly time management techniques like the Pomodoro Technique and Eisenhower Matrix to boost productivity, reduce stress, and reclaim your schedule. A guide for professionals, entrepreneurs, and students.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -50,5 +50,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:43:55.786508",
-  "wordsUsed": 774
+  "wordsUsed": 774,
+  "targetRegion": "Europe"
 }

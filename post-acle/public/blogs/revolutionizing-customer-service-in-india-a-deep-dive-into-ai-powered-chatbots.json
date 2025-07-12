@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gac39703f27b738db86dc4b9dde2075df3c11097ec23de982ba4c2d3bbe572e53465d2866f5553588ce7ef7cd373abd91f4fc47a1b86669cf1715c4249ad401f3_1280.jpg"
+      "content": "/images/gac39703f27b738db86dc4b9dde2075df3c11097ec23de982ba4c2d3bbe572e53465d2866f5553588ce7ef7cd373abd91f4fc47a1b86669cf1715c4249ad401f3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g655c20def6f91c224c0c61d16ad0e1d17eaee7c974af135836d114c22c8c945281f17499115d1e9df3b07f27795283b72d1be60816b599084f3b75b0cb4f3d34_1280.jpg"
+      "content": "/images/g655c20def6f91c224c0c61d16ad0e1d17eaee7c974af135836d114c22c8c945281f17499115d1e9df3b07f27795283b72d1be60816b599084f3b75b0cb4f3d34_1280.jpg"
     },
     {
       "contentType": "text",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g3c9c118c6be9deed13477fd4867a064d283339a8ef06bee3de95bacd331aa09af7bab278b56f3456d8ff412037cb86d315754948545d5cb1c571349c6a38adea_1280.jpg"
+      "content": "/images/g3c9c118c6be9deed13477fd4867a064d283339a8ef06bee3de95bacd331aa09af7bab278b56f3456d8ff412037cb86d315754948545d5cb1c571349c6a38adea_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "In conclusion, AI-powered chatbots are not merely a tool for cost-cutting; they are a strategic asset for transforming customer experience. For businesses in India, embracing this technology is key to staying competitive, fostering customer loyalty, and building a scalable, efficient, and intelligent service ecosystem for the future."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gac39703f27b738db86dc4b9dde2075df3c11097ec23de982ba4c2d3bbe572e53465d2866f5553588ce7ef7cd373abd91f4fc47a1b86669cf1715c4249ad401f3_1280.jpg",
+  "previewImageURL": "/images/gac39703f27b738db86dc4b9dde2075df3c11097ec23de982ba4c2d3bbe572e53465d2866f5553588ce7ef7cd373abd91f4fc47a1b86669cf1715c4249ad401f3_1280.jpg",
   "previewDescription": "An advanced analysis of how AI-powered chatbots are revolutionizing customer service in India. This deep dive covers the core technology (NLP/ML), strategic benefits, implementation models, future trends, and the overall impact on business operations and customer engagement.",
   "category": "Technology",
   "tags": [
@@ -75,5 +75,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:43:51.046925",
-  "wordsUsed": 925
+  "wordsUsed": 925,
+  "targetRegion": "India"
 }

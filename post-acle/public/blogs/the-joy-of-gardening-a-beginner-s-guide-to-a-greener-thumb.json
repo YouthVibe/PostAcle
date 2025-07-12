@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g89ad56c192ff6793ad96e4749e3052d2fc75d9adc5532a4c2142e9dd6a724f2037f3e920e616c983e66e523fca360cd455314441ec91aef04ef7de93364947d0_1280.jpg"
+      "content": "/images/g89ad56c192ff6793ad96e4749e3052d2fc75d9adc5532a4c2142e9dd6a724f2037f3e920e616c983e66e523fca360cd455314441ec91aef04ef7de93364947d0_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gd9a0dbc1d73354bf58ae1c6d5a02600c622021e6b7a0a45d78d04ec0787d2e4d63ab60056aed65178984c05ea1fd26e7b6028aa75ac53bac630c359dcc67b26e_1280.jpg"
+      "content": "/images/gd9a0dbc1d73354bf58ae1c6d5a02600c622021e6b7a0a45d78d04ec0787d2e4d63ab60056aed65178984c05ea1fd26e7b6028aa75ac53bac630c359dcc67b26e_1280.jpg"
     },
     {
       "contentType": "text",
@@ -38,7 +38,7 @@
       "content": "### Embrace the Journey\n\nGardening is a journey of patience and learning. Some plants will thrive, and others might not, and that\u2019s okay. The real joy is in the process\u2014the quiet moments spent tending to your plants, the excitement of seeing the first leaf unfurl, and the satisfaction of harvesting something you grew yourself. So start small, choose a plant you love, and get your hands dirty. Happy gardening!"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g89ad56c192ff6793ad96e4749e3052d2fc75d9adc5532a4c2142e9dd6a724f2037f3e920e616c983e66e523fca360cd455314441ec91aef04ef7de93364947d0_1280.jpg",
+  "previewImageURL": "/images/g89ad56c192ff6793ad96e4749e3052d2fc75d9adc5532a4c2142e9dd6a724f2037f3e920e616c983e66e523fca360cd455314441ec91aef04ef7de93364947d0_1280.jpg",
   "previewDescription": "Ever dreamed of growing your own food or flowers? This beginner's guide to gardening is your perfect start! Discover easy tips on choosing plants, soil, and space, tailored for the Indian climate. Get ready to find joy in nurturing life and cultivating your very own green sanctuary at home.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -51,5 +51,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:37:48.975116",
-  "wordsUsed": 857
+  "wordsUsed": 857,
+  "targetRegion": "India"
 }

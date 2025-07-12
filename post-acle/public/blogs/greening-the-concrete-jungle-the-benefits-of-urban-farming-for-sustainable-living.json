@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g7e2fe07c8af07323ec62bc4391f4e4897ea3c23d2261fad512d0c482232120ff0dadec1ecf7cd373a3941ec47589b97a247e2f65bf2a7f4d60152db3236b3d9a_1280.jpg"
+      "content": "/images/g7e2fe07c8af07323ec62bc4391f4e4897ea3c23d2261fad512d0c482232120ff0dadec1ecf7cd373a3941ec47589b97a247e2f65bf2a7f4d60152db3236b3d9a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gfdfe4f4f80420545821ffda99a6c30119ee672e164ff42178a96639b71df432d03069c1a277f93a6a75d0e015d135c2bcf44a60e7c4c1457e0ede0fde87a6b25_1280.jpg"
+      "content": "/images/gfdfe4f4f80420545821ffda99a6c30119ee672e164ff42178a96639b71df432d03069c1a277f93a6a75d0e015d135c2bcf44a60e7c4c1457e0ede0fde87a6b25_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8782af27fe79a0e48a622607d4f79925e2fe43f279aff3be25c0fcd733f1bc0a48ef0e0fff9179dfbdcccce2e3e0a112a9a3601a7113114981d2397f6e446679_1280.jpg"
+      "content": "/images/g8782af27fe79a0e48a622607d4f79925e2fe43f279aff3be25c0fcd733f1bc0a48ef0e0fff9179dfbdcccce2e3e0a112a9a3601a7113114981d2397f6e446679_1280.jpg"
     },
     {
       "contentType": "text",
@@ -46,7 +46,7 @@
       "content": "Urban farming is a testament to human ingenuity and our innate connection to nature. It is a holistic solution that addresses environmental degradation, social isolation, and food insecurity all at once. By transforming our cities from mere consumers of resources into active producers, we are sowing the seeds for a healthier, more sustainable, and interconnected future. Whether you start with a single herb pot on your windowsill or join a thriving community garden, you become part of this vital green movement, helping to cultivate a better world, one plant at a time."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g7e2fe07c8af07323ec62bc4391f4e4897ea3c23d2261fad512d0c482232120ff0dadec1ecf7cd373a3941ec47589b97a247e2f65bf2a7f4d60152db3236b3d9a_1280.jpg",
+  "previewImageURL": "/images/g7e2fe07c8af07323ec62bc4391f4e4897ea3c23d2261fad512d0c482232120ff0dadec1ecf7cd373a3941ec47589b97a247e2f65bf2a7f4d60152db3236b3d9a_1280.jpg",
   "previewDescription": "Discover how growing food in cities is revolutionizing our urban spaces. From rooftop gardens to vertical farms, learn about the profound environmental, social, and health benefits of urban farming and how you can get involved in creating a more sustainable future.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -59,5 +59,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:45:39.199761",
-  "wordsUsed": 740
+  "wordsUsed": 740,
+  "targetRegion": "Europe"
 }

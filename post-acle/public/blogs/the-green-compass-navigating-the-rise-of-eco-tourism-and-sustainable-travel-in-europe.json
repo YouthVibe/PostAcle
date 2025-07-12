@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g264c23c0a49c94f1c416a57df13bff58b5cab6405d38f6e3b3e0a315b2d040a5ec83dc01c9317ff50ab83fa7b9a4e9bacbd6bc7169b9617cb9b6db08a3080ed1_1280.jpg"
+      "content": "/images/g264c23c0a49c94f1c416a57df13bff58b5cab6405d38f6e3b3e0a315b2d040a5ec83dc01c9317ff50ab83fa7b9a4e9bacbd6bc7169b9617cb9b6db08a3080ed1_1280.jpg"
     },
     {
       "contentType": "text",
@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g992aa5e8cb32f0cfb216b41f9084fb587060ae7ce1c7735d54a5084a4baf51a2839328fff2cb505c7481ca7483cf8ce4da15a0b5b93e3fd16ce127edc921c32f_1280.jpg"
+      "content": "/images/g992aa5e8cb32f0cfb216b41f9084fb587060ae7ce1c7735d54a5084a4baf51a2839328fff2cb505c7481ca7483cf8ce4da15a0b5b93e3fd16ce127edc921c32f_1280.jpg"
     },
     {
       "contentType": "text",
@@ -35,14 +35,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g1040b953740e76ae26ec908f85b730f08c6dd7ca6bafb5e03924b44af7c5a2de5cc68b726db8d10b1e6abb9c6b211451b2fbeb43c7dab388d52c9bf45324cd62_1280.jpg"
+      "content": "/images/g1040b953740e76ae26ec908f85b730f08c6dd7ca6bafb5e03924b44af7c5a2de5cc68b726db8d10b1e6abb9c6b211451b2fbeb43c7dab388d52c9bf45324cd62_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "## The Road Ahead: Challenges and the Future of Travel\n\nDespite the progress, challenges remain. The most significant is 'greenwashing', where companies make misleading claims about their environmental practices. This is why research and looking for official certifications (like Green Globe or EarthCheck) are crucial. Furthermore, sustainable options can sometimes be perceived as more expensive, although this is often a misconception when considering the long-term value and benefits.\n\nThe future of travel hinges on a tripartite commitment: from governments to create policies that support sustainability, from the travel industry to innovate and operate responsibly, and from travelers to make informed and ethical choices. As we move forward, every trip becomes an opportunity\u2014an opportunity to explore, to learn, and to contribute positively to the preservation of our beautiful planet."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g264c23c0a49c94f1c416a57df13bff58b5cab6405d38f6e3b3e0a315b2d040a5ec83dc01c9317ff50ab83fa7b9a4e9bacbd6bc7169b9617cb9b6db08a3080ed1_1280.jpg",
+  "previewImageURL": "/images/g264c23c0a49c94f1c416a57df13bff58b5cab6405d38f6e3b3e0a315b2d040a5ec83dc01c9317ff50ab83fa7b9a4e9bacbd6bc7169b9617cb9b6db08a3080ed1_1280.jpg",
   "previewDescription": "The world is waking up to the impact of travel. Discover the rise of eco-tourism and sustainable travel, a movement that combines adventure with responsibility. Learn how you can explore the beautiful landscapes of Europe while preserving them for future generations. This guide offers practical tips, destination ideas, and the philosophy behind traveling with a conscience.",
   "category": "General",
   "tags": [
@@ -54,5 +54,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:18:25.988496",
-  "wordsUsed": 985
+  "wordsUsed": 985,
+  "targetRegion": "Europe"
 }

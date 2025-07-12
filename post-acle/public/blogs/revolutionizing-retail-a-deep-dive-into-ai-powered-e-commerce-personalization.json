@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8eb00365984a67c2c3edf9ac5e5f717aad802bf04b68f5e8f7da583007a99a06d4a342ac9bd051e91c2d9523cb74c85a5071a8a1dd51efe1d20b37fd1845a35a_1280.jpg"
+      "content": "/images/g8eb00365984a67c2c3edf9ac5e5f717aad802bf04b68f5e8f7da583007a99a06d4a342ac9bd051e91c2d9523cb74c85a5071a8a1dd51efe1d20b37fd1845a35a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g47cbba9bee00a52a4a42c09e4a8871b573ddade1d61e98ed8d8a66b1c1861d0ad2860950abe01b5c986118a9aec7ebe5fda781689812b2cda743f29c36cc82a3_1280.jpg"
+      "content": "/images/g47cbba9bee00a52a4a42c09e4a8871b573ddade1d61e98ed8d8a66b1c1861d0ad2860950abe01b5c986118a9aec7ebe5fda781689812b2cda743f29c36cc82a3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -91,14 +91,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga86a7fa190738c0f10235c4731e5faa389ae038dbc3b5c5c49b8383f4ba9e0fe12a0befc3ec773caa63be04e337c0e323af5b23de37db9019be977bd04195f38_1280.jpg"
+      "content": "/images/ga86a7fa190738c0f10235c4731e5faa389ae038dbc3b5c5c49b8383f4ba9e0fe12a0befc3ec773caa63be04e337c0e323af5b23de37db9019be977bd04195f38_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "In conclusion, AI is the definitive force reshaping the e-commerce landscape. It provides the tools to move from a transactional business model to one based on relationships, loyalty, and a profound understanding of the individual customer. For e-commerce leaders, the question is no longer *if* they should invest in AI personalization, but *how deeply* and *how quickly* they can integrate it into their core strategy to stay relevant and competitive in the years to come."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g8eb00365984a67c2c3edf9ac5e5f717aad802bf04b68f5e8f7da583007a99a06d4a342ac9bd051e91c2d9523cb74c85a5071a8a1dd51efe1d20b37fd1845a35a_1280.jpg",
+  "previewImageURL": "/images/g8eb00365984a67c2c3edf9ac5e5f717aad802bf04b68f5e8f7da583007a99a06d4a342ac9bd051e91c2d9523cb74c85a5071a8a1dd51efe1d20b37fd1845a35a_1280.jpg",
   "previewDescription": "An advanced analysis of how Artificial Intelligence is revolutionizing e-commerce. This post explores the core ML and NLP technologies, practical applications like dynamic pricing, implementation challenges, and the future of hyper-personalized online retail for business and tech leaders.",
   "category": "Technology",
   "tags": [
@@ -111,5 +111,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T21:02:30.276816",
-  "wordsUsed": 1284
+  "wordsUsed": 1284,
+  "targetRegion": "US"
 }

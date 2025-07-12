@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g458be6bb5f4b8191440c7e55490e013882b5029ac77385873a42dbc98df097583dd9b80c1365b2a21c12803878f388595aa206a57b69d856620c7a40f6fb068d_1280.jpg"
+      "content": "/images/g458be6bb5f4b8191440c7e55490e013882b5029ac77385873a42dbc98df097583dd9b80c1365b2a21c12803878f388595aa206a57b69d856620c7a40f6fb068d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gb126fdd6c29a1153c02d2c65efeed5bf452478998985b69b399ad6a5979a03edcfa73c6193394c1b243f963fd31984c6107534e352675b804ade387bf75cccce_1280.jpg"
+      "content": "/images/gb126fdd6c29a1153c02d2c65efeed5bf452478998985b69b399ad6a5979a03edcfa73c6193394c1b243f963fd31984c6107534e352675b804ade387bf75cccce_1280.jpg"
     },
     {
       "contentType": "text",
@@ -42,7 +42,7 @@
       "content": "Travel is not a privilege reserved for the wealthy; it's a possibility for the curious and the resourceful. By embracing the art of budget travel, you learn to be a smarter, more adaptable, and more engaged explorer. You collect experiences, not just things. So, open that map, start your research, and take the first step. Your shoestring adventure awaits."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g458be6bb5f4b8191440c7e55490e013882b5029ac77385873a42dbc98df097583dd9b80c1365b2a21c12803878f388595aa206a57b69d856620c7a40f6fb068d_1280.jpg",
+  "previewImageURL": "/images/g458be6bb5f4b8191440c7e55490e013882b5029ac77385873a42dbc98df097583dd9b80c1365b2a21c12803878f388595aa206a57b69d856620c7a40f6fb068d_1280.jpg",
   "previewDescription": "Dreaming of seeing the world but worried about your wallet? This guide demystifies budget travel, offering practical tips on planning, accommodation, food, and more to help you explore the globe on a shoestring. Your adventure starts here!",
   "category": "Day-to-Day Life",
   "tags": [
@@ -54,5 +54,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T18:17:34.078982",
-  "wordsUsed": 789
+  "wordsUsed": 789,
+  "targetRegion": "India"
 }

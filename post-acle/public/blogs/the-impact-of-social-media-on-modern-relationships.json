@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g6c795a9114352de6df83d5738ee8e7fd1181a0ded76839e47d448705e65c2e1418743ffa990f32caf61c9aadd6d9715590f91858f0ea0025db47102287977a2a_1280.jpg"
+      "content": "/images/g6c795a9114352de6df83d5738ee8e7fd1181a0ded76839e47d448705e65c2e1418743ffa990f32caf61c9aadd6d9715590f91858f0ea0025db47102287977a2a_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,14 +27,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g9574d128cbf2a82f9745f7462406b8082084b8592b594c0be1143cfb5fa2c853fcaf7a4e7e854d733c5f5aa6580ac3ddeb5b98fe757c81696032a1bd222687c2_1280.jpg"
+      "content": "/images/g9574d128cbf2a82f9745f7462406b8082084b8592b594c0be1143cfb5fa2c853fcaf7a4e7e854d733c5f5aa6580ac3ddeb5b98fe757c81696032a1bd222687c2_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "Social media is a powerful tool, and like any tool, its impact depends on how we use it. It can build bridges or create divides, foster intimacy or fuel insecurity. Ultimately, the health of a relationship in the digital age doesn't depend on algorithms or follower counts, but on the timeless principles of trust, respect, and open communication. By using these platforms intentionally and prioritizing our real-world connections, we can ensure that our online lives enrich, rather than erode, our relationships."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g21f52d7a2c698caa4c93d8fc25acb634c12cac0bd7aa2ccc3da3bac94dc4a4ccf95c7e1fe1f167718d0db612fa7064dd7cb9028c1b433d61f9615dc844994ea1_1280.jpg",
+  "previewImageURL": "/images/g21f52d7a2c698caa4c93d8fc25acb634c12cac0bd7aa2ccc3da3bac94dc4a4ccf95c7e1fe1f167718d0db612fa7064dd7cb9028c1b433d61f9615dc844994ea1_1280.jpg",
   "previewDescription": "From 'Facebook official' to digital jealousy, social media has fundamentally changed how we connect. This blog explores the complex pros and cons of social media on modern relationships and offers tips for navigating love in the digital age.",
   "category": "General",
   "tags": [
@@ -46,5 +46,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:49:15.447060",
-  "wordsUsed": 558
+  "wordsUsed": 558,
+  "targetRegion": "Global"
 }

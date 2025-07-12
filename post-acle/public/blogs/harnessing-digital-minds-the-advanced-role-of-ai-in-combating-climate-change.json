@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g7b79c77ee67ab52b2185bb1b330588b842996417a402f37d95f1f218d43365313c8f9e24703e119f7bf8f5538a692ce597f9ea67fca8b3dbae9e713614d653b8_1280.jpg"
+      "content": "/images/g7b79c77ee67ab52b2185bb1b330588b842996417a402f37d95f1f218d43365313c8f9e24703e119f7bf8f5538a692ce597f9ea67fca8b3dbae9e713614d653b8_1280.jpg"
     },
     {
       "contentType": "text",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g22874e51b55278fc71b1378a870954090527c7419ea0d9144f9025ea8d51538ac8784134c39c7891f3ff71774ae741f59d1568b4af65a3bb48c9bc18c1c9f42c_1280.jpg"
+      "content": "/images/g22874e51b55278fc71b1378a870954090527c7419ea0d9144f9025ea8d51538ac8784134c39c7891f3ff71774ae741f59d1568b4af65a3bb48c9bc18c1c9f42c_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,10 +55,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gbb821582f2ee1c4ddd1cdd56cd78f18477077769c54ee03591466d3ae226b424048384cce364ea3ea34561931d90934639260b2a80f55c4b77ba9a020ff2a6e9_1280.jpg"
+      "content": "/images/gbb821582f2ee1c4ddd1cdd56cd78f18477077769c54ee03591466d3ae226b424048384cce364ea3ea34561931d90934639260b2a80f55c4b77ba9a020ff2a6e9_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/ge6c2e521349e458e600dbda60dade2801041894f6fb4a07e306bc8a9726d0c31b17dbb289da7747d37cfa6b894cc4a68c9053bcb3549095827a568367d42716c_1280.jpg",
+  "previewImageURL": "/images/ge6c2e521349e458e600dbda60dade2801041894f6fb4a07e306bc8a9726d0c31b17dbb289da7747d37cfa6b894cc4a68c9053bcb3549095827a568367d42716c_1280.jpg",
   "previewDescription": "An advanced analysis of how Artificial Intelligence is revolutionizing climate change solutions. This article explores AI's role in climate modeling, smart grid optimization, and sustainable agriculture, while also addressing the critical challenge of AI's own carbon footprint. Includes technical insights, charts, and a Python code example for researchers and tech enthusiasts.",
   "category": "Technology",
   "tags": [
@@ -71,5 +71,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:21:54.114353",
-  "wordsUsed": 895
+  "wordsUsed": 895,
+  "targetRegion": "Europe"
 }

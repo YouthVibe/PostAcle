@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gf55721a5d2d596c1f0d5a310c9d62845e229cbf208881a1639ea3e02b48d5e2de20911b18d86090f21e4f99fd59b08c7a9d4cd5197ecb08919b5b9a26446f9c5_1280.jpg"
+      "content": "/images/gf55721a5d2d596c1f0d5a310c9d62845e229cbf208881a1639ea3e02b48d5e2de20911b18d86090f21e4f99fd59b08c7a9d4cd5197ecb08919b5b9a26446f9c5_1280.jpg"
     },
     {
       "contentType": "text",
@@ -15,7 +15,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g5832e1737325f4413228a0456b65a10781777e535bea17c6804e9bea524c47b8a8aedf05b9a6a0ffbd5aa6e9ee1cde98b3ef27f3ab39b3ea5303bb2922332609_1280.jpg"
+      "content": "/images/g5832e1737325f4413228a0456b65a10781777e535bea17c6804e9bea524c47b8a8aedf05b9a6a0ffbd5aa6e9ee1cde98b3ef27f3ab39b3ea5303bb2922332609_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,14 +55,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gaa4356e06b7d5ac39e92600c6d13186cd2ffac28a43b99f25a9e25da6ddc746e5bc38135b3fc829cac50cd37c9e598333893cd315bdc46115adbd857a0c7221c_1280.jpg"
+      "content": "/images/gaa4356e06b7d5ac39e92600c6d13186cd2ffac28a43b99f25a9e25da6ddc746e5bc38135b3fc829cac50cd37c9e598333893cd315bdc46115adbd857a0c7221c_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "In conclusion, machine learning is no longer a futuristic concept in finance; it is a present-day reality that is actively defining the winners and losers. From enabling lightning-fast trades to building resilient risk frameworks and fighting financial crime, its influence is pervasive and growing. As the technology matures and becomes more sophisticated, its integration into every facet of finance is inevitable, heralding an era of unprecedented efficiency, personalization, and complexity."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gf55721a5d2d596c1f0d5a310c9d62845e229cbf208881a1639ea3e02b48d5e2de20911b18d86090f21e4f99fd59b08c7a9d4cd5197ecb08919b5b9a26446f9c5_1280.jpg",
+  "previewImageURL": "/images/gf55721a5d2d596c1f0d5a310c9d62845e229cbf208881a1639ea3e02b48d5e2de20911b18d86090f21e4f99fd59b08c7a9d4cd5197ecb08919b5b9a26446f9c5_1280.jpg",
   "previewDescription": "Explore the profound impact of machine learning on financial markets. This deep dive covers algorithmic trading, advanced risk management, fraud detection, and the future of finance for professionals, investors, and tech enthusiasts.",
   "category": "Technology",
   "tags": [
@@ -75,5 +75,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T17:47:22.867729",
-  "wordsUsed": 856
+  "wordsUsed": 856,
+  "targetRegion": "US"
 }

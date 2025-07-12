@@ -19,7 +19,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g6a8ef159defc224fcf7ade656cc4731cd5a7c6e04536303560cd3be91e177dc5f6dcf317388d15bbf5b048dfcebc3815f8e05f6edec57d02903f89a8dc953806_1280.jpg"
+      "content": "/images/g6a8ef159defc224fcf7ade656cc4731cd5a7c6e04536303560cd3be91e177dc5f6dcf317388d15bbf5b048dfcebc3815f8e05f6edec57d02903f89a8dc953806_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,7 +39,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g98e8ecc0c8943ff87a26f6e720c44838bb05d83dc05cfb7d8e9428bc97cd6ef14c77fe05f3bb3762da34bc4eda90fa844c2bdc524e12efe52dfd87b1d7ca01d2_1280.jpg"
+      "content": "/images/g98e8ecc0c8943ff87a26f6e720c44838bb05d83dc05cfb7d8e9428bc97cd6ef14c77fe05f3bb3762da34bc4eda90fa844c2bdc524e12efe52dfd87b1d7ca01d2_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,10 +55,10 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga78ceca3aebc4e8fbc8dbba86f081a045e61c54f9eeda93e46323ab1602ba85debd93b570ef76447a057154f340ee9cc_1280.jpg"
+      "content": "/images/ga78ceca3aebc4e8fbc8dbba86f081a045e61c54f9eeda93e46323ab1602ba85debd93b570ef76447a057154f340ee9cc_1280.jpg"
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/gbec5cfae40d37a133920b55e1a746c68870c69035d9270bc41cc8602c26f220178548cb75e5c02a52f8df2c37f69b59ea5ee9db6ad99ac5621978e97e412dcab_1280.jpg",
+  "previewImageURL": "/images/gbec5cfae40d37a133920b55e1a746c68870c69035d9270bc41cc8602c26f220178548cb75e5c02a52f8df2c37f69b59ea5ee9db6ad99ac5621978e97e412dcab_1280.jpg",
   "previewDescription": "From autonomous rovers on Mars to discovering distant exoplanets, Artificial Intelligence is no longer science fiction but the driving force behind modern space exploration. This deep dive explores how AI algorithms are revolutionizing mission operations, data analysis, and our quest to understand the cosmos.",
   "category": "Technology",
   "tags": [

@@ -10,10 +10,6 @@
       "content": "### Why Bother with Composting?\n\nBefore we dig into the 'how,' let's talk about the 'why.' Composting is more than just waste reduction; it's a cornerstone of sustainable living. Environmentally, it diverts organic matter from landfills, where it would decompose anaerobically (without oxygen) and produce methane, a potent greenhouse gas. Instead, composting allows this material to break down aerobically, a much cleaner process.\n\nFor the gardener, the benefits are immense. Compost is a nutrient-rich soil amendment that improves soil structure, enhances moisture retention, and promotes healthy root growth. It reduces the need for chemical fertilizers, saving you money and protecting local waterways from runoff. By creating a closed-loop system where waste from your kitchen feeds your garden, you are actively participating in a cycle of renewal."
     },
     {
-      "contentType": "image",
-      "content": "https://pixabay.com/get/g20ca0f50a212d445bb98829c0fa3871b4ebb3732a10090aff3ad63fdda7b87caf36e1355e5be043822faccf89cf3959c458d7f859cddf210b3dfae24ef3255273_1280.jpg"
-    },
-    {
       "contentType": "text",
       "content": "### The Science Behind the Pile: Greens, Browns, Air, and Water\n\nAt its heart, composting is managed decomposition. The process is driven by a host of microorganisms (bacteria, fungi) that work to break down organic materials. To keep these tiny workers happy, you need to provide them with a balanced diet and a comfortable environment. The key ingredients are:\n\n*   **Browns (Carbon-rich):** These materials provide energy for the microbes. Think of things like dried leaves, twigs, shredded cardboard, newspaper, and wood chips.\n*   **Greens (Nitrogen-rich):** These provide the protein and moisture the microbes need to multiply. This category includes fruit and vegetable scraps, coffee grounds, tea bags, and fresh grass clippings.\n*   **Air (Oxygen):** Composting is an aerobic process. Regularly turning your pile introduces oxygen, which prevents smelly, anaerobic decomposition and speeds up the process.\n*   **Water:** The microbes need a moist environment to thrive. Your compost pile should feel like a well-wrung-out sponge\u2014damp, but not soggy.\n\nA healthy compost pile generally requires a carbon-to-nitrogen (C:N) ratio of about 25:1 to 30:1. A simple rule of thumb is to use two to three parts 'Browns' for every one part 'Greens' by volume."
     },
@@ -35,7 +31,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g546e864f42873e9e4db62d29cc3e2b5fb6ac960fd7f759bf146fe2e6a4c8e8770d054f212a95915a83689dc393d856927a57d5212478a3efabb7b05eb900a8aa_1280.jpg"
+      "content": "/images/g546e864f42873e9e4db62d29cc3e2b5fb6ac960fd7f759bf146fe2e6a4c8e8770d054f212a95915a83689dc393d856927a57d5212478a3efabb7b05eb900a8aa_1280.jpg"
     },
     {
       "contentType": "text",
@@ -55,5 +51,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:50:42.998306",
-  "wordsUsed": 1148
+  "wordsUsed": 1148,
+  "targetRegion": "Global"
 }

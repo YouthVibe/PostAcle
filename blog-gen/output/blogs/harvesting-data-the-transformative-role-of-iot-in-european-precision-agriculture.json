@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gce87d5a2b6dddcda3e8bc34332b536d298abd6931275d7a0694c941dfe6d267eb1d788772975051d9938c4cf3fa1c3d525dd25edad74e154a7b0121b291424dc_1280.jpg"
+      "content": "/images/gce87d5a2b6dddcda3e8bc34332b536d298abd6931275d7a0694c941dfe6d267eb1d788772975051d9938c4cf3fa1c3d525dd25edad74e154a7b0121b291424dc_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g4a27ab440882e3d63bd06a5a7adff10afcebe1106d342f03b77dfc51daa03d617a4cc39ac0f1084e3c56d743cccf6878c2fd35ccee1d8591336cd078ca3be185_1280.jpg"
+      "content": "/images/g4a27ab440882e3d63bd06a5a7adff10afcebe1106d342f03b77dfc51daa03d617a4cc39ac0f1084e3c56d743cccf6878c2fd35ccee1d8591336cd078ca3be185_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -55,14 +55,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg"
+      "content": "/images/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "The Internet of Things is fundamentally rewriting the rules of agriculture. It offers a powerful toolkit for European farmers to enhance productivity, improve sustainability, and ensure compliance with evolving environmental regulations. While the challenges of cost, connectivity, and complexity must be addressed through concerted efforts from policymakers, technology providers, and educational institutions, the trajectory is clear. The fusion of agriculture and technology is no longer a distant vision; it is the key to securing a resilient, profitable, and environmentally responsible food system for Europe's future. The harvest of tomorrow will be one of data as much as it is of crops."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg",
+  "previewImageURL": "/images/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg",
   "previewDescription": "Explore how the Internet of Things (IoT) is revolutionizing farming in Europe. This advanced guide covers everything from soil sensors and drones to data analytics and autonomous machinery, detailing how IoT drives sustainability and efficiency in modern agriculture.",
   "category": "Technology",
   "tags": [

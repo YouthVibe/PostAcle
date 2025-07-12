@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g0ceeb23e11b21ae47f50ba0ea65872b94ab7a16af63d9271ba035c521f31e36e7e187eca1a65cc15d624c461443d9966dbfd855bc5e720573444e422c6671c27_1280.jpg"
+      "content": "/images/g0ceeb23e11b21ae47f50ba0ea65872b94ab7a16af63d9271ba035c521f31e36e7e187eca1a65cc15d624c461443d9966dbfd855bc5e720573444e422c6671c27_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8944b20eb25ed36002fb0cddc329eac522e875bed2424b94904ce25af7d8603d143a467f8318800ff444994a36aff8643eeb29323e0867ea6ed3350ad441aa78_1280.jpg"
+      "content": "/images/g8944b20eb25ed36002fb0cddc329eac522e875bed2424b94904ce25af7d8603d143a467f8318800ff444994a36aff8643eeb29323e0867ea6ed3350ad441aa78_1280.jpg"
     },
     {
       "contentType": "text",
@@ -50,7 +50,7 @@
       "content": "## Final Thoughts: Progress Over Perfection\nBuilding a sustainable skincare routine is a journey, not a destination. The goal is to create a moment of self-care in your morning that leaves you and your skin feeling good. Start with the basics, be consistent, and make mindful choices when you need to purchase a new product. A simple, effective, and conscious routine is the truest form of skincare love."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g0ceeb23e11b21ae47f50ba0ea65872b94ab7a16af63d9271ba035c521f31e36e7e187eca1a65cc15d624c461443d9966dbfd855bc5e720573444e422c6671c27_1280.jpg",
+  "previewImageURL": "/images/g0ceeb23e11b21ae47f50ba0ea65872b94ab7a16af63d9271ba035c521f31e36e7e187eca1a65cc15d624c461443d9966dbfd855bc5e720573444e422c6671c27_1280.jpg",
   "previewDescription": "Feeling overwhelmed by complex skincare? Learn how to build a simple, effective, and eco-friendly morning routine with just four core steps. This guide helps you choose products that are good for your skin, your wallet, and the planet.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -62,5 +62,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:30:54.353520",
-  "wordsUsed": 798
+  "wordsUsed": 798,
+  "targetRegion": "Global"
 }

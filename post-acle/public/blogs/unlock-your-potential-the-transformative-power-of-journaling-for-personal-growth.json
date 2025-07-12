@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/ga66ba3d873c0e6312e960d51b6994f676fd124d8fe6c59b99fc68e38ec8f0ce69c147021b5b9bf9d6c595e01911dc5643c6837df81b2f601e1a37a32346c0da3_1280.jpg"
+      "content": "/images/ga66ba3d873c0e6312e960d51b6994f676fd124d8fe6c59b99fc68e38ec8f0ce69c147021b5b9bf9d6c595e01911dc5643c6837df81b2f601e1a37a32346c0da3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -15,7 +15,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g1d07e7b2140ef00eed44c4fb9857796d842e0741ad0f1a692b8a75db5e020891e64fe1b87a77bee249d372211231c8d35eacab27d32bd1fa37c2fc36fa1470bc_1280.jpg"
+      "content": "/images/g1d07e7b2140ef00eed44c4fb9857796d842e0741ad0f1a692b8a75db5e020891e64fe1b87a77bee249d372211231c8d35eacab27d32bd1fa37c2fc36fa1470bc_1280.jpg"
     },
     {
       "contentType": "text",
@@ -30,7 +30,7 @@
       "content": "## Tips for Making Journaling a Habit\n\nStarting is one thing; sticking with it is another. Here are some tips to help you build a consistent journaling practice:\n\n*   **Keep it Simple:** You don't need a fancy journal. A simple notebook works just fine. The goal is to write, not to create a work of art (unless you want to!).\n*   **Set a Time:** Dedicate a specific, non-negotiable time each day. For many, 5-10 minutes before bed or first thing in the morning works best.\n*   **Find a Cue:** Link your journaling habit to an existing one. For example, 'After I brush my teeth at night, I will write in my journal.'\n*   **Let Go of Perfection:** This journal is for your eyes only. Be honest, be messy, be real. There is no right or wrong way to do it.\n\nYour personal growth journey is unique, and your journal will be a reflection of that. It's a space to celebrate your victories, learn from your setbacks, and ultimately, become a more self-aware and intentional version of yourself. So, grab that notebook and start writing your story today."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/ga66ba3d873c0e6312e960d51b6994f676fd124d8fe6c59b99fc68e38ec8f0ce69c147021b5b9bf9d6c595e01911dc5643c6837df81b2f601e1a37a32346c0da3_1280.jpg",
+  "previewImageURL": "/images/ga66ba3d873c0e6312e960d51b6994f676fd124d8fe6c59b99fc68e38ec8f0ce69c147021b5b9bf9d6c595e01911dc5643c6837df81b2f601e1a37a32346c0da3_1280.jpg",
   "previewDescription": "Discover how the simple act of writing in a journal can reduce stress, enhance self-awareness, and help you achieve your goals. A beginner's guide to unlocking your potential through journaling.",
   "category": "Day-to-Day Life",
   "tags": [
@@ -42,5 +42,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:47:43.170103",
-  "wordsUsed": 795
+  "wordsUsed": 795,
+  "targetRegion": "India"
 }

@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g04f124659f7a3f64374701445d1930cfa88429dd4e6d9e9b937b09c2fba2b892de0dd59423be2cc20cd6384ace4a378254c23560131ee739c931baeea3911749_1280.jpg"
+      "content": "/images/g04f124659f7a3f64374701445d1930cfa88429dd4e6d9e9b937b09c2fba2b892de0dd59423be2cc20cd6384ace4a378254c23560131ee739c931baeea3911749_1280.jpg"
     },
     {
       "contentType": "text",
@@ -23,7 +23,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g93df703cc5b27cea56743cc27d8db5072a8355d24f7ef95476deff6dd789544d8559f9f988b7ba4c41c896214dd296c6bf6be40be7d513cc682d598559251ad5_1280.jpg"
+      "content": "/images/g93df703cc5b27cea56743cc27d8db5072a8355d24f7ef95476deff6dd789544d8559f9f988b7ba4c41c896214dd296c6bf6be40be7d513cc682d598559251ad5_1280.jpg"
     },
     {
       "contentType": "text",
@@ -51,14 +51,14 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g3e15aa3616949dd27dc86f580d37a72b19ce17d516bf92b9513a53225df93f01ea5da04608ca0389af83c25c95c0a8c86a03fc808ab3d45078dd5f32f92281b8_1280.jpg"
+      "content": "/images/g3e15aa3616949dd27dc86f580d37a72b19ce17d516bf92b9513a53225df93f01ea5da04608ca0389af83c25c95c0a8c86a03fc808ab3d45078dd5f32f92281b8_1280.jpg"
     },
     {
       "contentType": "text",
       "content": "In conclusion, synthetic biology is not science fiction; it is the next frontier of medicine. It represents a fundamental shift from treating symptoms with static molecules to engineering dynamic, living systems that can intelligently interact with our bodies. From programmable cancer-killing cells to rapid-response vaccine platforms, the applications will undoubtedly reshape healthcare as we know it. While the challenges are significant, the momentum is undeniable, driven by innovation hubs in Europe and across the globe. By embracing an engineering mindset, we are learning to write the code of life, unlocking a future of personalized, proactive, and curative medicine."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g04f124659f7a3f64374701445d1930cfa88429dd4e6d9e9b937b09c2fba2b892de0dd59423be2cc20cd6384ace4a378254c23560131ee739c931baeea3911749_1280.jpg",
+  "previewImageURL": "/images/g04f124659f7a3f64374701445d1930cfa88429dd4e6d9e9b937b09c2fba2b892de0dd59423be2cc20cd6384ace4a378254c23560131ee739c931baeea3911749_1280.jpg",
   "previewDescription": "Explore how synthetic biology is moving from theory to practice, revolutionizing medicine by enabling programmable cells for smart therapies, rapid diagnostics, and next-generation vaccines. A deep dive for researchers, clinicians, and tech enthusiasts into the future of healthcare.",
   "category": "Technology",
   "tags": [

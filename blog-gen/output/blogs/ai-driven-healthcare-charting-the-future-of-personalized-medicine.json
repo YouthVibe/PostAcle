@@ -11,7 +11,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g8eaf8770726ac57ccc09f5629e732e298dbcf7328ccc0d1b2c9d0d115d7b29583d138138523b8f855fbc8fada878298bcb039b5727b59ae39c1c6e561199d6f4_1280.jpg"
+      "content": "/images/g8eaf8770726ac57ccc09f5629e732e298dbcf7328ccc0d1b2c9d0d115d7b29583d138138523b8f855fbc8fada878298bcb039b5727b59ae39c1c6e561199d6f4_1280.jpg"
     },
     {
       "contentType": "text",
@@ -39,7 +39,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g42b9f72336c46bb7626a2089f13b2eb96891b87c03bc312e2ad4244b47d0214e4cd137cc73b0a5306050434f1cbd0ffd9a586e304ffd60d8a06d7dad40b2e7f3_1280.jpg"
+      "content": "/images/g42b9f72336c46bb7626a2089f13b2eb96891b87c03bc312e2ad4244b47d0214e4cd137cc73b0a5306050434f1cbd0ffd9a586e304ffd60d8a06d7dad40b2e7f3_1280.jpg"
     },
     {
       "contentType": "text",
@@ -58,7 +58,7 @@
       "content": "The fusion of Artificial Intelligence and personalized medicine is not merely an incremental technological advancement; it is a fundamental re-imagining of healthcare. By translating vast, complex biological data into actionable clinical insights, AI is accelerating the transition from generalized treatments to therapies precisely tailored to the individual. While significant ethical, regulatory, and technical challenges remain, the trajectory is clear. The future of medicine lies in a collaborative synergy between human clinical expertise and the powerful analytical capabilities of AI, paving the way for a new era of health and wellness that is more predictive, precise, and profoundly personal."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/ga7895ec60fe0328cb5917c0ce14d1b3e613f193ce10c7a80b462a108cde6ed149922f8cd5201fd6a7e48be27853b1e9acb8e547769308bca658e60ec511baf7a_1280.jpg",
+  "previewImageURL": "/images/ga7895ec60fe0328cb5917c0ce14d1b3e613f193ce10c7a80b462a108cde6ed149922f8cd5201fd6a7e48be27853b1e9acb8e547769308bca658e60ec511baf7a_1280.jpg",
   "previewDescription": "Explore the convergence of Artificial Intelligence and personalized medicine. This deep dive covers how AI is revolutionizing diagnostics, drug discovery, and treatment planning, while also addressing the critical technical and ethical challenges. For healthcare professionals, researchers, and tech enthusiasts.",
   "category": "Technology",
   "tags": [

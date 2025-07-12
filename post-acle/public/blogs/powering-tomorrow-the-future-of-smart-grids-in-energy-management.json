@@ -7,7 +7,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g78a7c1e4325ff0440f6a68e13ac766f616529778dbff18dfb39f7348157073de7d18a7aa5dfa336653ef6bc87ec25c66658b049744f923a3e177098d4f859c4d_1280.jpg"
+      "content": "/images/g78a7c1e4325ff0440f6a68e13ac766f616529778dbff18dfb39f7348157073de7d18a7aa5dfa336653ef6bc87ec25c66658b049744f923a3e177098d4f859c4d_1280.jpg"
     },
     {
       "contentType": "text",
@@ -27,7 +27,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/gafabfc1ace671302b85d44475ec2bb5d2540504f172fc07047e4246889675d2895801a72ca7ab015d9536f3f82045f466a17c1d85a8d5236bba85dc8b71bc2ca_1280.jpg"
+      "content": "/images/gafabfc1ace671302b85d44475ec2bb5d2540504f172fc07047e4246889675d2895801a72ca7ab015d9536f3f82045f466a17c1d85a8d5236bba85dc8b71bc2ca_1280.jpg"
     },
     {
       "contentType": "chart",
@@ -43,7 +43,7 @@
     },
     {
       "contentType": "image",
-      "content": "https://pixabay.com/get/g82bebecbb8574545991efa3f02907bb2a2c86a682e82a1ce45bf29eeed55d7508d9fb0a6af65a3b38408e0c3c3086990bd375d3b835e71d3b656950ed5de36c6_1280.jpg"
+      "content": "/images/g82bebecbb8574545991efa3f02907bb2a2c86a682e82a1ce45bf29eeed55d7508d9fb0a6af65a3b38408e0c3c3086990bd375d3b835e71d3b656950ed5de36c6_1280.jpg"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "The smart grid represents a fundamental paradigm shift in energy management. It is the linchpin of a cleaner, more efficient, and more resilient energy future. By weaving together advanced communication, data analytics, and automated control, smart grids move us from a reactive to a proactive model of grid operation. While the journey is complex and expensive, the imperative is clear. To meet the demands of the 21st century\u2014from integrating renewables and electrifying transport to withstanding climate-induced threats\u2014investing in the intelligence of our grid is not just an option, but a necessity for powering a sustainable tomorrow."
     }
   ],
-  "previewImageURL": "https://pixabay.com/get/g207589a33094d688beb3e20774cbb03f4e6fae74c3ec9bc1eb5e2547b0c8deec03b9ade0a27e3a0c002311e1a3c8dec19b17c2613538234f44e04a831c47f664_1280.jpg",
+  "previewImageURL": "/images/g207589a33094d688beb3e20774cbb03f4e6fae74c3ec9bc1eb5e2547b0c8deec03b9ade0a27e3a0c002311e1a3c8dec19b17c2613538234f44e04a831c47f664_1280.jpg",
   "previewDescription": "Dive deep into the revolution of our energy infrastructure. This advanced analysis explores how smart grids, powered by AI and IoT, are tackling today's energy challenges, integrating renewables, and creating a more resilient and efficient future. A must-read for engineers, environmentalists, and tech enthusiasts.",
   "category": "Technology",
   "tags": [
@@ -76,5 +76,6 @@
   ],
   "author": "PostAcle",
   "publishedDate": "2025-07-11T20:46:55.692245",
-  "wordsUsed": 1112
+  "wordsUsed": 1112,
+  "targetRegion": "US"
 }
