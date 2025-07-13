@@ -1,7 +1,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Metadata } from 'next';
-import NavbarStatic from '../../components/NavbarStatic';
+// import NavbarStatic from '../../components/NavbarStatic';
+import Navbar from '../../components/Navbar';
 import FooterStatic from '../../components/FooterStatic';
 import BlogPostContent from './BlogPostContent';
 // import BlogPostContent from './BlogPostClient';
@@ -71,7 +72,7 @@ interface BlogPageProps {
 export default function BlogPage({ params }: any) {
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
-      <NavbarStatic />
+      <Navbar />
       <BlogPostContent id={params.id} />
       <FooterStatic />
     </main>

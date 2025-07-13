@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 import fs from 'fs/promises';
 import path from 'path';
-import NavbarStatic from '../components/NavbarStatic';
+import Navbar from '../components/Navbar';
 import FooterStatic from '../components/FooterStatic';
 import SearchContent from './SearchContent';
 
@@ -70,7 +70,7 @@ export default async function Search() {
   
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
-      <NavbarStatic />
+      <Navbar />
       <SearchContent initialBlogs={blogs} />
       <FooterStatic />
     </main>
