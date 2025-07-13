@@ -42,7 +42,7 @@ for blog in best_data:
     blog_id = blog["blogID"]
     pub_date = blog.get("publishedDate", datetime.now().isoformat()).split("T")[0]
     sitemap_entries.append(f"""  <url>
-    <loc>{BASE_URL}/blogs/{blog_id}</loc>
+    <loc>{BASE_URL}/blog/{blog_id}</loc>
     <lastmod>{pub_date}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -55,7 +55,7 @@ for blog in index_data:
         continue  # Skip duplicate
     pub_date = blog.get("publishedDate", datetime.now().isoformat()).split("T")[0]
     sitemap_entries.append(f"""  <url>
-    <loc>{BASE_URL}/blogs/{blog_id}</loc>
+    <loc>{BASE_URL}/blog/{blog_id}</loc>
     <lastmod>{pub_date}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
