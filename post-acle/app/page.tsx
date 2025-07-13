@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PostAcle - AI-Powered Blogging Platform',
-    images: ['https://post-acle.vercel.app/images/defaultBlog.jpg'],
+    images: ['https://post-acle.blog/images/defaultBlog.jpg'],
     description: 'Welcome to PostAcle, your smart AI-powered blogging platform. Discover trending blogs, create engaging content with AI assistance, and connect with a vibrant community of writers and readers.',
   },
 };
