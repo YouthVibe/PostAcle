@@ -102,7 +102,7 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
       </div>
 
       {/* Filter Box */}
-      <div className="bg-gray-800/30 backdrop-blur-md rounded-xl p-6 border border-purple-700 shadow-lg mb-12">
+      <div className="bg-gray-800/30 backdrop-blur-md rounded-xl p-6 border border-gray-700 shadow-lg mb-12">
         <div className="flex flex-col md:flex-row gap-6 justify-between text-left">
           {/* Category */}
           <div className="flex-1">
@@ -114,10 +114,10 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
             >
               <option>All</option>
               <option>Technology</option>
-              <option>AI</option>
-              <option>Development</option>
-              <option>Science</option>
-              <option>Health</option>
+              {/* <option>AI</option> */}
+              {/* <option>Development</option> */}
+              {/* <option>Science</option> */}
+              {/* <option>Health</option> */}
               <option>Day-to-Day Life</option>
               <option>General</option>
             </select>
@@ -133,7 +133,7 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
             >
               <option>Newest</option>
               <option>Oldest</option>
-              <option>Most Viewed</option>
+              {/* <option>Most Viewed</option> */}
             </select>
           </div>
 
