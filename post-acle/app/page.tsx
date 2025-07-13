@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: 'Welcome to PostAcle, your smart AI-powered blogging platform. Discover trending blogs, create engaging content with AI assistance, and connect with a vibrant community of writers and readers.',
   },
 };
-import NavbarStatic from './components/NavbarStatic';
+import Navbar from './components/Navbar';
 import HeroStatic from './components/HeroStatic';
 import TrendingBlogs from './components/TrendingBlogs';
 import FooterStatic from './components/FooterStatic';
@@ -35,7 +35,7 @@ import FooterStatic from './components/FooterStatic';
 export default function Home() {
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
-      <NavbarStatic />
+      <Navbar />
       <HeroStatic />
       <TrendingBlogs />
       <FooterStatic />
