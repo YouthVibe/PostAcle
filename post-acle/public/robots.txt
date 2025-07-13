@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.post-acle.blog/
+Sitemap: https://www.post-acle.blog/sitemap.xml
