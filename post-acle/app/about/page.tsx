@@ -1,4 +1,23 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About PostAcle - AI-Powered Blogging Platform',
+  description: 'Learn about PostAcle, your smart AI-powered blogging platform designed to empower creators and connect readers with the content that matters most. Discover our mission, what we offer, and our vision for the future of content creation.',
+  keywords: ['PostAcle', 'about us', 'AI blogging', 'blogging platform', 'content creation', 'AI tools', "Post-Acle"],
+  openGraph: {
+    title: 'About PostAcle - AI-Powered Blogging Platform',
+    description: 'Learn about PostAcle, your smart AI-powered blogging platform designed to empower creators and connect readers with the content that matters most. Discover our mission, what we offer, and our vision for the future of content creation.',
+    url: 'https://www.post-acle.blog/about',
+    siteName: 'PostAcle',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About PostAcle - AI-Powered Blogging Platform',
+    description: 'Learn about PostAcle, your smart AI-powered blogging platform designed to empower creators and connect readers with the content that matters most. Discover our mission, what we offer, and our vision for the future of content creation.',
+  },
+};
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

@@ -1,4 +1,23 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Us - PostAcle',
+  description: 'Get in touch with PostAcle. Contact us for support, feedback, or inquiries. Find our email, phone number, and a contact form to send us a message.',
+  keywords: ['PostAcle', 'contact', 'support', 'feedback', 'inquiry', 'email', 'phone'],
+  openGraph: {
+    title: 'Contact Us - PostAcle',
+    description: 'Get in touch with PostAcle. Contact us for support, feedback, or inquiries. Find our email, phone number, and a contact form to send us a message.',
+    url: 'https://www.post-acle.blog/contact',
+    siteName: 'PostAcle',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us - PostAcle',
+    description: 'Get in touch with PostAcle. Contact us for support, feedback, or inquiries. Find our email, phone number, and a contact form to send us a message.',
+  },
+};
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

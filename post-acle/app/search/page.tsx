@@ -1,4 +1,28 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const blogs = await getAllBlogs();
+  const blogTitles = blogs.map(blog => blog.title).join(', ');
+
+  return {
+    title: `Search Blogs - PostAcle`, 
+    description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
+    keywords: ['blogs', 'search', 'articles', 'PostAcle', ...blogs.flatMap(blog => blog.tags)],
+    openGraph: {
+      title: 'Search Blogs - PostAcle',
+      description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
+      url: 'https://www.post-acle.blog/search',
+      siteName: 'PostAcle',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Search Blogs - PostAcle',
+      description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
+    },
+  };
+}
 import fs from 'fs/promises';
 import path from 'path';
 import NavbarStatic from '../components/NavbarStatic';
