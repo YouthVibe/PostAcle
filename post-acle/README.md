@@ -1,56 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PostAcle
 
-## Getting Started
+**Your smart AI-powered blogging platform for trends, tech, and topics that matter.**
 
-First, run the development server:
+Built with Next.js and powered by AI, PostAcle is your go-to platform for creating, sharing, and exploring insightful blog content.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌐 Live Website
+
+🔗 [https://post-acle.blog](https://post-acle.blog)
+
+---
+
+## 📌 About
+
+**PostAcle** is an open-source, AI-automated blogging system featuring:
+
+- ✍️ AI-generated blogs using Gemini 2.5 Flash
+- ⚡ Static site generation using Next.js 15 App Router
+- 🎨 TailwindCSS-based dark mode UI
+- 🔍 Built-in search, filters, and sort system
+- 🧠 Structured metadata & SEO ready
+- 📈 Google Analytics support
+
+---
+
+## ⚙️ Tech Stack
+
+| Feature           | Tech Used            |
+|------------------|----------------------|
+| Framework         | Next.js              |
+| Styling           | Tailwind CSS         |
+| AI Generator      | Gemini 2.5 Flash     |
+| Hosting           | GitHub Pages/Vercel  |
+| Format            | JSON-based blogs     |
+| SEO Tools         | sitemap.xml, robots.txt, meta tags |
+
+---
+
+## 📁 Repository
+
+GitHub Repo: [https://github.com/YouthVibe/PostAcle](https://github.com/YouthVibe/PostAcle)
+
+---
+
+## 🧠 Contributors
+
+| Contributor | GitHub | Role |
+|-------------|--------|------|
+| Swaraj Puppalwar | [UltronTheAI](https://github.com/UltronTheAI) | Backend, AI Bot, Metadata Engine |
+| YouthVibe | [YouthVibe](https://github.com/YouthVibe) | Frontend Design, JSON Structure, SEO |
+
+---
+
+## 📂 Folder Structure
+
+```
+/public
+  └── blogs/               # Blog JSON files
+  └── images/              # Blog thumbnails and assets
+/app
+  └── page.tsx             # HomePage and Routes
+  └── blog/[id]/page.tsx   # Dynamic blog rendering
+/utils
+  └── generateMetadata.ts  # Metadata for SEO
+robots.txt
+sitemap.xml
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/YouthVibe/PostAcle.git
+cd PostAcle
+npm install
+npm run dev
+```
 
-## Learn More
+> Make sure all blogs follow the correct schema inside `/public/blogs/`.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ JSON-based static blogs
+- ✅ AI-generated metadata, tags, keywords
+- ✅ Google Analytics and SEO-ready
+- ✅ Completely open-source
+- ✅ Clean UI/UX with dark theme
 
-## Deploy on Vercel
+---
 
-This project is configured for seamless deployment on Vercel. Follow these steps to deploy:
+## 📈 Monetization
 
-1. Push your code to a GitHub, GitLab, or Bitbucket repository
-2. Import your repository on Vercel: https://vercel.com/new
-3. Vercel will automatically detect the Next.js project and use the optimal build settings
-4. Click "Deploy" and your site will be live in minutes
+- Designed for high-CPM traffic (India 🇮🇳, USA 🇺🇸, Europe 🇪🇺)
+- Optimized for Google AdSense & AdsTerra
+- Minimal, non-intrusive ad layout
 
-### Environment Variables
+---
 
-The following environment variables are pre-configured in the `.env.production` file:
+## 📜 License
 
-- `NEXT_PUBLIC_SITE_URL`: The production URL of your site
-- `NEXT_PUBLIC_VERCEL_ENV`: Set to 'production' for production builds
+This project is licensed under the [MIT License](LICENSE).
 
-### Custom Domain
+---
 
-To use a custom domain with your Vercel deployment:
-
-1. Go to your project on Vercel
-2. Navigate to "Settings" > "Domains"
-3. Add your custom domain and follow the verification steps
-4. Update the `NEXT_PUBLIC_SITE_URL` in `.env.production` to match your custom domain
-5. Update the URLs in `sitemap.xml` and `robots.txt` to match your custom domain
+> Made with ❤️ by [Swaraj Puppalwar](https://github.com/UltronTheAI) and [YouthVibe](https://github.com/YouthVibe)
