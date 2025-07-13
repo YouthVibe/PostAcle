@@ -30,26 +30,6 @@ All blogs are generated using a fully automated AI agent that:
 
 > Content generation and management is handled by an AI bot built and maintained by [@UltronTheAI](https://github.com/UltronTheAI) (Swaraj Puppalwar)
 
-## 🧱 Project Structure
-```
-./
-├── public/
-│   └── blogs/                # JSON blog entries
-│   └── images/               # Default blog images and favicons
-├── post-acle/
-│   ├── app/                  # Next.js App Router structure
-│   ├── components/           # Reusable React components
-│   ├── styles/               # Tailwind + global CSS
-│   └── README.md             # Project-specific README
-├── .gitignore
-├── next.config.ts
-├── tailwind.config.ts
-├── tsconfig.json
-├── sitemap.xml              # Auto-generated
-├── robots.txt               # SEO
-└── README.md                # Root project documentation
-```
-
 ## 👨‍💻 Developers
 - [YouthVibe](https://github.com/YouthVibe) – Platform Initiator and Maintainer
 - [UltronTheAI](https://github.com/UltronTheAI) – AI Creator, Automator, and Strategist (Swaraj Puppalwar)
