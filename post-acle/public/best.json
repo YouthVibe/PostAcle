@@ -11,7 +11,7 @@
         "Europe"
       ],
       "category": "Technology",
-      "previewImage": "/images/b10.jpg",
+      "previewImage": "https://www.post-acle.blog/images/b10.jpg",
       "blogNumber": 10,
       "blogID": "the-ai-scalpel-revolutionizing-healthcare-diagnostics-with-precision-and-prediction",
       "wordsUsed": 1152,
@@ -29,7 +29,7 @@
         "Ethereum"
       ],
       "category": "Technology",
-      "previewImage": "/images/b7.jpg",
+      "previewImage": "https://www.post-acle.blog/images/b7.jpg",
       "blogNumber": 7,
       "blogID": "the-evolution-of-blockchain-beyond-cryptocurrency",
       "wordsUsed": 1057,
@@ -48,7 +48,7 @@
         "qiskit"
       ],
       "category": "Technology",
-      "previewImage": "/images/b2.jpg",
+      "previewImage": "https://www.post-acle.blog/images/b2.jpg",
       "blogNumber": 2,
       "blogID": "the-quantum-revolution-unpacking-the-rise-of-quantum-computing-in-everyday-applications",
       "wordsUsed": 985,
@@ -65,7 +65,7 @@
         "mental wellness"
       ],
       "category": "Day-to-Day Life",
-      "previewImage": "/images/b3.jpg",
+      "previewImage": "https://www.post-acle.blog/images/b3.jpg",
       "blogNumber": 3,
       "blogID": "exploring-minimalist-living-decluttering-your-space-and-mind",
       "wordsUsed": 978,
@@ -82,7 +82,7 @@
         "Technology India"
       ],
       "category": "Technology",
-      "previewImage": "/images/b4.jpg",
+      "previewImage": "https://www.post-acle.blog/images/b4.jpg",
       "blogNumber": 4,
       "blogID": "powering-tomorrow-s-metropolis-the-transformative-impact-of-5g-on-india-s-smart-cities",
       "wordsUsed": 958,

@@ -41,7 +41,7 @@ export async function generateMetadata(
         description: blogData.previewDescription,
         images: [
           {
-            url: blogData.previewImageURL || '/images/defaultBlog.jpg',
+            url: blogData.previewImageURL || 'https://www.post-acle.blog/images/defaultBlog.jpg',
             width: 1200,
             height: 600,
             alt: blogData.title,
@@ -52,9 +52,9 @@ export async function generateMetadata(
         card: 'summary_large_image',
         title: blogData.title,
         description: blogData.previewDescription,
-        images: [blogData.previewImageURL || '/images/defaultBlog.jpg'],
+        images: [blogData.previewImageURL || 'https://www.post-acle.blog/images/defaultBlog.jpg'],
       },
-      metadataBase: new URL('https://postacle.vercel.app'),
+      metadataBase: new URL('https://www.post-acle.blog'),
     };
   } catch (err) {
     return {
