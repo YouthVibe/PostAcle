@@ -76,6 +76,22 @@ export default function TermsOfService() {
           These terms are governed by the laws of Maharashtra, India.
         </p>
 
+        <h2 className="text-3xl font-semibold mb-4 text-red-400">6. Governing Law</h2>
+        <p className="text-gray-400 leading-relaxed mb-6">
+          These terms are governed by the laws of Maharashtra, India.
+        </p>
+
+        <h2 className="text-3xl font-semibold mb-4 text-purple-400">7. User Responsibility & Disclaimer</h2>
+        <p className="text-gray-400 leading-relaxed mb-6">
+          All blog content on PostAcle is provided for informational and educational purposes only.
+        </p>
+        <p className="text-gray-400 leading-relaxed mb-6">
+          PostAcle, its owner, and contributors will not be held responsible for any actions taken by users based on the content provided. Users are solely responsible for how they interpret and use the information.
+        </p>
+        <p className="text-gray-400 leading-relaxed mb-6">
+          We do not encourage or promote any illegal activity or behavior through this site.
+        </p>
+
         <h2 className="text-3xl font-semibold mb-4 text-purple-400">Contact Us</h2>
         <p className="text-gray-400 leading-relaxed mb-6">
           Questions or concerns:
