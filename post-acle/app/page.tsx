@@ -11,10 +11,19 @@ export const metadata: Metadata = {
     url: 'https://www.post-acle.blog',
     siteName: 'PostAcle',
     type: 'website',
+    images: [
+      {
+        url: 'https://www.post-acle.blog/images/defaultBlog.jpg',
+        width: 1280,
+        height: 720,
+        alt: "PostAcle",
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PostAcle - AI-Powered Blogging Platform',
+    images: ['https://post-acle.vercel.app/images/defaultBlog.jpg'],
     description: 'Welcome to PostAcle, your smart AI-powered blogging platform. Discover trending blogs, create engaging content with AI assistance, and connect with a vibrant community of writers and readers.',
   },
 };
