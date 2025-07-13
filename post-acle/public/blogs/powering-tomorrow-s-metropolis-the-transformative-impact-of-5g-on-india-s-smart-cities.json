@@ -11,7 +11,7 @@
     },
     {
       "contentType": "table",
-      "content": "{\"headers\": [\"Feature\", \"4G LTE\", \"5G\"], \"rows\": [[\"Peak Speed\", \"~1 Gbps\", \"10-20 Gbps\"], [\"Latency\", \"30-50 ms\", \"< 1-5 ms\"], [\"Connection Density\", \"~100,000 devices/km\u00b2\", \"> 1,000,000 devices/km\u00b2\"], [\"Primary Use Cases\", \"HD Video Streaming, Online Gaming, Video Calls\", \"AR/VR, Autonomous Vehicles, Massive IoT, Tele-surgery\"]]}"
+      "content": "{\"headers\": [\"Feature\", \"4G LTE\", \"5G\"], \"rows\": [[\"Peak Speed\", \"~1 Gbps\", \"10-20 Gbps\"], [\"Latency\", \"30-50 ms\", \"< 1-5 ms\"], [\"Connection Density\", \"~100,000 devices/km²\", \"> 1,000,000 devices/km²\"], [\"Primary Use Cases\", \"HD Video Streaming, Online Gaming, Video Calls\", \"AR/VR, Autonomous Vehicles, Massive IoT, Tele-surgery\"]]}"
     },
     {
       "contentType": "text",
@@ -42,7 +42,7 @@
       "content": "## Conclusion: Building Resilient Cities\n\n5G is more than just faster downloads; it's the digital scaffolding upon which India can build more resilient, responsive, and efficient cities. By enabling a vast IoT ecosystem and providing the low-latency communication required for real-time control systems, 5G will transform urban mobility, public safety, healthcare, and resource management. While the journey involves overcoming significant infrastructural and economic challenges, the rollout of 5G marks a pivotal moment in India's journey towards creating truly intelligent urban centers for the 21st century."
     }
   ],
-  "previewImageURL": "/images/ge9aaed1a0ee8aa2808520518c9b9fcd4976ae0c0b68fd118e40134a16af04e5bc7637442cd3afcb0015631b4214b5f2bf05f7cb98a1f0f33f76134b0bd1d8f0b_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/ge9aaed1a0ee8aa2808520518c9b9fcd4976ae0c0b68fd118e40134a16af04e5bc7637442cd3afcb0015631b4214b5f2bf05f7cb98a1f0f33f76134b0bd1d8f0b_1280.jpg",
   "previewDescription": "An in-depth analysis of how 5G's ultra-low latency and high bandwidth are set to revolutionize India's urban landscapes. This blog explores the impact on transportation, healthcare, and governance within the context of India's Smart Cities Mission, delving into the technology, applications, and challenges ahead.",
   "category": "Technology",
   "tags": [

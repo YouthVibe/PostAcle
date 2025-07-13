@@ -11,7 +11,7 @@
     },
     {
       "contentType": "text",
-      "content": "An agricultural IoT system is best understood as a multi-layered architecture. The **Perception Layer** is the foundation, consisting of physical sensors and actuators deployed in the field\u2014measuring everything from soil nitrogen levels to the location of livestock. The **Network Layer** acts as the communication backbone, using technologies like LoRaWAN, NB-IoT, or even 5G to transmit data from these low-power sensors to a central gateway. Finally, the **Application Layer** is where the magic happens. This is typically a cloud-based platform that ingests, stores, and analyzes the vast streams of data, presenting farmers with actionable dashboards, alerts, and predictive insights."
+      "content": "An agricultural IoT system is best understood as a multi-layered architecture. The **Perception Layer** is the foundation, consisting of physical sensors and actuators deployed in the field—measuring everything from soil nitrogen levels to the location of livestock. The **Network Layer** acts as the communication backbone, using technologies like LoRaWAN, NB-IoT, or even 5G to transmit data from these low-power sensors to a central gateway. Finally, the **Application Layer** is where the magic happens. This is typically a cloud-based platform that ingests, stores, and analyzes the vast streams of data, presenting farmers with actionable dashboards, alerts, and predictive insights."
     },
     {
       "contentType": "table",
@@ -47,7 +47,7 @@
     },
     {
       "contentType": "chart",
-      "content": "{\"titleChart\":\"Projected Growth of Agri-IoT Market in Europe\",\"x\":[2022,2024,2026,2028,2030],\"y\":[4.1,5.8,7.9,10.5,14.2],\"lableX\":\"Year\",\"lableY\":\"Market Size (Billion \u20ac)\", \"type\": \"line\"}"
+      "content": "{\"titleChart\":\"Projected Growth of Agri-IoT Market in Europe\",\"x\":[2022,2024,2026,2028,2030],\"y\":[4.1,5.8,7.9,10.5,14.2],\"lableX\":\"Year\",\"lableY\":\"Market Size (Billion €)\", \"type\": \"line\"}"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "The Internet of Things is fundamentally rewriting the rules of agriculture. It offers a powerful toolkit for European farmers to enhance productivity, improve sustainability, and ensure compliance with evolving environmental regulations. While the challenges of cost, connectivity, and complexity must be addressed through concerted efforts from policymakers, technology providers, and educational institutions, the trajectory is clear. The fusion of agriculture and technology is no longer a distant vision; it is the key to securing a resilient, profitable, and environmentally responsible food system for Europe's future. The harvest of tomorrow will be one of data as much as it is of crops."
     }
   ],
-  "previewImageURL": "/images/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/g8ec14b7a07d0b2cfa0d1539cbe1f5c87232bc2e0b108a2171bdb579d80d740808ba182c6efc58fffcddfb35797941991741cfdbebafd026770cea03fcba7b191_1280.jpg",
   "previewDescription": "Explore how the Internet of Things (IoT) is revolutionizing farming in Europe. This advanced guide covers everything from soil sensors and drones to data analytics and autonomous machinery, detailing how IoT drives sustainability and efficiency in modern agriculture.",
   "category": "Technology",
   "tags": [

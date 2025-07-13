@@ -47,7 +47,7 @@
     },
     {
       "contentType": "code",
-      "content": "import pandas as pd\nfrom sklearn.linear_model import LinearRegression\nimport numpy as np\n\n# --- 1. Create Sample Climate Data ---\n# In a real scenario, this would be loaded from a CSV or API (e.g., from Copernicus Climate Data Store)\ndata = {\n    'Year': np.arange(1980, 2024),\n    'Temp_Anomaly_C': np.linspace(0.1, 1.2, 44) + np.random.normal(0, 0.05, 44) # Simulated trend + noise\n}\ndf = pd.DataFrame(data)\n\n# --- 2. Prepare Data for Modeling ---\nX = df[['Year']] # Feature\ny = df['Temp_Anomaly_C'] # Target\n\n# --- 3. Train a Simple Predictive Model ---\nmodel = LinearRegression()\nmodel.fit(X, y)\n\n# --- 4. Predict Future Trends ---\nfuture_years = pd.DataFrame({'Year': [2030, 2040, 2050]})\npredicted_anomalies = model.predict(future_years)\n\n# --- 5. Display Results ---\nprint('--- Predicted Temperature Anomalies ---')\nfor year, anomaly in zip(future_years['Year'], predicted_anomalies):\n    print(f'Year {year}: {anomaly:.2f}\u00b0C')\n"
+      "content": "import pandas as pd\nfrom sklearn.linear_model import LinearRegression\nimport numpy as np\n\n# --- 1. Create Sample Climate Data ---\n# In a real scenario, this would be loaded from a CSV or API (e.g., from Copernicus Climate Data Store)\ndata = {\n    'Year': np.arange(1980, 2024),\n    'Temp_Anomaly_C': np.linspace(0.1, 1.2, 44) + np.random.normal(0, 0.05, 44) # Simulated trend + noise\n}\ndf = pd.DataFrame(data)\n\n# --- 2. Prepare Data for Modeling ---\nX = df[['Year']] # Feature\ny = df['Temp_Anomaly_C'] # Target\n\n# --- 3. Train a Simple Predictive Model ---\nmodel = LinearRegression()\nmodel.fit(X, y)\n\n# --- 4. Predict Future Trends ---\nfuture_years = pd.DataFrame({'Year': [2030, 2040, 2050]})\npredicted_anomalies = model.predict(future_years)\n\n# --- 5. Display Results ---\nprint('--- Predicted Temperature Anomalies ---')\nfor year, anomaly in zip(future_years['Year'], predicted_anomalies):\n    print(f'Year {year}: {anomaly:.2f}°C')\n"
     },
     {
       "contentType": "text",
@@ -58,7 +58,7 @@
       "content": "/images/gbb821582f2ee1c4ddd1cdd56cd78f18477077769c54ee03591466d3ae226b424048384cce364ea3ea34561931d90934639260b2a80f55c4b77ba9a020ff2a6e9_1280.jpg"
     }
   ],
-  "previewImageURL": "/images/ge6c2e521349e458e600dbda60dade2801041894f6fb4a07e306bc8a9726d0c31b17dbb289da7747d37cfa6b894cc4a68c9053bcb3549095827a568367d42716c_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/ge6c2e521349e458e600dbda60dade2801041894f6fb4a07e306bc8a9726d0c31b17dbb289da7747d37cfa6b894cc4a68c9053bcb3549095827a568367d42716c_1280.jpg",
   "previewDescription": "An advanced analysis of how Artificial Intelligence is revolutionizing climate change solutions. This article explores AI's role in climate modeling, smart grid optimization, and sustainable agriculture, while also addressing the critical challenge of AI's own carbon footprint. Includes technical insights, charts, and a Python code example for researchers and tech enthusiasts.",
   "category": "Technology",
   "tags": [

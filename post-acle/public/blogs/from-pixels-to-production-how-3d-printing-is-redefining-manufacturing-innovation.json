@@ -15,7 +15,7 @@
     },
     {
       "contentType": "text",
-      "content": "The most immediate and transformative impact of 3D printing on manufacturing is the radical compression of innovation cycles. Rapid prototyping allows engineers to move from a CAD model to a physical, testable part in a matter of hours, not weeks. This agility facilitates iterative design, enabling faster failure detection, optimization, and validation. However, the true innovation lies in the freedom of design. AM makes it possible to create highly complex, intricate geometries and internal lattice structures that are impossible to produce with conventional methods. This capability leads to part consolidation\u2014where a multi-part assembly can be redesigned and printed as a single, stronger, and lighter component\u2014and generative design, where AI algorithms develop the most efficient part shape based on load, stress, and material constraints."
+      "content": "The most immediate and transformative impact of 3D printing on manufacturing is the radical compression of innovation cycles. Rapid prototyping allows engineers to move from a CAD model to a physical, testable part in a matter of hours, not weeks. This agility facilitates iterative design, enabling faster failure detection, optimization, and validation. However, the true innovation lies in the freedom of design. AM makes it possible to create highly complex, intricate geometries and internal lattice structures that are impossible to produce with conventional methods. This capability leads to part consolidation—where a multi-part assembly can be redesigned and printed as a single, stronger, and lighter component—and generative design, where AI algorithms develop the most efficient part shape based on load, stress, and material constraints."
     },
     {
       "contentType": "chart",
@@ -62,7 +62,7 @@
       "content": "In conclusion, 3D printing is no longer a futuristic concept; it is a present-day reality that is actively disrupting and innovating the manufacturing sector. It offers unparalleled design freedom, enables mass customization, and is creating more agile and resilient supply chains. For a nation like India, poised for exponential industrial growth, embracing additive manufacturing is not just an option but a strategic imperative. As the technology continues to evolve with AI-driven design, new materials, and faster printing speeds, its impact will only deepen, cementing its role as a cornerstone of modern manufacturing."
     }
   ],
-  "previewImageURL": "/images/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/g6317582204421c7d73bba08100c70b7cd322a7133cfc6859d472caf48cf82c5fadf9281b604579d709978f8ae93cda4b67ce22c404310fb5b54fa81e8fbfd7e3_1280.jpg",
   "previewDescription": "Explore the profound impact of additive manufacturing on modern production. This deep dive for engineers and tech professionals covers rapid prototyping, complex geometries, material science, and the rise of 3D printing in India's Industry 4.0 revolution.",
   "category": "Technology",
   "tags": [

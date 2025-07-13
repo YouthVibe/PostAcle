@@ -11,7 +11,7 @@
     },
     {
       "contentType": "table",
-      "content": "{\"headers\": [\"Feature\", \"4G (LTE-A)\", \"5G (NR)\", \"6G (Projected)\"], \"rows\": [[\"Peak Data Rate\", \"1 Gbps\", \"20 Gbps\", \"1-10 Tbps\"], [\"Latency (Air)\", \"~30 ms\", \"<1 ms\", \"<0.1 ms (100 \u00b5s)\"], [\"Connection Density\", \"100,000 devices/km\u00b2\", \"1 million devices/km\u00b2\", \">10 million devices/km\u00b2\"], [\"Frequency Bands\", \"Sub-6 GHz\", \"Sub-6 GHz, mmWave (24-100 GHz)\", \"mmWave, Terahertz (THz) (100 GHz - 10 THz)\"], [\"Key Technologies\", \"MIMO, Carrier Aggregation\", \"Massive MIMO, mmWave, Network Slicing\", \"AI/ML Native Network, RIS, THz Comms, SAGIN\"]]}"
+      "content": "{\"headers\": [\"Feature\", \"4G (LTE-A)\", \"5G (NR)\", \"6G (Projected)\"], \"rows\": [[\"Peak Data Rate\", \"1 Gbps\", \"20 Gbps\", \"1-10 Tbps\"], [\"Latency (Air)\", \"~30 ms\", \"<1 ms\", \"<0.1 ms (100 µs)\"], [\"Connection Density\", \"100,000 devices/km²\", \"1 million devices/km²\", \">10 million devices/km²\"], [\"Frequency Bands\", \"Sub-6 GHz\", \"Sub-6 GHz, mmWave (24-100 GHz)\", \"mmWave, Terahertz (THz) (100 GHz - 10 THz)\"], [\"Key Technologies\", \"MIMO, Carrier Aggregation\", \"Massive MIMO, mmWave, Network Slicing\", \"AI/ML Native Network, RIS, THz Comms, SAGIN\"]]}"
     },
     {
       "contentType": "image",
@@ -58,7 +58,7 @@
       "content": "## Conclusion: The Dawn of a Hyper-Connected Reality\n\n6G is far more than the next 'G' in a linear progression. It is a convergence point for communications, computing, and artificial intelligence, promising to build a network that acts as a sixth sense for humanity. It will serve as the central nervous system for a world of autonomous systems, digital twins, and immersive experiences. The journey towards its commercial reality around 2030 is a marathon, not a sprint, filled with complex engineering challenges and critical policy decisions. For nations like India, with its 'Bharat 6G Vision', it represents a golden opportunity to shape the future of digital connectivity. The foundational work being done today will define the fabric of our society for decades to come, heralding an era where the boundary between the physical and digital dissolves completely."
     }
   ],
-  "previewImageURL": "/images/g63a92c8a016aa4e7fda6faa1a45c89b2b3f49b26036d067e6e320f32ff8c2b8256bec3fd7244cc6e4fbbb242eaaf198e094562bd2ee9a9874ae4f0358a3a7d1b_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/g63a92c8a016aa4e7fda6faa1a45c89b2b3f49b26036d067e6e320f32ff8c2b8256bec3fd7244cc6e4fbbb242eaaf198e094562bd2ee9a9874ae4f0358a3a7d1b_1280.jpg",
   "previewDescription": "From Terabit speeds to the Tactile Internet, 6G is poised to redefine our reality. This deep dive explores the core technologies, transformative applications, and India's role in the upcoming hyper-connected era. An advanced guide for engineers and tech professionals.",
   "category": "Technology",
   "tags": [

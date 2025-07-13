@@ -7,7 +7,7 @@
     },
     {
       "contentType": "text",
-      "content": "## Taming the Cosmic Data Tsunami\n\nThe modern tools of astronomy, like the James Webb Space Telescope (JWST) and the upcoming Vera C. Rubin Observatory, are generating data on an unprecedented scale. These instruments will capture petabytes of information\u2014a deluge far too vast for human analysts to sift through manually. This is where AI excels. Machine learning models, particularly deep learning and convolutional neural networks (CNNs), are being trained to act as cosmic librarians, capable of cataloging galaxies, identifying stellar phenomena, and spotting faint, transient signals that might otherwise be lost in the noise. By automating the initial, and most time-consuming, stages of data analysis, AI frees up human researchers to focus on interpretation and discovery, dramatically accelerating the pace of science."
+      "content": "## Taming the Cosmic Data Tsunami\n\nThe modern tools of astronomy, like the James Webb Space Telescope (JWST) and the upcoming Vera C. Rubin Observatory, are generating data on an unprecedented scale. These instruments will capture petabytes of information—a deluge far too vast for human analysts to sift through manually. This is where AI excels. Machine learning models, particularly deep learning and convolutional neural networks (CNNs), are being trained to act as cosmic librarians, capable of cataloging galaxies, identifying stellar phenomena, and spotting faint, transient signals that might otherwise be lost in the noise. By automating the initial, and most time-consuming, stages of data analysis, AI frees up human researchers to focus on interpretation and discovery, dramatically accelerating the pace of science."
     },
     {
       "contentType": "chart",
@@ -15,7 +15,7 @@
     },
     {
       "contentType": "text",
-      "content": "## The Autonomous Explorer: Smarter Robots on New Worlds\n\nCommunicating with a rover on Mars involves a significant time delay\u2014anywhere from 5 to 20 minutes each way. This makes real-time control impossible. Early rovers relied on painstakingly pre-programmed command sequences sent from Earth. Now, AI is granting these explorers unprecedented autonomy. NASA's Perseverance rover uses an AI system called AEGIS (Autonomous Exploration for Gathering Increased Science) to identify scientifically interesting rock targets and zap them with a laser for analysis, all without waiting for instructions from mission control. Future missions to icy moons like Europa or Titan will require even greater autonomy, with AI making critical decisions about navigation through treacherous, unknown terrain, identifying potential hazards, and even performing self-repairs to ensure mission survival millions of miles from home."
+      "content": "## The Autonomous Explorer: Smarter Robots on New Worlds\n\nCommunicating with a rover on Mars involves a significant time delay—anywhere from 5 to 20 minutes each way. This makes real-time control impossible. Early rovers relied on painstakingly pre-programmed command sequences sent from Earth. Now, AI is granting these explorers unprecedented autonomy. NASA's Perseverance rover uses an AI system called AEGIS (Autonomous Exploration for Gathering Increased Science) to identify scientifically interesting rock targets and zap them with a laser for analysis, all without waiting for instructions from mission control. Future missions to icy moons like Europa or Titan will require even greater autonomy, with AI making critical decisions about navigation through treacherous, unknown terrain, identifying potential hazards, and even performing self-repairs to ensure mission survival millions of miles from home."
     },
     {
       "contentType": "image",
@@ -31,7 +31,7 @@
     },
     {
       "contentType": "text",
-      "content": "## The Automated Hunt for Exoplanets\n\nOne of the most exciting frontiers in astronomy is the search for exoplanets\u2014planets orbiting other stars. Missions like TESS and the former Kepler telescope have monitored the brightness of hundreds of thousands of stars, looking for the tell-tale dip in light that indicates a planetary transit. AI algorithms are perfectly suited for this needle-in-a-haystack problem. They can differentiate the faint, periodic signal of a transiting planet from stellar noise like sunspots and flares with a speed and accuracy far exceeding human capability. The next step is already underway: training AI to analyze the atmospheric composition of these exoplanets from their light spectra, searching for the chemical biosignatures that could hint at the presence of life."
+      "content": "## The Automated Hunt for Exoplanets\n\nOne of the most exciting frontiers in astronomy is the search for exoplanets—planets orbiting other stars. Missions like TESS and the former Kepler telescope have monitored the brightness of hundreds of thousands of stars, looking for the tell-tale dip in light that indicates a planetary transit. AI algorithms are perfectly suited for this needle-in-a-haystack problem. They can differentiate the faint, periodic signal of a transiting planet from stellar noise like sunspots and flares with a speed and accuracy far exceeding human capability. The next step is already underway: training AI to analyze the atmospheric composition of these exoplanets from their light spectra, searching for the chemical biosignatures that could hint at the presence of life."
     },
     {
       "contentType": "code",
@@ -43,7 +43,7 @@
     },
     {
       "contentType": "text",
-      "content": "## Challenges and the Need for Explainable AI\n\nDespite its immense promise, deploying AI in high-stakes space missions is not without challenges. The 'black box' nature of some complex neural networks is a significant concern\u2014if we don't understand *why* an AI made a particular decision, can we trust it with a billion-dollar rover or the safety of future astronauts? This has spurred the development of Explainable AI (XAI), a field focused on creating models that can provide clear reasoning for their outputs. For critical systems, ensuring robustness, reliability, and security against potential adversarial attacks is paramount. The future likely lies in a 'human-in-the-loop' system, where AI provides powerful recommendations and automates tasks, but a human expert provides the final verification and oversight for critical decisions."
+      "content": "## Challenges and the Need for Explainable AI\n\nDespite its immense promise, deploying AI in high-stakes space missions is not without challenges. The 'black box' nature of some complex neural networks is a significant concern—if we don't understand *why* an AI made a particular decision, can we trust it with a billion-dollar rover or the safety of future astronauts? This has spurred the development of Explainable AI (XAI), a field focused on creating models that can provide clear reasoning for their outputs. For critical systems, ensuring robustness, reliability, and security against potential adversarial attacks is paramount. The future likely lies in a 'human-in-the-loop' system, where AI provides powerful recommendations and automates tasks, but a human expert provides the final verification and oversight for critical decisions."
     },
     {
       "contentType": "chart",
@@ -58,7 +58,7 @@
       "content": "/images/ga78ceca3aebc4e8fbc8dbba86f081a045e61c54f9eeda93e46323ab1602ba85debd93b570ef76447a057154f340ee9cc_1280.jpg"
     }
   ],
-  "previewImageURL": "/images/gbec5cfae40d37a133920b55e1a746c68870c69035d9270bc41cc8602c26f220178548cb75e5c02a52f8df2c37f69b59ea5ee9db6ad99ac5621978e97e412dcab_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/gbec5cfae40d37a133920b55e1a746c68870c69035d9270bc41cc8602c26f220178548cb75e5c02a52f8df2c37f69b59ea5ee9db6ad99ac5621978e97e412dcab_1280.jpg",
   "previewDescription": "From autonomous rovers on Mars to discovering distant exoplanets, Artificial Intelligence is no longer science fiction but the driving force behind modern space exploration. This deep dive explores how AI algorithms are revolutionizing mission operations, data analysis, and our quest to understand the cosmos.",
   "category": "Technology",
   "tags": [

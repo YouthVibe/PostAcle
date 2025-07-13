@@ -47,7 +47,7 @@
     },
     {
       "contentType": "table",
-      "content": "{\"headers\": [\"Feature\", \"Meta Quest 3\", \"PlayStation VR2\", \"Valve Index\"], \"rows\": [[\"Resolution (per eye)\", \"2064 x 2208\", \"2000 x 2040\", \"1440 x 1600\"], [\"Refresh Rate\", \"Up to 120Hz\", \"90Hz, 120Hz\", \"Up to 144Hz\"], [\"Field of View (FoV)\", \"~110\u00b0 Horizontal\", \"~110\u00b0\", \"~130\u00b0\"], [\"Tracking\", \"Inside-out (6DoF)\", \"Inside-out (4 cameras)\", \"Outside-in (Base Stations)\"], [\"Platform\", \"Standalone / PC VR\", \"PlayStation 5\", \"PC VR (SteamVR)\"]]}"
+      "content": "{\"headers\": [\"Feature\", \"Meta Quest 3\", \"PlayStation VR2\", \"Valve Index\"], \"rows\": [[\"Resolution (per eye)\", \"2064 x 2208\", \"2000 x 2040\", \"1440 x 1600\"], [\"Refresh Rate\", \"Up to 120Hz\", \"90Hz, 120Hz\", \"Up to 144Hz\"], [\"Field of View (FoV)\", \"~110° Horizontal\", \"~110°\", \"~130°\"], [\"Tracking\", \"Inside-out (6DoF)\", \"Inside-out (4 cameras)\", \"Outside-in (Base Stations)\"], [\"Platform\", \"Standalone / PC VR\", \"PlayStation 5\", \"PC VR (SteamVR)\"]]}"
     },
     {
       "contentType": "text",
@@ -62,7 +62,7 @@
       "content": "In conclusion, Virtual Reality has firmly established itself as a new computing platform. For entertainment and gaming, it offers an unparalleled medium for immersion, agency, and social connection. From its humble beginnings to its current state as a burgeoning market, VR's rise has been nothing short of remarkable. As the technology continues to mature and converge with augmented reality, it poses a fundamental question: are we simply building better games and movies, or are we architecting the next evolution of human experience itself? The answer is unfolding in real-time, one virtual world at a time."
     }
   ],
-  "previewImageURL": "/images/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg",
+  "previewImageURL": "https://www.post-acle.blog/images/g2cb46cff483614b5476bc65a162bf52a2d8d13360ddce079392528351da3703d43615ca32e67c2a279cfcd778134130a228d9b5d77a348c4aaa4a1532e1b11c5_1280.jpg",
   "previewDescription": "Dive deep into the technological revolution of Virtual Reality. Explore how VR is reshaping gaming and entertainment, from immersive gameplay and live events to the technical marvels that power it all. A must-read for gamers, tech enthusiasts, and industry pros.",
   "category": "Technology",
   "tags": [
