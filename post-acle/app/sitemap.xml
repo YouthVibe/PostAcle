@@ -17,4 +17,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://postacle.vercel.app/privacy</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.0</priority>
+  </url>
+  <url>
+    <loc>https://postacle.vercel.app/terms</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.0</priority>
+  </url>
 </urlset>
