@@ -1,11 +1,9 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Metadata } from 'next';
-// import NavbarStatic from '../../components/NavbarStatic';
 import Navbar from '../../components/Navbar';
 import FooterStatic from '../../components/FooterStatic';
 import BlogPostContent from './BlogPostContent';
-// import BlogPostContent from './BlogPostClient';
 
 interface BlogJSON {
   title: string;
@@ -69,11 +67,75 @@ interface BlogPageProps {
   params: { id: string };
 }
 
-export default function BlogPage({ params }: any) {
+async function getBlogPost(id: string): Promise<BlogPost | null> {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'blogs', `${id}.json`);
+    const fileContent = await fs.readFile(filePath, 'utf-8');
+    const data = JSON.parse(fileContent);
+
+    if (!Array.isArray(data.content)) {
+      console.error('❌ Invalid content array:', data.content);
+      return null;
+    }
+
+    // Parse charts and tables only if content is string
+    data.content = data.content.map((block: any) => {
+      if (
+        (block.contentType === 'chart' || block.contentType === 'table')
+      ) {
+        if (typeof block.content === 'string') {
+          try {
+            block.content = JSON.parse(block.content);
+          } catch (e) {
+            console.warn('❌ Failed to parse JSON in chart/table block:', block);
+            block.content = {};
+          }
+        } else if (typeof block.content !== 'object') {
+          console.warn('❌ Unexpected content type (not object) in chart/table block:', block);
+          block.content = {};
+        }
+      }
+      return block;
+    });
+
+    return data;
+  } catch (error) {
+    console.error('Failed to fetch blog post:', error);
+    return null;
+  }
+}
+
+interface BlogPost {
+  title: string;
+  previewDescription: string;
+  previewImageURL?: string;
+  content: any[];
+  tags?: string[];
+  author?: string;
+  publishedDate?: string;
+  wordsUsed?: number;
+  targetRegion?: string;
+}
+
+export default async function BlogPage({ params }: any) {
+  const blogPost = await getBlogPost(params.id);
+
+  if (!blogPost) {
+    return (
+      <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
+        <Navbar />
+        <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+          <p className="text-white text-xl">Blog post not found or content is invalid.</p>
+        </div>
+        <FooterStatic />
+      </main>
+    );
+  }
+
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
       <Navbar />
-      <BlogPostContent id={params.id} />
+      <BlogPostContent blogPost={blogPost} />
       <FooterStatic />
     </main>
   );

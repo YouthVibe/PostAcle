@@ -1,13 +1,20 @@
-import React from 'react';
+'use client';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import fs from 'fs/promises';
-import path from 'path';
-import ChartDisplay from '../../components/ChartDisplay';
+
+// import { cn } from "@/lib/utils";
+import ChartDisplay from "@/app/components/ChartDisplay";
+import CodeBlock from "@/app/components/CodeBlock";
+import QuoteBlock from "@/app/components/QuoteBlock";
+import Infographic from "@/app/components/Infographic";
+import Accordion from "@/app/components/Accordion";
+import HighlightBox from "@/app/components/HighlightBox";
+import ReadingProgressBar from "@/app/components/ReadingProgressBar";
 
 interface BlogPostContentProps {
-  id: string;
+  blogPost: BlogPost;
 }
 
 interface BlogPost {
@@ -20,48 +27,14 @@ interface BlogPost {
   publishedDate?: string;
   wordsUsed?: number;
   targetRegion?: string;
+  infographics?: { type: string; content: string }[];
+  accordions?: { title: string; content: string }[];
+  highlights?: { type: 'tip' | 'warning' | 'note'; content: string }[];
 }
 
-async function getBlogPost(id: string): Promise<BlogPost | null> {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'blogs', `${id}.json`);
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    const data = JSON.parse(fileContent);
 
-    if (!Array.isArray(data.content)) {
-      console.error('❌ Invalid content array:', data.content);
-      return null;
-    }
 
-    // Parse charts and tables only if content is string
-    data.content = data.content.map((block: any) => {
-      if (
-        (block.contentType === 'chart' || block.contentType === 'table')
-      ) {
-        if (typeof block.content === 'string') {
-          try {
-            block.content = JSON.parse(block.content);
-          } catch (e) {
-            console.warn('❌ Failed to parse JSON in chart/table block:', block);
-            block.content = {};
-          }
-        } else if (typeof block.content !== 'object') {
-          console.warn('❌ Unexpected content type (not object) in chart/table block:', block);
-          block.content = {};
-        }
-      }
-      return block;
-    });
-
-    return data;
-  } catch (error) {
-    console.error('Failed to fetch blog post:', error);
-    return null;
-  }
-}
-
-export default async function BlogPostContent({ id }: BlogPostContentProps) {
-  const blogPost = await getBlogPost(id);
+export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
 
   if (!blogPost || !Array.isArray(blogPost.content)) {
     return (
@@ -71,40 +44,62 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
     );
   }
 
+  const [showBackToTop, setShowBackToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) { // Show button after scrolling 200px
+        setShowBackToTop(true);
+      } else {
+        setShowBackToTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-      <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 text-transparent bg-clip-text">
-        {blogPost.title}
-      </h1>
-
-      {/* {blogPost.previewImageURL && (
-        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
-          <Image
-            src={blogPost.previewImageURL}
-            alt={blogPost.title}
-            width={1200}
-            height={600}
-            className="rounded-lg"
-          />
+    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
+      <ReadingProgressBar />
+      <nav className="text-left text-gray-400 mb-8">
+        <a href="/" className="hover:underline">Home</a> &gt; 
+        <a href="/search" className="hover:underline">Blogs</a> &gt; 
+        <span>{blogPost.title}</span>
+      </nav>
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-10 max-w-4xl mx-auto">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
+          {blogPost.title}
+        </h1>
+        <p className="text-xl text-gray-300 mb-4">
+          {blogPost.previewDescription}
+        </p>
+        <div className="flex flex-wrap justify-center gap-4 text-gray-400 text-sm">
+          {blogPost.wordsUsed && (
+            <span>
+              Estimated Reading Time: {Math.ceil(blogPost.wordsUsed / 200)} min
+            </span>
+          )}
+          {blogPost.tags && blogPost.tags.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {blogPost.tags.map((tag, i) => (
+                <span key={i} className="bg-gray-700 px-3 py-1 rounded-full text-xs font-semibold">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
-      )} */}
-      {/* {blogPost.previewImageURL && (
-        <div className="mb-10 rounded-lg overflow-hidden shadow-lg" id="preview-image-wrapper">
-          <img
-            src={blogPost.previewImageURL}
-            alt={blogPost.title}
-            className="rounded-lg w-full h-auto"
-            onError={(e) => {
-              const wrapper = document.getElementById('preview-image-wrapper');
-              if (wrapper) wrapper.remove();
-            }}
-          />
-        </div>
-      )} */}
-
-      <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-        {blogPost.previewDescription}
-      </p>
+      </div>
 
       <div className="prose prose-invert max-w-none text-left mx-auto">
         {blogPost.content.map((block: any, index: number) => (
@@ -112,8 +107,88 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
             {block.contentType === 'text' && (
               <ReactMarkdown
                 components={{
-                  p: ({ children }) => (
-                    <p className="text-gray-400 leading-relaxed">{children}</p>
+                  h1: ({ node, ...props }) => (
+                    <h1 className="text-white text-4xl font-bold my-4" {...props} />
+                  ),
+                  h2: ({ node, ...props }) => (
+                    <h2 className="text-white text-3xl font-bold my-3" {...props} />
+                  ),
+                  h3: ({ node, ...props }) => (
+                    <h3 className="text-white text-2xl font-bold my-2" {...props} />
+                  ),
+                  h4: ({ node, ...props }) => (
+                    <h4 className="text-white text-xl font-bold my-2" {...props} />
+                  ),
+                  h5: ({ node, ...props }) => (
+                    <h5 className="text-white text-lg font-bold my-2" {...props} />
+                  ),
+                  h6: ({ node, ...props }) => (
+                    <h6 className="text-white text-base font-bold my-2" {...props} />
+                  ),
+                  p: ({ node, ...props }) => (
+                    <p className="text-gray-300 text-lg leading-relaxed my-4" {...props} />
+                  ),
+                  a: ({ node, ...props }) => (
+                    <a className="text-blue-400 hover:underline" {...props} />
+                  ),
+                  ul: ({ node, ...props }) => (
+                    <ul className="list-disc list-inside text-gray-300 ml-4 my-4" {...props} />
+                  ),
+                  ol: ({ node, ...props }) => (
+                    <ol className="list-decimal list-inside text-gray-300 ml-4 my-4" {...props} />
+                  ),
+                  li: ({ node, ...props }) => (
+                    <li className="mb-2" {...props} />
+                  ),
+                  strong: ({ node, ...props }) => (
+                    <strong className="font-semibold text-white" {...props} />
+                  ),
+                  em: ({ node, ...props }) => (
+                    <em className="italic text-gray-400" {...props} />
+                  ),
+                  blockquote: ({ node, ...props }) => (
+                    <QuoteBlock {...props} />
+                  ),
+                  code: ({ node, className, ...props }) => {
+                    const match = /language-(\w+)/.exec(className || '');
+                    return match ? (
+                      <CodeBlock
+                        value={String(props.children).replace(/\n$/, '')}
+                        language={match[1]}
+                        {...props}
+                      />
+                    ) : (
+                      <code className="bg-gray-700 text-purple-300 px-1 py-0.5 rounded text-sm" {...props} />
+                    );
+                  },
+                  img: ({ node, ...props }) => (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img className="my-4 rounded-lg shadow-lg max-w-full h-auto" alt={props.alt || ''} {...props} />
+                  ),
+                  table: ({ node, ...props }) => (
+                    <table className="min-w-full bg-gray-800 rounded-lg shadow-lg my-4" {...props} />
+                  ),
+                  thead: ({ node, ...props }) => (
+                    <thead className="bg-gray-700" {...props} />
+                  ),
+                  tbody: ({ node, ...props }) => (
+                    <tbody {...props} />
+                  ),
+                  tr: ({ node, ...props }) => (
+                    <tr className="border-b border-gray-700 last:border-b-0" {...props} />
+                  ),
+                  th: ({ node, ...props }) => (
+                    <th className="py-3 px-4 text-left text-gray-300 font-semibold" {...props} />
+                  ),
+                  td: ({ node, ...props }) => (
+                    <td className="py-3 px-4 text-gray-400" {...props} />
+                  ),
+                  hr: ({ node, ...props }) => (
+                    <hr className="border-gray-700 my-8" {...props} />
+                  ),
+                  // Custom component for chart display
+                  chart: ({ node, ...props }) => (
+                    <ChartDisplay chartData={props.children as string} />
                   ),
                 }}
                 remarkPlugins={[remarkGfm]}
@@ -148,6 +223,26 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
                   lableY={block.content.lableY}
                 />
               )}
+
+            {block.contentType === 'infographic' && typeof block.content === 'string' && (
+              <Infographic>{block.content}</Infographic>
+            )}
+
+            {block.contentType === 'accordion' && block.content && (
+              <Accordion title={block.content.title}>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {block.content.content}
+                </ReactMarkdown>
+              </Accordion>
+            )}
+
+            {block.contentType === 'highlight' && block.content && (
+              <HighlightBox type={block.content.type}>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {block.content.content}
+                </ReactMarkdown>
+              </HighlightBox>
+            )}
 
             {block.contentType === 'table' &&
               block.content &&
@@ -188,6 +283,29 @@ export default async function BlogPostContent({ id }: BlogPostContentProps) {
           </div>
         ))}
       </div>
+
+      {showBackToTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 bg-purple-600 text-white p-3 rounded-full shadow-lg hover:bg-purple-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50"
+          aria-label="Back to top"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 10l7-7m0 0l7 7m-7-7v18"
+            />
+          </svg>
+        </button>
+      )}
     </section>
   );
 }
