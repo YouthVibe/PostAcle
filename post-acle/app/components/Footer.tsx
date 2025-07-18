@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <h6 className="font-semibold mb-2">Contact</h6>
-                    <p>📧 epicdeveloper144@gmail.com</p>
+                    <p>📧 epicdeveloper14@gmail.com</p>
                     <p>📞 +91 8010182409</p>
                     <div className="mt-4">
                         <h6 className="font-semibold mb-1">Social</h6>

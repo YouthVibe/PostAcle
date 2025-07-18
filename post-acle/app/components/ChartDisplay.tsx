@@ -28,6 +28,9 @@ export default function ChartDisplay({
   if (!data || data.length === 0) {
     return null;
   }
+  // const titleChart = data.titleChart;
+  // const lableX = data.lableX;
+  // const lableY = data.lableY
   return (
     <div className="bg-gray-800 p-4 rounded-lg">
       <h3 className="text-xl font-semibold mb-2 text-blue-400">

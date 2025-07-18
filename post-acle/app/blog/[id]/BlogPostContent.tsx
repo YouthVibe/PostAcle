@@ -13,6 +13,7 @@ import Accordion from "@/app/components/Accordion";
 import HighlightBox from "@/app/components/HighlightBox";
 import ReadingProgressBar from "@/app/components/ReadingProgressBar";
 
+
 interface BlogPostContentProps {
   blogPost: BlogPost;
 }
@@ -147,7 +148,7 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
                     <em className="italic text-gray-400" {...props} />
                   ),
                   blockquote: ({ node, ...props }) => (
-                    <QuoteBlock {...props} />
+                    <QuoteBlock children={props.children} />
                   ),
                   code: ({ node, className, ...props }) => {
                     const match = /language-(\w+)/.exec(className || '');
@@ -187,9 +188,9 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
                     <hr className="border-gray-700 my-8" {...props} />
                   ),
                   // Custom component for chart display
-                  chart: ({ node, ...props }) => (
-                    <ChartDisplay chartData={props.children as string} />
-                  ),
+                  // chart: ({ node, ...props }) => (
+                  //   <ChartDisplay data={JSON.parse(props.children as string)} />
+                  // ),
                 }}
                 remarkPlugins={[remarkGfm]}
               >
