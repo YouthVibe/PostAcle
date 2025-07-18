@@ -25,6 +25,9 @@ export default function ChartDisplay({
   lableX,
   lableY,
 }: ChartDisplayProps) {
+  if (!data || data.length === 0) {
+    return null;
+  }
   return (
     <div className="bg-gray-800 p-4 rounded-lg">
       <h3 className="text-xl font-semibold mb-2 text-blue-400">
@@ -53,7 +56,7 @@ export default function ChartDisplay({
               position: 'insideLeft',
             }}
           />
-          <Tooltip />
+          <Tooltip formatter={(value: any, name: any, props: any) => [`${value}`, name]} />
           <Legend />
           <Line
             type="monotone"
