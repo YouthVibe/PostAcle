@@ -65,7 +65,11 @@ async function getAllBlogs(): Promise<BlogEntry[]> {
   }
 }
 
-export default async function Search({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined } }) {
+interface SearchPageProps {
+  searchParams: { [key: string]: string | string[] | undefined };
+}
+
+export default async function Search() {
   const blogs = await getAllBlogs();
   
   return (
