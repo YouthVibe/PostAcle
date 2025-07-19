@@ -19,17 +19,16 @@ interface BlogEntry {
 
 interface SearchContentProps {
   initialBlogs: BlogEntry[];
-  searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default function SearchContent({ initialBlogs, searchParams }: SearchContentProps) {
+export default function SearchContent({ initialBlogs }: SearchContentProps) {
 
   const [blogs, setBlogs] = useState<BlogEntry[]>(initialBlogs);
   const [visibleBlogs, setVisibleBlogs] = useState<BlogEntry[]>([]);
-  const [searchQuery, setSearchQuery] = useState(searchParams.q ? String(searchParams.q) : '');
-  const [selectedCategory, setSelectedCategory] = useState(searchParams.category ? String(searchParams.category) : 'All');
-  const [selectedSort, setSelectedSort] = useState(searchParams.sortBy ? String(searchParams.sortBy) : 'Newest');
-  const [selectedRegion, setSelectedRegion] = useState(searchParams.region ? String(searchParams.region) : 'Global');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedSort, setSelectedSort] = useState('Newest');
+  const [selectedRegion, setSelectedRegion] = useState('Global');
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {

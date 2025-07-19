@@ -71,7 +71,7 @@ export default async function Search({ searchParams }: { searchParams: { [key: s
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
       <Navbar />
-      <SearchContent initialBlogs={blogs} searchParams={searchParams} />
+      <SearchContent initialBlogs={blogs}/>
       <FooterStatic />
     </main>
   );
