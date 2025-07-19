@@ -6,11 +6,11 @@ export default function HeroStatic() {
     <section className="relative py-20 overflow-hidden">
       {/* Grid Background */}
       <div className="absolute inset-0 z-0">
-        <Image 
-          src="/grid.svg" 
-          alt="Grid Background" 
-          fill 
-          className="opacity-30" 
+        <Image
+          src="/grid.svg"
+          alt="Grid Background"
+          fill
+          className="opacity-30"
           priority
         />
       </div>
@@ -21,7 +21,7 @@ export default function HeroStatic() {
           PostAcle
         </h1>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-          Your smart AI-powered blogging platform for trends, tech, and topics that matter.
+          Gen Z’s zone for unfiltered expression.
         </p>
 
         {/* Search Bar */}
@@ -35,33 +35,33 @@ export default function HeroStatic() {
           </div>
         </div>
 
-        {/* Feature Cards */}
+        {/* Our Niches */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {/* Create Card */}
+          {/* Discover Card */}
           <div className="group relative bg-gradient-to-br from-purple-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
-              <Image src="/create-icon.svg" alt="Create" width={48} height={48} />
+              <Image src="/create-icon.svg" alt="Discover" width={48} height={48} />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-purple-400 transition-colors">Create</h3>
-            <p className="text-gray-400 text-sm">Write and publish your thoughts with our AI-powered editor</p>
+            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-purple-400 transition-colors">Discover</h3>
+            <p className="text-gray-400 text-sm">Explore handpicked blogs powered by AI and curated for curious minds</p>
           </div>
 
-          {/* Share Card */}
+          {/* Read Card */}
           <div className="group relative bg-gradient-to-br from-pink-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
-              <Image src="/share-icon.svg" alt="Share" width={48} height={48} />
+              <Image src="/share-icon.svg" alt="Read" width={48} height={48} />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-pink-400 transition-colors">Share</h3>
-            <p className="text-gray-400 text-sm">Share your stories with our growing community of readers</p>
+            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-pink-400 transition-colors">Read</h3>
+            <p className="text-gray-400 text-sm">Dive into fresh blogs on AI, tech, trends, and insights — updated regularly</p>
           </div>
 
-          {/* Grow Card */}
+          {/* Learn Card */}
           <div className="group relative bg-gradient-to-br from-blue-500/5 to-transparent backdrop-blur-sm p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300">
             <div className="flex justify-center mb-4">
-              <Image src="/grow-icon.svg" alt="Grow" width={48} height={48} />
+              <Image src="/grow-icon.svg" alt="Learn" width={48} height={48} />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">Grow</h3>
-            <p className="text-gray-400 text-sm">Build your audience and grow your influence</p>
+            <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">Learn</h3>
+            <p className="text-gray-400 text-sm">Stay informed and inspired — one blog at a time</p>
           </div>
         </div>
       </div>

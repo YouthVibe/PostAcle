@@ -65,13 +65,13 @@ async function getAllBlogs(): Promise<BlogEntry[]> {
   }
 }
 
-export default async function Search() {
+export default async function Search({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined } }) {
   const blogs = await getAllBlogs();
   
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
       <Navbar />
-      <SearchContent initialBlogs={blogs} />
+      <SearchContent initialBlogs={blogs} searchParams={searchParams} />
       <FooterStatic />
     </main>
   );

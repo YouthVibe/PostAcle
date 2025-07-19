@@ -24,7 +24,7 @@ export default function Hero() {
           PostAcle
         </h1>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-          Your smart AI-powered blogging platform for trends, tech, and topics that matter.
+          Gen Z’s zone for unfiltered expression.
         </p>
 
         {/* Search Bar */}

@@ -73,8 +73,8 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
       <ReadingProgressBar />
       <nav className="text-left text-gray-400 mb-8">
-        <a href="/" className="hover:underline">Home</a> &gt; 
-        <a href="/search" className="hover:underline">Blogs</a> &gt; 
+        <a href="/" className="hover:underline">Home</a> &gt;
+        <a href="/search" className="hover:underline">Blogs</a> &gt;
         <span>{blogPost.title}</span>
       </nav>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-10 max-w-4xl mx-auto">
@@ -198,6 +198,17 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
               </ReactMarkdown>
             )}
 
+            {/* {block.contentType === 'image' && typeof block.content === 'string' && (
+              <div className="flex justify-center my-6">
+                <Image
+                  src={block.content}
+                  alt={`Image ${index}`}
+                  width={800}
+                  height={450}
+                  className="rounded-lg shadow-md"
+                />
+              </div>
+            )} */}
             {block.contentType === 'image' && typeof block.content === 'string' && (
               <div className="flex justify-center my-6">
                 <Image
@@ -206,6 +217,9 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
                   width={800}
                   height={450}
                   className="rounded-lg shadow-md"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none'; // Hide the image on error
+                  }}
                 />
               </div>
             )}

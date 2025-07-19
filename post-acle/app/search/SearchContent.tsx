@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+
 interface BlogEntry {
   title: string;
   tags: string[];
@@ -18,15 +19,17 @@ interface BlogEntry {
 
 interface SearchContentProps {
   initialBlogs: BlogEntry[];
+  searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default function SearchContent({ initialBlogs }: SearchContentProps) {
+export default function SearchContent({ initialBlogs, searchParams }: SearchContentProps) {
+
   const [blogs, setBlogs] = useState<BlogEntry[]>(initialBlogs);
   const [visibleBlogs, setVisibleBlogs] = useState<BlogEntry[]>([]);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedSort, setSelectedSort] = useState('Newest');
-  const [selectedRegion, setSelectedRegion] = useState('Global');
+  const [searchQuery, setSearchQuery] = useState(searchParams.q ? String(searchParams.q) : '');
+  const [selectedCategory, setSelectedCategory] = useState(searchParams.category ? String(searchParams.category) : 'All');
+  const [selectedSort, setSelectedSort] = useState(searchParams.sortBy ? String(searchParams.sortBy) : 'Newest');
+  const [selectedRegion, setSelectedRegion] = useState(searchParams.region ? String(searchParams.region) : 'Global');
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {
@@ -181,6 +184,14 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
                     <p className="text-xs text-gray-500">
                       {new Date(blog.publishedDate).toLocaleDateString()} • {readingTime} min read
                     </p>
+                    {/* <p className="text-sm text-gray-400 mt-2">By {blog.author}</p> */}
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {blog.tags.map(tag => (
+                        <span key={tag} className="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded-full">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </Link>
