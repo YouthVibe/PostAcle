@@ -109,22 +109,22 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
               <ReactMarkdown
                 components={{
                   h1: ({ node, ...props }) => (
-                    <h1 className="text-white text-4xl font-bold my-4" {...props} />
+                    <h1 className="text-slate-400 text-4xl font-bold my-4" {...props} />
                   ),
                   h2: ({ node, ...props }) => (
-                    <h2 className="text-white text-3xl font-bold my-3" {...props} />
+                    <h2 className="text-slate-400 text-3xl font-bold my-3" {...props} />
                   ),
                   h3: ({ node, ...props }) => (
-                    <h3 className="text-white text-2xl font-bold my-2" {...props} />
+                    <h3 className="text-slate-400 text-2xl font-bold my-2" {...props} />
                   ),
                   h4: ({ node, ...props }) => (
-                    <h4 className="text-white text-xl font-bold my-2" {...props} />
+                    <h4 className="text-slate-400 text-xl font-bold my-2" {...props} />
                   ),
                   h5: ({ node, ...props }) => (
-                    <h5 className="text-white text-lg font-bold my-2" {...props} />
+                    <h5 className="text-slate-400 text-lg font-bold my-2" {...props} />
                   ),
                   h6: ({ node, ...props }) => (
-                    <h6 className="text-white text-base font-bold my-2" {...props} />
+                    <h6 className="text-slate-400 text-base font-bold my-2" {...props} />
                   ),
                   p: ({ node, ...props }) => (
                     <p className="text-gray-300 text-lg leading-relaxed my-4" {...props} />

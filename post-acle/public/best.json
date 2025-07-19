@@ -1,92 +1,20 @@
 [
-    {
-      "title": "The AI Scalpel: Revolutionizing Healthcare Diagnostics with Precision and Prediction",
-      "tags": [
-        "AI",
-        "Healthcare",
-        "Medical Diagnostics",
-        "Machine Learning",
-        "Deep Learning",
-        "Health Tech",
-        "Europe"
-      ],
-      "category": "Technology",
-      "previewImage": "https://www.post-acle.blog/images/b10.jpg",
-      "blogNumber": 10,
-      "blogID": "the-ai-scalpel-revolutionizing-healthcare-diagnostics-with-precision-and-prediction",
-      "wordsUsed": 1152,
-      "publishedDate": "2025-07-10T21:45:19.347355",
-      "author": "PostAcle"
-    },
-    {
-      "title": "The Evolution of Blockchain Beyond Cryptocurrency",
-      "tags": [
-        "Blockchain",
-        "Smart Contracts",
-        "DeFi",
-        "Web3",
-        "Decentralized Technology",
-        "Ethereum"
-      ],
-      "category": "Technology",
-      "previewImage": "https://www.post-acle.blog/images/b7.jpg",
-      "blogNumber": 7,
-      "blogID": "the-evolution-of-blockchain-beyond-cryptocurrency",
-      "wordsUsed": 1057,
-      "publishedDate": "2025-07-10T21:42:24.168465",
-      "author": "PostAcle"
-    },
-    {
-      "title": "The Quantum Revolution: Unpacking the Rise of Quantum Computing in Everyday Applications",
-      "tags": [
-        "quantum computing",
-        "technology",
-        "future tech",
-        "AI",
-        "cryptography",
-        "python",
-        "qiskit"
-      ],
-      "category": "Technology",
-      "previewImage": "https://www.post-acle.blog/images/b2.jpg",
-      "blogNumber": 2,
-      "blogID": "the-quantum-revolution-unpacking-the-rise-of-quantum-computing-in-everyday-applications",
-      "wordsUsed": 985,
-      "publishedDate": "2025-07-10T21:37:38.704735",
-      "author": "PostAcle"
-    },
-    {
-      "title": "Exploring Minimalist Living: Decluttering Your Space and Mind",
-      "tags": [
-        "minimalism",
-        "decluttering",
-        "home organization",
-        "simple living",
-        "mental wellness"
-      ],
-      "category": "Day-to-Day Life",
-      "previewImage": "https://www.post-acle.blog/images/b3.jpg",
-      "blogNumber": 3,
-      "blogID": "exploring-minimalist-living-decluttering-your-space-and-mind",
-      "wordsUsed": 978,
-      "publishedDate": "2025-07-10T21:38:30.361210",
-      "author": "PostAcle"
-    },
-    {
-      "title": "Powering Tomorrow's Metropolis: The Transformative Impact of 5G on India's Smart Cities",
-      "tags": [
-        "5G",
-        "Smart Cities",
-        "IoT",
-        "Urban Planning",
-        "Technology India"
-      ],
-      "category": "Technology",
-      "previewImage": "https://www.post-acle.blog/images/b4.jpg",
-      "blogNumber": 4,
-      "blogID": "powering-tomorrow-s-metropolis-the-transformative-impact-of-5g-on-india-s-smart-cities",
-      "wordsUsed": 958,
-      "publishedDate": "2025-07-10T21:39:34.914572",
-      "author": "PostAcle"
-    }
-  ]
+  {
+    "title": "Why Most People Won't Succeed in Blog Writing",
+    "tags": [
+      "blogging",
+      "content creation",
+      "AI blogging",
+      "SEO",
+      "mistakes"
+    ],
+    "category": "Technology",
+    "previewImage": "https://www.post-acle.blog/images/c1.jpg",
+    "blogNumber": 101,
+    "blogID": "blogging-mistakes",
+    "wordsUsed": 500,
+    "publishedDate": "2025-07-19T14:00:00.000Z",
+    "author": "PostAcle",
+    "targetRegion": "Global"
+  }
+]
