@@ -32,16 +32,6 @@
       "content": "## Steps to Become a Real Blogger\n\n1. Choose your niche.\n2. Do research with real-world data, images.\n3. Write manually first and polish with AI like [ChatGPT](https://chat.openai.com), [Gemini](https://gemini.google.com), or [Grok](https://x.ai/).\n4. Support your blog with statistics, images, and charts ([free chart tool](https://chartgo.com)).\n5. Use [AI content detectors](https://www.originality.ai/) to keep AI content under 30%.\n6. Optimize for SEO using metadata, short titles, short URLs ([SEO basics](https://moz.com/beginners-guide-to-seo))."
     },
     {
-      "contentType": "chart",
-      "content": {
-        "x": ["Manual Blog", "Manual + AI", "AI Polished", "Light AI", "Moderate AI", "Heavy AI", "Fully AI", "Spammy Blog", "Clickbait Blog", "SEO Manipulated", "Personal Blog", "Expert Blog", "Case Study", "Tutorial", "Listicle", "Product Review", "Opinion Piece", "Community Feedback", "Image-rich Blog", "Data-driven Blog"],
-        "y": [95, 88, 84, 78, 72, 65, 42, 30, 25, 20, 85, 90, 93, 89, 87, 86, 82, 80, 91, 94],
-        "titleChart": "Reader Retention Based on Blog Type",
-        "lableX": "Blog Type",
-        "lableY": "User Retention (%)"
-      }
-    },
-    {
       "contentType": "highlight",
       "content": {
         "type": "tip",
