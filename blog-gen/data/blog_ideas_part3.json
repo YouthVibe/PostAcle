@@ -1,0 +1,384 @@
+[
+  {
+    "number": 21,
+    "topic": "The Power of Gratitude: Transforming Your Daily Life",
+    "maxWords": 2500,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "gratitude practice",
+        "positive mindset"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "students",
+      "wellness enthusiasts"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 22,
+    "topic": "The Potential of Neuromorphic Computing in AI Development",
+    "maxWords": 3200,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "neuromorphic computing",
+        "artificial intelligence",
+        "brain-inspired tech"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "AI researchers",
+      "tech enthusiasts",
+      "engineers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 23,
+    "topic": "How to Create a Budget-Friendly Home Workout Routine",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "home workout",
+        "fitness routine"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "fitness enthusiasts",
+      "general public",
+      "students"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "US"
+  },
+  {
+    "number": 24,
+    "topic": "The Role of IoT in Smart Home Automation",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "smart home",
+        "IoT devices",
+        "home automation"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "url"
+      ],
+      "languages": [
+        "JavaScript"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "tech enthusiasts",
+      "homeowners",
+      "developers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "India"
+  },
+  {
+    "number": 25,
+    "topic": "The Art of Meal Prepping for a Busy Week",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "meal prep",
+        "healthy eating",
+        "kitchen organization"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "working professionals",
+      "parents",
+      "health-conscious individuals"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 26,
+    "topic": "The Rise of Virtual Reality in Entertainment and Gaming",
+    "maxWords": 3000,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "virtual reality",
+        "VR gaming",
+        "immersive entertainment"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "JavaScript"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "gamers",
+      "tech enthusiasts",
+      "entertainment industry professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 27,
+    "topic": "Exploring the World’s Hidden Travel Destinations",
+    "maxWords": 2900,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "hidden travel destinations",
+        "offbeat travel",
+        "adventure tourism"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "travelers",
+      "adventure seekers",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 28,
+    "topic": "How to Build a Personal Brand in the Digital Era",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "personal branding",
+        "digital presence"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "entrepreneurs",
+      "professionals",
+      "content creators"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "India"
+  },
+  {
+    "number": 29,
+    "topic": "The Science Behind Effective Meditation Practices",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "meditation",
+        "mindfulness science"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "wellness enthusiasts",
+      "general public",
+      "students"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 30,
+    "topic": "Advancements in Biometric Authentication Technologies",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "biometric authentication",
+        "fingerprint scanning",
+        "facial recognition"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "security professionals",
+      "tech enthusiasts",
+      "developers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  }
+]

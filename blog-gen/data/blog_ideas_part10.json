@@ -1,0 +1,383 @@
+[
+  {
+    "number": 91,
+    "topic": "How to Cultivate a Positive Mindset for Everyday Success",
+    "maxWords": 2500,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "positive mindset",
+        "personal success"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "students",
+      "professionals"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 92,
+    "topic": "The Role of AI in Enhancing E-Commerce Personalization",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "AI e-commerce",
+        "personalized shopping",
+        "online retail"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "business professionals",
+      "tech enthusiasts",
+      "e-commerce managers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 93,
+    "topic": "The Joy of Hosting a Sustainable Dinner Party",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "sustainable dinner party",
+        "eco-friendly hosting"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "homeowners",
+      "eco-conscious individuals",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 94,
+    "topic": "The Future of Brain-Computer Interfaces in Healthcare",
+    "maxWords": 3200,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "brain-computer interface",
+        "healthcare technology",
+        "neurotechnology"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "healthcare professionals",
+      "tech enthusiasts",
+      "researchers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "India"
+  },
+  {
+    "number": 95,
+    "topic": "How to Create a Family-Friendly Outdoor Space",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "family outdoor space",
+        "backyard design"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "parents",
+      "homeowners",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "US"
+  },
+  {
+    "number": 96,
+    "topic": "The Cultural Significance of Global Dance Forms",
+    "maxWords": 2800,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "global dance forms",
+        "cultural dance",
+        "traditional dance"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "dance enthusiasts",
+      "culture enthusiasts",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 97,
+    "topic": "The Role of IoT in Precision Agriculture",
+    "maxWords": 3000,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "IoT agriculture",
+        "precision farming",
+        "smart agriculture"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "farmers",
+      "tech enthusiasts",
+      "agricultural researchers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 98,
+    "topic": "The Benefits of Practicing Daily Meditation",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "daily meditation",
+        "mindfulness practice"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "wellness enthusiasts",
+      "general public",
+      "students"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "India"
+  },
+  {
+    "number": 99,
+    "topic": "The Impact of Citizen Science on Environmental Conservation",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "citizen science",
+        "environmental conservation"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "environmentalists",
+      "general public",
+      "scientists"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 100,
+    "topic": "The Future of Augmented Analytics in Business Intelligence",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "augmented analytics",
+        "business intelligence",
+        "data insights"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "data analysts",
+      "business professionals",
+      "tech enthusiasts"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  }
+]

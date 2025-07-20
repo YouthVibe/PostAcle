@@ -1,0 +1,385 @@
+[
+  {
+    "number": 31,
+    "topic": "The Joy of Upcycling: Creative Ways to Repurpose Everyday Items",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "upcycling",
+        "DIY crafts",
+        "sustainable living"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "DIY enthusiasts",
+      "eco-conscious individuals",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 32,
+    "topic": "The Future of Autonomous Vehicles in Urban Mobility",
+    "maxWords": 3200,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "autonomous vehicles",
+        "self-driving cars",
+        "urban mobility"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "tech enthusiasts",
+      "urban planners",
+      "engineers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 33,
+    "topic": "How to Cultivate a Reading Habit in a Digital World",
+    "maxWords": 2500,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "reading habit",
+        "bookshelf"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "students",
+      "book lovers",
+      "general public"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 34,
+    "topic": "The Impact of Wearable Technology on Personal Health",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "wearable technology",
+        "fitness trackers",
+        "health monitoring"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "url"
+      ],
+      "languages": [
+        "JavaScript"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "health enthusiasts",
+      "tech enthusiasts",
+      "fitness professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "India"
+  },
+  {
+    "number": 35,
+    "topic": "The Benefits of Volunteering in Your Community",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "community volunteering",
+        "social impact"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "students",
+      "community organizers"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 36,
+    "topic": "The Cultural Impact of Global Music Festivals",
+    "maxWords": 2800,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "music festivals",
+        "global culture",
+        "live music"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "music enthusiasts",
+      "travelers",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 37,
+    "topic": "The Role of Cloud Computing in Business Scalability",
+    "maxWords": 3000,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "cloud computing",
+        "business scalability",
+        "data storage"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "business professionals",
+      "tech enthusiasts",
+      "developers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 38,
+    "topic": "The Art of Budget Travel: Exploring the World on a Shoestring",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "budget travel",
+        "backpacking"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "travelers",
+      "students",
+      "budget-conscious individuals"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "India"
+  },
+  {
+    "number": 39,
+    "topic": "The Evolution of Fashion Trends in the 21st Century",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "fashion trends",
+        "modern style",
+        "street fashion"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "fashion enthusiasts",
+      "designers",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 40,
+    "topic": "The Promise of Synthetic Biology in Medicine",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "synthetic biology",
+        "medical innovation",
+        "biotechnology"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "biotech researchers",
+      "healthcare professionals",
+      "tech enthusiasts"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  }
+]

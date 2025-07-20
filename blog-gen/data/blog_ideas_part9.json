@@ -1,0 +1,383 @@
+[
+  {
+    "number": 81,
+    "topic": "How to Start a Sustainable Composting System at Home",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "home composting",
+        "sustainable living"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "homeowners",
+      "eco-conscious individuals",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 82,
+    "topic": "The Role of Natural Language Processing in Modern Communication",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "natural language processing",
+        "AI communication",
+        "language models"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "tech enthusiasts",
+      "developers",
+      "AI researchers"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 83,
+    "topic": "The Benefits of Practicing Gratitude Journaling",
+    "maxWords": 2500,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "gratitude journaling",
+        "positive psychology"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "general public",
+      "wellness enthusiasts",
+      "students"
+    ],
+    "difficultyLevel": "Beginner",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 84,
+    "topic": "The Impact of 3D Printing on Manufacturing Innovation",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "3D printing",
+        "manufacturing innovation",
+        "additive manufacturing"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "engineers",
+      "tech enthusiasts",
+      "manufacturing professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "India"
+  },
+  {
+    "number": 85,
+    "topic": "How to Plan a Zero-Waste Grocery Shopping Routine",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "zero-waste shopping",
+        "sustainable grocery"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "eco-conscious individuals",
+      "general public",
+      "homeowners"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "Europe"
+  },
+  {
+    "number": 86,
+    "topic": "The Global Influence of K-Pop on Pop Culture",
+    "maxWords": 2800,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "K-pop culture",
+        "global pop culture",
+        "K-pop music"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "music enthusiasts",
+      "culture enthusiasts",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 87,
+    "topic": "The Role of AI in Predictive Maintenance for Industries",
+    "maxWords": 3000,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "predictive maintenance",
+        "AI in industry",
+        "industrial automation"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "engineers",
+      "tech enthusiasts",
+      "industrial professionals"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "US"
+  },
+  {
+    "number": 88,
+    "topic": "The Benefits of Mindful Eating for a Healthier Lifestyle",
+    "maxWords": 2600,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "mindful eating",
+        "healthy lifestyle"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "health-conscious individuals",
+      "general public",
+      "wellness enthusiasts"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "Day-to-Day Life",
+    "targetRegion": "India"
+  },
+  {
+    "number": 89,
+    "topic": "The Impact of Urbanization on Global Food Systems",
+    "maxWords": 2700,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 2,
+      "searchQueryForImages": [
+        "urbanization",
+        "global food systems"
+      ]
+    },
+    "useCharts": {
+      "use": false,
+      "TotalChartsToBeUsed": 0
+    },
+    "usePreviewCode": {
+      "use": false,
+      "Total": 0,
+      "previewType": [],
+      "languages": []
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "environmentalists",
+      "urban planners",
+      "general public"
+    ],
+    "difficultyLevel": "Intermediate",
+    "category": "General",
+    "targetRegion": "Global"
+  },
+  {
+    "number": 90,
+    "topic": "The Future of Holographic Displays in Entertainment",
+    "maxWords": 3100,
+    "useImage": {
+      "use": true,
+      "TotalImagesToBeUsed": 3,
+      "searchQueryForImages": [
+        "holographic displays",
+        "future entertainment",
+        "hologram technology"
+      ]
+    },
+    "useCharts": {
+      "use": true,
+      "TotalChartsToBeUsed": 2
+    },
+    "usePreviewCode": {
+      "use": true,
+      "Total": 1,
+      "previewType": [
+        "code"
+      ],
+      "languages": [
+        "JavaScript"
+      ]
+    },
+    "useTable": {
+      "use": true,
+      "TotalTablesToBeUsed": 1
+    },
+    "language": "English",
+    "targetAudience": [
+      "tech enthusiasts",
+      "entertainment professionals",
+      "innovators"
+    ],
+    "difficultyLevel": "Advanced",
+    "category": "Technology",
+    "targetRegion": "Europe"
+  }
+]
