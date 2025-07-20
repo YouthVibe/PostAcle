@@ -16,25 +16,27 @@ Built with Next.js and powered by AI, PostAcle is your go-to platform for creati
 
 **PostAcle** is an open-source, AI-automated blogging system featuring:
 
-- ✍️ AI-generated blogs using Gemini 2.5 Flash
-- ⚡ Static site generation using Next.js 15 App Router
-- 🎨 TailwindCSS-based dark mode UI
-- 🔍 Built-in search, filters, and sort system
-- 🧠 Structured metadata & SEO ready
-- 📈 Google Analytics support
+* ✍️ AI-generated blogs using Gemini 2.5 Flash
+* ⚡ Static site generation using Next.js 15 App Router
+* 🎨 TailwindCSS-based dark mode UI
+* 🔍 Built-in search, filters, and sort system
+* 🧠 Structured metadata & SEO ready
+* 📈 Google Analytics support
+
+> ⚠️ No user authentication or interaction features like likes/comments – fully static and SEO-focused.
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Feature           | Tech Used            |
-|------------------|----------------------|
-| Framework         | Next.js              |
-| Styling           | Tailwind CSS         |
-| AI Generator      | Gemini 2.5 Flash     |
-| Hosting           | GitHub Pages/Vercel  |
-| Format            | JSON-based blogs     |
-| SEO Tools         | sitemap.xml, robots.txt, meta tags |
+| Feature      | Tech Used                          |
+| ------------ | ---------------------------------- |
+| Framework    | Next.js                            |
+| Styling      | Tailwind CSS                       |
+| AI Generator | Gemini 2.5 Flash                   |
+| Hosting      | GitHub Pages/Vercel                |
+| Format       | JSON-based blogs                   |
+| SEO Tools    | sitemap.xml, robots.txt, meta tags |
 
 ---
 
@@ -46,10 +48,10 @@ GitHub Repo: [https://github.com/YouthVibe/PostAcle](https://github.com/YouthVib
 
 ## 🧠 Contributors
 
-| Contributor | GitHub | Role |
-|-------------|--------|------|
-| Swaraj Puppalwar | [UltronTheAI](https://github.com/UltronTheAI) | Backend, AI Bot, Metadata Engine |
-| YouthVibe | [YouthVibe](https://github.com/YouthVibe) | Frontend Design, JSON Structure, SEO |
+| Contributor      | GitHub                                        | Role                                 |
+| ---------------- | --------------------------------------------- | ------------------------------------ |
+| Swaraj Puppalwar | [UltronTheAI](https://github.com/UltronTheAI) | Backend, AI Bot, Metadata Engine     |
+| YouthVibe        | [YouthVibe](https://github.com/YouthVibe)     | Frontend Design, JSON Structure, SEO |
 
 ---
 
@@ -85,19 +87,20 @@ npm run dev
 
 ## 🧠 Features
 
-- ✅ JSON-based static blogs
-- ✅ AI-generated metadata, tags, keywords
-- ✅ Google Analytics and SEO-ready
-- ✅ Completely open-source
-- ✅ Clean UI/UX with dark theme
+* ✅ JSON-based static blogs
+* ✅ AI-generated metadata, tags, keywords
+* ✅ Google Analytics and SEO-ready
+* ✅ Completely open-source
+* ✅ Clean UI/UX with dark theme
+* ✅ No backend, no authentication, no interactivity
 
 ---
 
 ## 📈 Monetization
 
-- Designed for high-CPM traffic (India 🇮🇳, USA 🇺🇸, Europe 🇪🇺)
-- Optimized for Google AdSense & AdsTerra
-- Minimal, non-intrusive ad layout
+* Designed for high-CPM traffic (India 🇮🇳, USA 🇺🇸, Europe 🇪🇺)
+* Optimized for Google AdSense & AdsTerra
+* Minimal, non-intrusive ad layout
 
 ---
 
