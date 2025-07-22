@@ -16,5 +16,22 @@
     "publishedDate": "2025-07-19T14:00:00.000Z",
     "author": "PostAcle",
     "targetRegion": "Global"
+  },
+  {
+    "title": "My 1-Year Experience with Vibe Coding & Mistakes to Avoid and How to Do It Right",
+    "tags": [
+      "AI Coding",
+      "Vibe Coding",
+      "Development Tips",
+      "Productivity"
+    ],
+    "category": "Technology",
+    "previewImage": "https://www.post-acle.blog/images/v1.jpg",
+    "blogNumber": 2,
+    "blogID": "vibe-coding",
+    "wordsUsed": 500,
+    "publishedDate": "2025-07-22T00:00:00.000Z",
+    "author": "Swaraj Puppalwar",
+    "targetRegion": "Global"
   }
 ]
