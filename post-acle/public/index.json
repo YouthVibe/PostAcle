@@ -10,7 +10,7 @@
     ],
     "category": "Technology",
     "previewImage": "https://www.post-acle.blog/images/c1.jpg",
-    "blogNumber": 1,
+    "blogNumber": 101,
     "blogID": "blogging-mistakes",
     "wordsUsed": 500,
     "publishedDate": "2025-07-19T14:00:00.000Z",
@@ -27,11 +27,28 @@
     ],
     "category": "Technology",
     "previewImage": "https://www.post-acle.blog/images/v1.png",
-    "blogNumber": 2,
+    "blogNumber": 102,
     "blogID": "vibe-coding",
     "wordsUsed": 500,
     "publishedDate": "2025-07-22T00:00:00.000Z",
     "author": "Swaraj Puppalwar",
+    "targetRegion": "Global"
+  },
+  {
+    "title": "Dreams, Goals, and True Wealth",
+    "tags": [
+      "success",
+      "finance",
+      "dreams",
+      "motivation"
+    ],
+    "category": "Personal Growth",
+    "previewImage": "https://www.post-acle.blog/images/dreams-assets.jpg",
+    "blogNumber": 103,
+    "blogID": "dreams-goals-wealth",
+    "wordsUsed": 316,
+    "publishedDate": "2025-08-16T00:00:00.000Z",
+    "author": "Sai Prasad",
     "targetRegion": "Global"
   }
 ]

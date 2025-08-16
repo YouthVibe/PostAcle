@@ -13,6 +13,7 @@ import Accordion from "@/app/components/Accordion";
 import HighlightBox from "@/app/components/HighlightBox";
 import ReadingProgressBar from "@/app/components/ReadingProgressBar";
 
+import { Ad728x90, Ad468x60, Ad320x50 } from "@/app/components/AdBanner";
 
 interface BlogPostContentProps {
   blogPost: BlogPost;
@@ -71,6 +72,7 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
+      {/* <Ad468x60 /> */}
       <ReadingProgressBar />
       <nav className="text-left text-gray-400 mb-8">
         <a href="/" className="hover:underline">Home</a> &gt;
@@ -102,7 +104,14 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
         </div>
       </div>
 
+      {/* <Ad728x90 /> */}
+      {/* ✅ Top Ad */}
+      {/* <div className="my-6">
+        <Ad728x90 />
+      </div> */}
+
       <div className="prose prose-invert max-w-none text-left mx-auto">
+        {/* <Ad728x90 /> */}
         {blogPost.content.map((block: any, index: number) => (
           <div key={index} className="my-6">
             {block.contentType === 'text' && (
@@ -321,6 +330,7 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
           </svg>
         </button>
       )}
+      {/* <Ad468x60 /> */}
     </section>
   );
 }
