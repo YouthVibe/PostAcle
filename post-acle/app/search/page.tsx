@@ -27,7 +27,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import Navbar from '../components/Navbar';
 import FooterStatic from '../components/FooterStatic';
-import SearchContent from './SearchContent';
+import SearchContent from './SearchContent.new';
 
 interface BlogEntry {
   title: string;

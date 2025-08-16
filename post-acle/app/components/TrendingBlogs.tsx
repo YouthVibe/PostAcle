@@ -38,19 +38,20 @@ export default async function TrendingBlogs() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {blogs.map((blog) => (
           <div
             key={blog.blogID}
             className="group relative bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl border border-gray-800 overflow-hidden hover:border-pink-500/30 transition-all duration-300"
           >
-            <Image
-              src={blog.previewImage}
-              alt={blog.title}
-              width={768}
-              height={432}
-              className="w-full h-48 object-cover rounded-t-xl"
-            />
+            <div className="aspect-video relative">
+              <Image
+                src={blog.previewImage}
+                alt={blog.title}
+                fill
+                className="object-cover rounded-t-xl"
+              />
+            </div>
             <div className="p-6">
               <div className="flex flex-wrap gap-2 text-xs mb-4">
                 <span className="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full">{blog.category}</span>
