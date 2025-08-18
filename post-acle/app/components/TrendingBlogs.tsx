@@ -63,6 +63,9 @@ export default async function TrendingBlogs() {
                     {tag}
                   </span>
                 ))}
+                <span className="bg-purple-600/20 text-purple-400 px-3 py-1 rounded-full">
+                  Author: {blog.author}
+                </span>
               </div>
 
               <h3 className="text-xl font-semibold mb-3 group-hover:text-pink-400 transition-colors">
