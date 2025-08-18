@@ -62,5 +62,17 @@
     "publishedDate": "2025-08-18T00:00:00.000Z",
     "author": "Sai Prasad",
     "targetRegion": "Global"
-  }  
+  },
+  {
+    "title": "Mobile Phones: A Blessing or a Curse",
+    "tags": ["mobile phones", "technology", "communication", "smartphones", "health"],
+    "category": "Technology",
+    "previewImage": "https://www.post-acle.blog/images/mobile-phones-cover.jpg",
+    "blogNumber": 105,
+    "blogID": "mobile-phones-impact",
+    "wordsUsed": 860,
+    "publishedDate": "2025-08-18T00:00:00.000Z",
+    "author": "Sai Prasad",
+    "targetRegion": "Global"
+  }
 ]
