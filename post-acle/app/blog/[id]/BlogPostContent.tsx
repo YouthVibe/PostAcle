@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -12,9 +12,134 @@ import Infographic from "@/app/components/Infographic";
 import Accordion from "@/app/components/Accordion";
 import HighlightBox from "@/app/components/HighlightBox";
 import ReadingProgressBar from "@/app/components/ReadingProgressBar";
-
+import fs from 'fs/promises';
+import path from 'path';
+// import Navbar from '../components/Navbar';
+// import FooterStatic from '../components/FooterStatic';
+// import SearchContent from './SearchContent.new';
 import { Ad728x90, Ad468x60, Ad320x50 } from "@/app/components/AdBanner";
+// import BlogPostContent from './BlogPostContent';
+interface BlogEntry {
+  title: string;
+  tags: string[];
+  category: string;
+  previewImage: string;
+  blogNumber: number;
+  blogID: string;
+  wordsUsed: number;
+  publishedDate: string;
+  author: string;
+  targetRegion: 'India' | 'US' | 'Europe' | 'Global';
+}
+async function getAllBlogs(): Promise<BlogEntry[]> {
+  try {
+    const response = await fetch('https://www.post-acle.blog/index.json'); // fetch the file
+    const fileContent = await response.text();   // get the content
+    return JSON.parse(fileContent) as BlogEntry[];
+  } catch (error) {
+    console.error('Error reading blog index:', error);
+    return [];
+  }
+}
+// import { useEffect, useState } from "react";
+// import Image from "next/image";
 
+// import { useEffect, useState, useRef } from "react";
+// import Image from "next/image";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+// import { useEffect, useState } from "react";
+// import Image from "next/image";
+
+function RelatedPosts({ blogPost }: { blogPost: any }) {
+  const [relatedBlogs, setRelatedBlogs] = useState<any[]>([]);
+  // console.log(blogPost);
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const allBlogs = await getAllBlogs();
+        // console.log(allBlogs);
+
+        const filtered = allBlogs
+          .filter(
+            (blog) =>
+              blog.title !== blogPost.title // exclude current blog
+              // blog.category === blogPost.category // same category
+              // blog.targetRegion === blogPost.targetRegion // same region
+          )
+          .slice(0, 4); // only 4 blogs
+
+        setRelatedBlogs(filtered);
+        // console.log(filtered);
+      } catch (err) {
+        console.error("Error fetching related blogs:", err);
+      }
+    };
+
+    fetchBlogs();
+  }, []);
+  // console.log(relatedBlogs);
+
+  if (relatedBlogs.length === 0) return null;
+
+  return (
+    <div className="mt-16 mb-8">
+      <h2 className="text-2xl font-bold text-white mb-6">Related Posts</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {relatedBlogs.map((blog, index) => (
+          <div
+            key={index}
+            className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300"
+          >
+            <div className="aspect-[16/9] bg-gray-700 relative">
+              <Image
+                src={blog.previewImage || "/images/defaultBlog.jpg"}
+                alt={blog.title}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover hover:scale-105 transition-transform duration-300"
+                onError={(e) => {
+                  e.currentTarget.src = "/images/defaultBlog.jpg";
+                }}
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2">
+                {blog.title}
+              </h3>
+              {/* <p className="text-gray-400 text-sm line-clamp-3">
+                {blog.previewDescription}
+              </p> */}
+              <a
+                href={`/blog/${blog.blogID}`}
+                className="inline-block mt-4 text-purple-400 hover:text-purple-300 text-sm font-medium"
+              >
+                Read More →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// export default RelatedPosts;
+
+
+// export default RelatedPosts;
+
+
+interface BlogJSON {
+  title: string;
+  previewDescription: string;
+  previewImageURL?: string;
+  tags?: string[];
+  author?: string;
+  publishedDate?: string;
+  wordsUsed?: number;
+  targetRegion?: string;
+}
 interface BlogPostContentProps {
   blogPost: BlogPost;
 }
@@ -196,28 +321,31 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
                   hr: ({ node, ...props }) => (
                     <hr className="border-gray-700 my-8" {...props} />
                   ),
-                  // Custom component for chart display
-                  // chart: ({ node, ...props }) => (
-                  //   <ChartDisplay data={JSON.parse(props.children as string)} />
-                  // ),
                 }}
                 remarkPlugins={[remarkGfm]}
               >
                 {block.content}
               </ReactMarkdown>
             )}
-
-            {/* {block.contentType === 'image' && typeof block.content === 'string' && (
-              <div className="flex justify-center my-6">
-                <Image
-                  src={block.content}
-                  alt={`Image ${index}`}
-                  width={800}
-                  height={450}
-                  className="rounded-lg shadow-md"
-                />
+            {block.contentType === 'ad' && (
+              <div className="my-6 w-full max-w-full overflow-x-hidden flex justify-center">
+                {block.content === '728x90' && (
+                  <div className="w-full max-w-[728px]">
+                    <Ad728x90 />
+                  </div>
+                )}
+                {block.content === '468x60' && (
+                  <div className="w-full max-w-[468px]">
+                    <Ad468x60 />
+                  </div>
+                )}
+                {block.content === '320x50' && (
+                  <div className="w-full max-w-[320px]">
+                    <Ad320x50 />
+                  </div>
+                )}
               </div>
-            )} */}
+            )}
             {block.contentType === 'image' && typeof block.content === 'string' && (
               <div className="flex justify-center my-6">
                 <Image
@@ -307,7 +435,22 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
           </div>
         ))}
       </div>
-
+      {/* Related Blog Posts Slider */}
+      <RelatedPosts blogPost={blogPost}/>
+      <div className="bg-gray-800 p-8 rounded-lg shadow-lg my-12 text-center">
+        <h3 className="text-2xl font-bold text-white mb-4">Join Our Community!</h3>
+        <p className="text-gray-300 mb-6">
+          Connect with fellow readers and join the discussion in our Discord server. Get exclusive content, updates, and interact with our community!
+        </p>
+        <a
+          href="https://post-acle.blog/join"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+        >
+          Join Discord Server
+        </a>
+      </div>
       {showBackToTop && (
         <button
           onClick={scrollToTop}
