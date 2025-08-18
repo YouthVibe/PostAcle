@@ -50,5 +50,17 @@
     "publishedDate": "2025-08-16T00:00:00.000Z",
     "author": "Sai Prasad",
     "targetRegion": "Global"
-  }
+  },
+  {
+    "title": "Gadgets Impact on Students Performance",
+    "tags": ["gadgets", "education", "students", "performance", "technology"],
+    "category": "Education",
+    "previewImage": "https://www.post-acle.blog/images/gadgets-impact.jpg",
+    "blogNumber": 104,
+    "blogID": "gadgets-impact",
+    "wordsUsed": 720,
+    "publishedDate": "2025-08-18T00:00:00.000Z",
+    "author": "Sai Prasad",
+    "targetRegion": "Global"
+  }  
 ]

@@ -1,0 +1,71 @@
+{
+    "title": "Gadgets Impact on Students Performance",
+    "previewDescription": "An in-depth look into how gadgets like smartphones and laptops affect students' focus, learning, and academic results.",
+    "previewImageURL": "https://www.post-acle.blog/images/gadgets-impact.jpg",
+    "content": [
+      {
+        "contentType": "text",
+        "content": "# Gadgets and Student Performance\nIn 2003, the Department of Education (DepEd) issued Order No. 83, which strictly prohibited the use of cellphones by students while in class. This order applied to both public and private schools, reinforcing previous departmental orders. The goal of the ban was to reduce distractions and keep students focused on their studies."
+      },
+      {
+        "contentType": "image",
+        "content": "https://www.post-acle.blog/images/classroom-ban.jpg"
+      },
+      {
+        "contentType": "text",
+        "content": "Parents and teachers play a crucial role in enforcing this ban. Teachers should guide students on how to responsibly use technology in academics, while parents should mentor their children at home to prevent misuse that could harm both health and academic performance."
+      },
+      {
+        "contentType": "text",
+        "content": "## Negative Impacts of Gadget Overuse\nResearch has shown that smartphones, tablets, laptops, and game consoles can negatively affect students' behavior and study habits. While gadgets can aid learning, excessive use often leads to distractions and reduced performance. Experimental studies indicate that banning phones in schools boosts academic results, especially for low-performing students who are more prone to distractions."
+      },
+      {
+        "contentType": "chart",
+        "content": {
+          "x": ["High Performers", "Low Performers"],
+          "y": [90, 65],
+          "titleChart": "Impact of Gadgets on Performance (%)",
+          "lableX": "Student Group",
+          "lableY": "Performance Level"
+        }
+      },
+      {
+        "contentType": "text",
+        "content": "Recent studies also highlight that multitasking with phones reduces learning efficiency. For instance, taking notes on laptops may not be as effective as writing on paper, since students often type verbatim rather than summarizing key ideas."
+      },
+      {
+        "contentType": "image",
+        "content": "https://www.post-acle.blog/images/students-notes.jpg"
+      },
+      {
+        "contentType": "text",
+        "content": "## A Balanced View\nDespite these drawbacks, technology can still serve as an effective structured teaching tool when used properly. However, misuse or neglect can lead to long-term negative consequences on students' health and social behavior."
+      },
+      {
+        "contentType": "table",
+        "content": {
+          "headers": ["Pros of Gadgets", "Cons of Gadgets"],
+          "rows": [
+            ["Access to information", "Distractions during class"],
+            ["Learning apps and tools", "Cheating and misuse"],
+            ["Emergency communication", "Social isolation"],
+            ["Interactive learning", "Negative impact on health"]
+          ]
+        }
+      },
+      {
+        "contentType": "text",
+        "content": "## Personal Opinion\nNowadays, owning a mobile phone is no longer an option but a priority. While phones themselves aren’t the real problem, misuse in classrooms causes distractions. The no-cellphone policy is a smart move to keep students attentive and engaged. Allowing unrestricted phone use could lead to cheating, social issues, and illegal activity. On the other hand, phones do have safety benefits. Thus, balancing usage policies while educating students about responsible use is the key to leveraging technology in education."
+      },
+      {
+        "contentType": "image",
+        "content": "https://www.post-acle.blog/images/phone-policy.jpg"
+      }
+    ],
+    "tags": ["gadgets", "education", "students", "performance", "technology"],
+    "author": "Sai Prasad",
+    "publishedDate": "2025-08-18",
+    "wordsUsed": 720,
+    "targetRegion": "Global"
+  }
+  
