@@ -20,16 +20,6 @@
         "content": "## Negative Impacts of Gadget Overuse\nResearch has shown that smartphones, tablets, laptops, and game consoles can negatively affect students' behavior and study habits. While gadgets can aid learning, excessive use often leads to distractions and reduced performance. Experimental studies indicate that banning phones in schools boosts academic results, especially for low-performing students who are more prone to distractions."
       },
       {
-        "contentType": "chart",
-        "content": {
-          "x": ["High Performers", "Low Performers"],
-          "y": [90, 65],
-          "titleChart": "Impact of Gadgets on Performance (%)",
-          "lableX": "Student Group",
-          "lableY": "Performance Level"
-        }
-      },
-      {
         "contentType": "text",
         "content": "Recent studies also highlight that multitasking with phones reduces learning efficiency. For instance, taking notes on laptops may not be as effective as writing on paper, since students often type verbatim rather than summarizing key ideas."
       },
