@@ -213,20 +213,75 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-gray-400 text-sm">
           {blogPost.wordsUsed && (
-            <span>
-              Estimated Reading Time: {Math.ceil(blogPost.wordsUsed / 200)} min
-            </span>
+            <div className="flex items-center gap-2 bg-gray-700/50 px-4 py-2 rounded-full">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-5 w-5 text-purple-400" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" 
+                />
+              </svg>
+              <span className="text-purple-300 font-medium">
+                {Math.ceil(blogPost.wordsUsed / 200)} min read
+              </span>
+            </div>
           )}
           {blogPost.tags && blogPost.tags.length > 0 && (
             <div className="flex flex-wrap gap-2">
-              {blogPost.tags.map((tag, i) => (
-                <span key={i} className="bg-gray-700 px-3 py-1 rounded-full text-xs font-semibold">
-                  {tag}
-                </span>
-              ))}
+              {blogPost.tags.map((tag, i) => {
+                // Generate a random pastel background color
+                const bgColors = [
+                  'bg-pink-600/30',
+                  'bg-purple-600/30', 
+                  'bg-blue-600/30',
+                  'bg-green-600/30',
+                  'bg-yellow-600/30',
+                  'bg-red-600/30',
+                  'bg-indigo-600/30'
+                ];
+                const randomBg = bgColors[i % bgColors.length];
+                
+                // Match icons to tag content
+                const getIcon = (tag: string) => {
+                  const iconMap: {[key: string]: JSX.Element} = {
+                    'tech': <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>,
+                    'programming': <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>,
+                    'web': <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>,
+                    'default': <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" /></svg>
+                  };
+                  
+                  const tagLower = tag.toLowerCase();
+                  for (const [key, icon] of Object.entries(iconMap)) {
+                    if (tagLower.includes(key)) return icon;
+                  }
+                  return iconMap.default;
+                };
+
+                return (
+                  <span 
+                    key={i} 
+                    className={`${randomBg} px-3 py-1.5 rounded-full text-xs font-semibold text-white flex items-center gap-1.5 hover:scale-105 transition-transform duration-200 cursor-default`}
+                  >
+                    {getIcon(tag)}
+                    {tag}
+                  </span>
+                );
+              })}
             </div>
           )}
         </div>
+        {blogPost.author && (
+          <div className="flex flex-col items-center justify-center mt-8">
+            <span className="text-lg text-gray-400">By {blogPost.author}</span>
+          </div>
+        )}
       </div>
 
       {/* <Ad728x90 /> */}
@@ -437,6 +492,7 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
       </div>
       {/* Related Blog Posts Slider */}
       <RelatedPosts blogPost={blogPost}/>
+
       <div className="bg-gray-800 p-8 rounded-lg shadow-lg my-12 text-center">
         <h3 className="text-2xl font-bold text-white mb-4">Join Our Community!</h3>
         <p className="text-gray-300 mb-6">

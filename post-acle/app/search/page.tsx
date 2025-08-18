@@ -1,81 +1,32 @@
 import React from 'react';
 import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  const blogs = await getAllBlogs();
-  const blogTitles = blogs.map(blog => blog.title).join(', ');
-
-  return {
-    title: `Search Blogs - PostAcle`, 
-    description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
-    keywords: ['blogs', 'search', 'articles', 'PostAcle', ...blogs.flatMap(blog => blog.tags)],
-    openGraph: {
-      title: 'Search Blogs - PostAcle',
-      description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
-      url: 'https://www.post-acle.blog/search',
-      siteName: 'PostAcle',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Search Blogs - PostAcle',
-      description: `Search and find blogs on PostAcle. Discover articles on various topics including: ${blogTitles}.`,
-    },
-  };
-}
-import fs from 'fs/promises';
-import path from 'path';
 import Navbar from '../components/Navbar';
 import FooterStatic from '../components/FooterStatic';
 import SearchContent from './SearchContent.new';
 
-interface BlogEntry {
-  title: string;
-  tags: string[];
-  category: string;
-  previewImage: string;
-  blogNumber: number;
-  blogID: string;
-  wordsUsed: number;
-  publishedDate: string;
-  author: string;
-  targetRegion: 'India' | 'US' | 'Europe' | 'Global';
-}
+export const metadata: Metadata = {
+  title: `Search Blogs - PostAcle`, 
+  description: `Search and find blogs on PostAcle. Discover articles on various topics.`,
+  keywords: ['blogs', 'search', 'articles', 'PostAcle'],
+  openGraph: {
+    title: 'Search Blogs - PostAcle',
+    description: `Search and find blogs on PostAcle. Discover articles on various topics.`,
+    url: 'https://www.post-acle.blog/search',
+    siteName: 'PostAcle',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Search Blogs - PostAcle',
+    description: `Search and find blogs on PostAcle. Discover articles on various topics.`,
+  },
+};
 
-// This function runs at build time to fetch all blog data
-// export async function generateStaticProps() {
-//   try {
-//     const filePath = path.join(process.cwd(), 'public', 'index.json');
-//     const fileContent = await fs.readFile(filePath, 'utf-8');
-//     return JSON.parse(fileContent) as BlogEntry[];
-//   } catch (error) {
-//     console.error('Error reading blog index:', error);
-//     return [];
-//   }
-// }
-
-async function getAllBlogs(): Promise<BlogEntry[]> {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'index.json');
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(fileContent) as BlogEntry[];
-  } catch (error) {
-    console.error('Error reading blog index:', error);
-    return [];
-  }
-}
-
-interface SearchPageProps {
-  searchParams: { [key: string]: string | string[] | undefined };
-}
-
-export default async function Search() {
-  const blogs = await getAllBlogs();
-  
+export default function Search() {
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
       <Navbar />
-      <SearchContent initialBlogs={blogs}/>
+      <SearchContent initialBlogs={[]}/>
       <FooterStatic />
     </main>
   );

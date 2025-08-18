@@ -23,6 +23,7 @@ interface SearchContentProps {
 
 export default function SearchContent({ initialBlogs }: SearchContentProps) {
   const [blogs, setBlogs] = useState<BlogEntry[]>(initialBlogs);
+  const [loading, setLoading] = useState(false);
   const [visibleBlogs, setVisibleBlogs] = useState<BlogEntry[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -31,10 +32,36 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {
+    const fetchBlogs = async () => {
+      setLoading(true);
+      try {
+        const params = new URLSearchParams({
+          searchQuery,
+          selectedCategory,
+          selectedSort,
+          selectedRegion,
+          startIndex: '0',
+          count: '4',
+        });
+        const response = await fetch(`/api/blogs?${params.toString()}`);
+        const data = await response.json();
+        setVisibleBlogs(data.blogs);
+        setHasMore(data.hasMore);
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBlogs();
+  }, [searchQuery, selectedCategory, selectedSort, selectedRegion]);
+
+  useEffect(() => {
     const handleScroll = () => {
       if (
         window.innerHeight + document.documentElement.scrollTop + 100 >= document.documentElement.offsetHeight &&
-        hasMore
+        hasMore &&
+        !loading
       ) {
         loadMore();
       }
@@ -42,44 +69,29 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasMore]);
+  }, [hasMore, loading]);
 
-  const loadMore = () => {
-    const filtered = filteredBlogs();
-    const nextBlogs = filtered.slice(visibleBlogs.length, visibleBlogs.length + 4);
-    if (nextBlogs.length === 0) {
-      setHasMore(false);
-    } else {
-      setVisibleBlogs(prev => [...prev, ...nextBlogs]);
+  const loadMore = async () => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({
+        searchQuery,
+        selectedCategory,
+        selectedSort,
+        selectedRegion,
+        startIndex: String(visibleBlogs.length),
+        count: '4',
+      });
+      const response = await fetch(`/api/blogs?${params.toString()}`);
+      const data = await response.json();
+      setVisibleBlogs(prev => [...prev, ...data.blogs]);
+      setHasMore(data.hasMore);
+    } catch (error) {
+      console.error('Error loading more blogs:', error);
+    } finally {
+      setLoading(false);
     }
   };
-
-  const filteredBlogs = () => {
-    let filtered = blogs.filter(blog =>
-      (blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        blog.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase())) ||
-        blog.category.toLowerCase().includes(searchQuery.toLowerCase())) &&
-      (selectedRegion === 'Global' || blog.targetRegion === selectedRegion)
-    );
-
-    if (selectedCategory !== 'All') {
-      filtered = filtered.filter(blog => blog.category === selectedCategory);
-    }
-
-    if (selectedSort === 'Newest') {
-      filtered = filtered.sort((a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime());
-    } else if (selectedSort === 'Oldest') {
-      filtered = filtered.sort((a, b) => new Date(a.publishedDate).getTime() - new Date(b.publishedDate).getTime());
-    }
-
-    return filtered;
-  };
-
-  useEffect(() => {
-    const filtered = filteredBlogs();
-    setVisibleBlogs(filtered.slice(0, 4));
-    setHasMore(filtered.length > 4);
-  }, [searchQuery, selectedCategory, selectedSort, selectedRegion, blogs]);
 
   const renderBlogCard = (blog: BlogEntry) => {
     const readingTime = (blog.wordsUsed / 200).toFixed(1);
@@ -91,7 +103,6 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
       className: "bg-gray-900/40 border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-lg transition relative h-full flex flex-col"
     }, [
       React.createElement('div', {
-        key: 'image-container',
         className: "aspect-video relative w-full"
       }, [
         React.createElement('img', {
@@ -106,7 +117,6 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
         }, blog.targetRegion)
       ]),
       React.createElement('div', {
-        key: 'content',
         className: "p-6 flex-1 flex flex-col"
       }, [
         React.createElement('h3', {
@@ -118,6 +128,16 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
         React.createElement('p', {
           className: "text-xs text-gray-500"
         }, `${new Date(blog.publishedDate).toLocaleDateString()} • ${readingTime} min read`),
+        React.createElement('div', {
+          className: "flex items-center mt-2"
+        }, [
+          React.createElement('span', {
+            className: "text-sm text-gray-400 mr-2"
+          }, `By ${blog.author}`),
+          React.createElement('span', {
+            className: "bg-blue-500 text-white text-xs px-2 py-1 rounded-full"
+          }, "Author")
+        ]),
         React.createElement('div', {
           className: "flex flex-wrap gap-2 mt-auto pt-4"
         }, blog.tags.map(tag =>
