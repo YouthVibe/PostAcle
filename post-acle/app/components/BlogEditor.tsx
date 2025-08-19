@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { BlogPost, BlogBlock, renderBlog } from '@/app/blog/page';
 import { v4 as uuidv4 } from 'uuid';
 
-const initialBlogPost: BlogPost = {
+const initialBlogPost: any = {
   title: '',
   previewDescription: '',
   content: [],
