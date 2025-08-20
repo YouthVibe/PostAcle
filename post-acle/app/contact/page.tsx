@@ -40,7 +40,7 @@ export default function Contact() {
               You can reach us via email or phone. We aim to respond to all inquiries within 24-48 hours.
             </p>
             <ul className="text-gray-400 space-y-2">
-              <li><strong>Email:</strong> epicdeveloper144@gmail.com</li>
+              <li><strong>Email:</strong> epicdeveloper14@gmail.com</li>
               <li><strong>Phone:</strong> +91 8010182409</li>
             </ul>
           </div>
