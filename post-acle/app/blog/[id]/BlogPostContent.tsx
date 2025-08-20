@@ -292,6 +292,9 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
 
       <div className="prose prose-invert max-w-none text-left mx-auto">
         {/* <Ad728x90 /> */}
+        {/* <div>
+          <AdDisplay adType='video' />
+        </div> */}
         {blogPost.content.map((block: any, index: number) => (
           <div key={index} className="my-6">
             {block.contentType === 'text' && (
@@ -382,6 +385,7 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
                 {block.content}
               </ReactMarkdown>
             )}
+            {/* <AdDisplay adType='728x90' /> */}
             {block.contentType === 'ad' && (
               <div className="my-6 w-full max-w-full overflow-x-hidden flex justify-center">
                 {block.content === '728x90' && (
