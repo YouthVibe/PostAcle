@@ -1,0 +1,66 @@
+{
+    "bannerAds": [
+      {
+        "priority": 0,
+        "adId": "ad001",
+        "title": "Tech Gadget Sale",
+        "description": "Exclusive discounts on latest gadgets and accessories.",
+        "type": "banner",
+        "format": "728x90",
+        "fileUrl": "https://www.post-acle.blog/ads/AdBanner/728x90/1.jpg",
+        "redirectUrl": "https://example.com/gadgets-sale",
+        "placement": "Top of blog post",
+        "duration": null,
+        "owner": "TechWorld Pvt. Ltd.",
+        "pricing": "₹100/week",
+        "engagement": "High"
+      },
+      {
+        "priority": 1,
+        "adId": "ad002",
+        "title": "Startup Promotion",
+        "description": "Promote your startup with our sidebar ad.",
+        "type": "banner",
+        "format": "144x144",
+        "fileUrl": "https://www.post-acle.blog/ads/AdBanner/320x50/1.jpg",
+        "redirectUrl": "https://example.com/startup",
+        "placement": "Sidebar",
+        "duration": "1 month",
+        "owner": "InnovateHub",
+        "pricing": "₹20/month",
+        "engagement": "Low"
+      },
+      {
+        "priority": 0,
+        "adId": "ad003",
+        "title": "Healthy Living Blog Ad",
+        "description": "Tips and guides for a healthier lifestyle.",
+        "type": "banner",
+        "format": "468x60",
+        "fileUrl": "https://www.post-acle.blog/ads/AdBanner/468x60/1.jpg",
+        "redirectUrl": "https://example.com/healthyliving",
+        "placement": "Inside content",
+        "duration": null,
+        "owner": "HealthFirst",
+        "pricing": "₹60/week",
+        "engagement": "Moderate"
+      }
+    ],
+    "videoAds": [
+      {
+        "priority": 0,
+        "adId": "ad004",
+        "title": "Brand Storytelling Video",
+        "description": "Engage with your audience through powerful video ads.",
+        "type": "video",
+        "format": "mp4",
+        "fileUrl": "https://www.post-acle.blog/ads/Video/1.mp4",
+        "redirectUrl": "https://example.com/brand-video",
+        "placement": "Start/End of blog posts",
+        "duration": "30s",
+        "owner": "BrandMasters Inc.",
+        "pricing": "₹200/week",
+        "engagement": "High"
+      }
+    ]
+}  
