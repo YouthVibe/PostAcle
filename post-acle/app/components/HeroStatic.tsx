@@ -1,7 +1,41 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 
 export default function HeroStatic() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  useEffect(() => {
+    const fetchSuggestions = async () => {
+      if (searchQuery.length > 2) { // Fetch suggestions only if query is long enough
+        try {
+          const response = await fetch(`/api/autocomplete?q=${encodeURIComponent(searchQuery)}`);
+          const data = await response.json();
+          const allSuggestions = [...data.titles, ...data.authors];
+          setSuggestions(allSuggestions.filter((s: string) => s.toLowerCase().includes(searchQuery.toLowerCase())));
+          setShowSuggestions(true);
+        } catch (error) {
+          console.error('Error fetching suggestions:', error);
+        }
+      } else {
+        setSuggestions([]);
+        setShowSuggestions(false);
+      }
+    };
+
+    const handler = setTimeout(() => {
+      fetchSuggestions();
+    }, 300); // Debounce for 300ms
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [searchQuery]);
+
   return (
     <section className="relative py-20 overflow-hidden">
       {/* Grid Background */}
@@ -26,13 +60,60 @@ export default function HeroStatic() {
 
         {/* Search Bar */}
         <div className="max-w-xl mx-auto mb-16">
-          <div className="flex rounded-md shadow-sm">
-            <Link href="/search" className="w-full">
-              <div className="w-full px-5 py-3 rounded-md bg-gray-800/50 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-gray-200 text-left">
-                Search for articles, topics, or authors...
+          <form 
+            onSubmit={(e) => {
+              e.preventDefault();
+              const searchValue = (e.target as HTMLFormElement).search.value;
+              if (searchValue.trim()) {
+                window.location.href = `/search?q=${encodeURIComponent(searchValue.trim())}`;
+              }
+            }}
+            className="relative"
+          >
+            <div className="flex items-center rounded-md shadow-sm">
+              <input
+                type="text"
+                name="search"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search for articles, topics, or authors..."
+                className="w-full px-5 py-3 pl-12 rounded-md bg-gray-800/50 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-gray-200"
+                onBlur={() => setTimeout(() => setShowSuggestions(false), 100)} // Hide suggestions when input loses focus
+              />
+              {showSuggestions && suggestions.length > 0 && (
+                <ul className="absolute z-10 w-full bg-gray-800 border border-gray-700 rounded-md mt-20 max-h-60 overflow-auto text-left">
+                  {suggestions.map((suggestion, index) => (
+                    <li
+                      key={index}
+                      className="px-4 py-2 cursor-pointer hover:bg-gray-700 text-gray-200"
+                      onMouseDown={() => {
+                        setSearchQuery(suggestion);
+                        setShowSuggestions(false);
+                      }}
+                    >
+                      {suggestion}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <div className="absolute left-4 top-1/2 -translate-y-1/2">
+                <svg
+                  className="w-5 h-5 text-gray-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
               </div>
-            </Link>
-          </div>
+            </div>
+          </form>
         </div>
 
         {/* Our Niches */}

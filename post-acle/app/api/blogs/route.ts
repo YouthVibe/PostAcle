@@ -19,6 +19,7 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const searchQuery = searchParams.get('searchQuery') || '';
+    const searchBy = searchParams.get('searchBy') || 'title'; // Default to title search
     const selectedCategory = searchParams.get('selectedCategory') || 'All';
     const selectedSort = searchParams.get('selectedSort') || 'Newest';
     const selectedRegion = searchParams.get('selectedRegion') || 'Global';
@@ -40,12 +41,17 @@ export async function GET(request: Request) {
     });
     blogs = deduplicatedBlogs;
 
-    let filteredBlogs = blogs.filter(blog =>
-      (blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    let filteredBlogs = blogs.filter(blog => {
+      const matchesSearchQuery = 
+        blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         blog.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase())) ||
-        blog.category.toLowerCase().includes(searchQuery.toLowerCase())) &&
-      (selectedRegion === 'Global' || blog.targetRegion === selectedRegion)
-    );
+        blog.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (searchBy === 'titleAndAuthor' && blog.author.toLowerCase().includes(searchQuery.toLowerCase()));
+
+      const matchesRegion = (selectedRegion === 'Global' || blog.targetRegion === selectedRegion);
+
+      return matchesSearchQuery && matchesRegion;
+    });
 
     if (selectedCategory !== 'All') {
       filteredBlogs = filteredBlogs.filter(blog => blog.category === selectedCategory);

@@ -22,11 +22,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Search() {
+export default function Search({ searchParams }: { searchParams: { q?: string; sort?: string; region?: string } }) {
+  const { q, sort, region } = searchParams;
+
   return (
     <main className="bg-[#0d0d1a] min-h-screen text-white font-sans">
       <Navbar />
-      <SearchContent initialBlogs={[]}/>
+      <SearchContent initialBlogs={[]} initialSearchQuery={q || ''} initialSort={sort || 'Newest'} initialRegion={region || 'Global'}/>
       <FooterStatic />
     </main>
   );

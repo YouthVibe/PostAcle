@@ -19,29 +19,66 @@ interface BlogEntry {
 
 interface SearchContentProps {
   initialBlogs: BlogEntry[];
+  initialSearchQuery: string;
+  initialSort: string;
+  initialRegion: string;
 }
 
-export default function SearchContent({ initialBlogs }: SearchContentProps) {
+export default function SearchContent({ initialBlogs, initialSearchQuery, initialSort, initialRegion }: SearchContentProps) {
   const [blogs, setBlogs] = useState<BlogEntry[]>(initialBlogs);
   const [loading, setLoading] = useState(false);
   const [visibleBlogs, setVisibleBlogs] = useState<BlogEntry[]>([]);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(initialSearchQuery);
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState(initialSearchQuery);
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedSort, setSelectedSort] = useState('Newest');
-  const [selectedRegion, setSelectedRegion] = useState('Global');
+  const [selectedSort, setSelectedSort] = useState(initialSort);
+  const [selectedRegion, setSelectedRegion] = useState(initialRegion);
   const [hasMore, setHasMore] = useState(true);
+
+  // Debounce search query
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 500);
+
+    const fetchSuggestions = async () => {
+      if (searchQuery.length > 2) { // Fetch suggestions only if query is long enough
+        try {
+          const response = await fetch(`/api/autocomplete?q=${encodeURIComponent(searchQuery)}`);
+          const data = await response.json();
+          const allSuggestions = [...data.titles, ...data.authors];
+          setSuggestions(allSuggestions.filter((s: string) => s.toLowerCase().includes(searchQuery.toLowerCase())));
+          setShowSuggestions(true);
+        } catch (error) {
+          console.error('Error fetching suggestions:', error);
+        }
+      } else {
+        setSuggestions([]);
+        setShowSuggestions(false);
+      }
+    };
+
+    fetchSuggestions();
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [searchQuery]);
 
   useEffect(() => {
     const fetchBlogs = async () => {
       setLoading(true);
       try {
         const params = new URLSearchParams({
-          searchQuery,
+          searchQuery: debouncedSearchQuery,
           selectedCategory,
           selectedSort,
           selectedRegion,
           startIndex: '0',
           count: '4',
+          searchBy: 'titleAndAuthor', // New parameter to indicate searching by both title and author
         });
         const response = await fetch(`/api/blogs?${params.toString()}`);
         const data = await response.json();
@@ -54,7 +91,7 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
       }
     };
     fetchBlogs();
-  }, [searchQuery, selectedCategory, selectedSort, selectedRegion]);
+  }, [debouncedSearchQuery, selectedCategory, selectedSort, selectedRegion]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -81,6 +118,7 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
         selectedRegion,
         startIndex: String(visibleBlogs.length),
         count: '4',
+        searchBy: 'titleAndAuthor', // New parameter to indicate searching by both title and author
       });
       const response = await fetch(`/api/blogs?${params.toString()}`);
       const data = await response.json();
@@ -163,14 +201,42 @@ export default function SearchContent({ initialBlogs }: SearchContentProps) {
     }, "Find the content that matters to you."),
     React.createElement('div', {
       key: 'search',
-      className: "max-w-xl mx-auto mb-10"
-    }, React.createElement('input', {
-      type: "text",
-      value: searchQuery,
-      onChange: (e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value),
-      placeholder: "Search for articles, topics, or authors...",
-      className: "w-full px-5 py-3 rounded-md bg-gray-800/50 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-gray-200"
-    })),
+      className: "max-w-xl mx-auto mb-10 relative"
+    }, [
+      React.createElement('input', {
+        type: "text",
+        value: searchQuery,
+        onChange: (e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value),
+        onKeyDown: (e: React.KeyboardEvent<HTMLInputElement>) => {
+          if (e.key === 'Enter') {
+            setDebouncedSearchQuery(searchQuery);
+          }
+        },
+        placeholder: "Search for articles, topics, or authors...",
+        className: "w-full pl-12 pr-5 py-3 rounded-full bg-gray-800/50 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-gray-200 shadow-lg transition-all duration-300 ease-in-out hover:border-purple-500",
+        onBlur: () => setTimeout(() => setShowSuggestions(false), 100) // Hide suggestions when input loses focus
+      }),
+      showSuggestions && suggestions.length > 0 && React.createElement('ul', {
+        className: "absolute z-10 w-full bg-gray-800 border border-gray-700 rounded-md mt-1 max-h-60 overflow-auto text-left"
+      }, suggestions.map((suggestion, index) =>
+        React.createElement('li', {
+          key: index,
+          className: "px-4 py-2 cursor-pointer hover:bg-gray-700 text-gray-200",
+          onMouseDown: () => {
+            setSearchQuery(suggestion);
+            setDebouncedSearchQuery(suggestion);
+            setShowSuggestions(false);
+          }
+        }, suggestion)
+      )),
+      React.createElement(Image, {
+        src: "/file.svg", // Using file.svg as a placeholder for a search icon
+        alt: "Search Icon",
+        width: 20,
+        height: 20,
+        className: "absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+      })
+    ]),
     React.createElement('div', {
       key: 'filters',
       className: "bg-gray-800/30 backdrop-blur-md rounded-xl p-6 border border-gray-700 shadow-lg mb-12"
