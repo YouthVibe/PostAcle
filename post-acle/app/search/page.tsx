@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Search({ searchParams }: { searchParams: { q?: string; sort?: string; region?: string } }) {
+export default function Search({ searchParams }: any) {
   const { q, sort, region } = searchParams;
 
   return (
