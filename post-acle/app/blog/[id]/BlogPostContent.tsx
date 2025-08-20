@@ -17,7 +17,7 @@ import path from 'path';
 // import Navbar from '../components/Navbar';
 // import FooterStatic from '../components/FooterStatic';
 // import SearchContent from './SearchContent.new';
-import { Ad728x90, Ad468x60, Ad320x50 } from "@/app/components/AdBanner";
+import AdDisplay from "@/app/components/AdDisplay";
 // import BlogPostContent from './BlogPostContent';
 interface BlogEntry {
   title: string;
@@ -386,17 +386,22 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
               <div className="my-6 w-full max-w-full overflow-x-hidden flex justify-center">
                 {block.content === '728x90' && (
                   <div className="w-full max-w-[728px]">
-                    <Ad728x90 />
+                    <AdDisplay adType='728x90' />
                   </div>
                 )}
                 {block.content === '468x60' && (
                   <div className="w-full max-w-[468px]">
-                    <Ad468x60 />
+                    <AdDisplay adType='468x60' />
                   </div>
                 )}
                 {block.content === '320x50' && (
                   <div className="w-full max-w-[320px]">
-                    <Ad320x50 />
+                    <AdDisplay adType='320x50' />
+                  </div>
+                )}
+                {block.content === 'video' && (
+                  <div className="w-full max-w-[320px]">
+                    <AdDisplay adType='video' />
                   </div>
                 )}
               </div>
