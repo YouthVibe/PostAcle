@@ -199,10 +199,30 @@ export default function BlogPostContent({ blogPost }: BlogPostContentProps) {
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
       {/* <Ad468x60 /> */}
       <ReadingProgressBar />
-      <nav className="text-left text-gray-400 mb-8">
-        <a href="/" className="hover:underline">Home</a> &gt;
-        <a href="/search" className="hover:underline">Blogs</a> &gt;
-        <span>{blogPost.title}</span>
+      <nav className="flex items-center gap-2 text-left mb-8 text-sm font-medium">
+        <a 
+          href="/" 
+          className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center gap-1"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          </svg>
+          Home
+        </a>
+        <span className="text-gray-600">/</span>
+        <a 
+          href="/search" 
+          className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center gap-1"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2 2 0 00-.586-1.414l-4.5-4.5A2 2 0 0015.5 3H15m4 13a2 2 0 002-2V9.5a2 2 0 00-.586-1.414l-4.5-4.5A2 2 0 0015.5 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14z" />
+          </svg>
+          Blogs
+        </a>
+        <span className="text-gray-600">/</span>
+        <span className="text-purple-400 truncate max-w-[200px]" title={blogPost.title}>
+          {blogPost.title}
+        </span>
       </nav>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-10 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
