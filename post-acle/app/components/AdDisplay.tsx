@@ -36,7 +36,7 @@ export default function AdsDisplay({ adType }: { adType: string }) {
   useEffect(() => {
     const fetchAds = async () => {
       try {
-        const res = await fetch('/ads/index.json');
+        const res = await fetch('/Ads/index.json');
         const data = await res.json();
         setAds(data);
       } catch (error) {
