@@ -58,18 +58,10 @@ export default function AdsDisplay({ adType }: { adType: string }) {
       const record = history[ad.adId];
 
       // Filter by requested adType
-      if (adType === 'video') {
-        if (ad.type !== 'video') {
-          nextIndex = (nextIndex + 1) % adsList.length;
-          attempts++;
-          continue;
-        }
-      } else {
-        if (ad.type !== 'banner' || ad.format !== adType) {
-          nextIndex = (nextIndex + 1) % adsList.length;
-          attempts++;
-          continue;
-        }
+      if (adType && ad.format !== adType && !(adType === 'video' && ad.type === 'video')) {
+        nextIndex = (nextIndex + 1) % adsList.length;
+        attempts++;
+        continue;
       }
 
       // Check if ad is blocked for 24h
