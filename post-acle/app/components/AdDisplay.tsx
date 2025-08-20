@@ -36,7 +36,7 @@ export default function AdsDisplay({ adType }: { adType: string }) {
   useEffect(() => {
     const fetchAds = async () => {
       try {
-        const res = await fetch('/Ads/index.json');
+        const res = await fetch('https://raw.githubusercontent.com/YouthVibe/PostAcle/refs/heads/main/post-acle/public/Ads/index.json');
         const data = await res.json();
         setAds(data);
       } catch (error) {
@@ -58,10 +58,18 @@ export default function AdsDisplay({ adType }: { adType: string }) {
       const record = history[ad.adId];
 
       // Filter by requested adType
-      if (adType && ad.format !== adType && !(adType === 'video' && ad.type === 'video')) {
-        nextIndex = (nextIndex + 1) % adsList.length;
-        attempts++;
-        continue;
+      if (adType === 'video') {
+        if (ad.type !== 'video') {
+          nextIndex = (nextIndex + 1) % adsList.length;
+          attempts++;
+          continue;
+        }
+      } else {
+        if (ad.type !== 'banner' || ad.format !== adType) {
+          nextIndex = (nextIndex + 1) % adsList.length;
+          attempts++;
+          continue;
+        }
       }
 
       // Check if ad is blocked for 24h
