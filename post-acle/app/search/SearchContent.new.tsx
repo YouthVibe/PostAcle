@@ -226,6 +226,10 @@ export default function SearchContent({ initialBlogs, initialSearchQuery, initia
             setSearchQuery(suggestion);
             setDebouncedSearchQuery(suggestion);
             setShowSuggestions(false);
+            const searchInput = document.querySelector('input[type="text"]') as HTMLInputElement;
+            if (searchInput) {
+              searchInput.blur();
+            }
           }
         }, suggestion)
       )),

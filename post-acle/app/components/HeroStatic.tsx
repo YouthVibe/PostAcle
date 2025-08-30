@@ -87,8 +87,7 @@ export default function HeroStatic() {
                       key={index}
                       className="px-4 py-2 cursor-pointer hover:bg-gray-700 text-gray-200"
                       onMouseDown={() => {
-                        setSearchQuery(suggestion);
-                        setShowSuggestions(false);
+                        window.location.href = `/search?q=${encodeURIComponent(suggestion)}`;
                       }}
                     >
                       {suggestion}
