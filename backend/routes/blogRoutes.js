@@ -16,6 +16,13 @@ router.get('/index', async (req, res) => {
     console.error('Error fetching index blogs:', error);
     res.status(500).json({ message: 'Internal server error' });
   }
+
+// Suggestion: More detailed error messages or a custom error handler
+// Example (conceptual, requires implementation of custom error classes):
+// } catch (error) {
+//   console.error(`Error fetching index blogs: ${error.message}`, error.stack);
+//   next(new CustomAPIError('Failed to fetch blogs', 500, 'BLOG_FETCH_ERROR'));
+// }
 });
 
 // Get best blogs
@@ -124,33 +131,68 @@ router.delete('/:blogID', authMiddleware, async (req, res) => {
   }
 });
 
-// Approve a temporary blog (manager permission required)
 router.post('/approve/:blogID', authMiddleware, async (req, res) => {
   if (!req.user.permissions.canApproveTempBlog) {
     return res.status(403).json({ message: 'Forbidden: Only managers can approve temporary blogs' });
   }
+
   try {
     const tempBlog = await TempBlog.findOne({ blogID: req.params.blogID });
     if (!tempBlog) {
       return res.status(404).json({ message: 'Temporary blog not found' });
     }
 
-    // Create a new permanent blog from the temporary one
-    const newBlog = new Blog(tempBlog.toObject());
-    await newBlog.save();
+    // Convert tempBlog to object and clean
+    const blogData = tempBlog.toObject();
+    delete blogData._id; // let Mongo assign new one
 
-    // Add to index and best if applicable
-    const newIndexEntry = new Index(tempBlog.toObject());
-    await newIndexEntry.save();
+    // --- Save to Blog ---
+    const newBlog = await Blog.findOneAndUpdate(
+      { blogID: blogData.blogID },
+      blogData,
+      { upsert: true, new: true }
+    );
+
+    // --- Save to Index (make sure required fields exist) ---
+    const indexData = {
+      blogID: blogData.blogID,
+      title: blogData.title,
+      blogNumber: blogData.blogNumber || req.body.blogNumber, // fallback from request
+      previewImage: blogData.previewImage || req.body.previewImage,
+      category: blogData.category || req.body.category
+    };
+
+    const newIndexEntry = await Index.findOneAndUpdate(
+      { blogID: blogData.blogID },
+      indexData,
+      { upsert: true, new: true }
+    );
+
+    // --- Save to Best if applicable ---
     if (req.body.isBest) {
-      const newBestEntry = new Best(tempBlog.toObject());
-      await newBestEntry.save();
+      const bestData = {
+        blogID: blogData.blogID,
+        title: blogData.title,
+        previewImage: blogData.previewImage || req.body.previewImage,
+        category: blogData.category || req.body.category
+      };
+
+      await Best.findOneAndUpdate(
+        { blogID: blogData.blogID },
+        bestData,
+        { upsert: true, new: true }
+      );
     }
 
-    // Delete the temporary blog
+    // --- Always delete from TempBlog ---
     await TempBlog.findOneAndDelete({ blogID: req.params.blogID });
 
-    res.status(200).json({ message: 'Temporary blog approved and moved to permanent blogs', blog: newBlog });
+    res.status(200).json({
+      message: 'Temporary blog approved and moved to permanent collections',
+      blog: newBlog,
+      index: newIndexEntry
+    });
+
   } catch (error) {
     console.error('Error approving temporary blog:', error);
     res.status(500).json({ message: 'Internal server error', error: error.message });
@@ -182,6 +224,23 @@ router.post('/deapprove/:blogID', authMiddleware, async (req, res) => {
   } catch (error) {
     console.error('Error de-approving blog:', error);
     res.status(500).json({ message: 'Internal server error', error: error.message });
+  }
+});
+
+// Get all blogs (both permanent and temporary - only owner can do this)
+router.get('/all', authMiddleware, async (req, res) => {
+  if (!req.user.permissions.isOwner) {
+    return res.status(403).json({ message: 'Only owners can view all blogs' });
+  }
+
+  try {
+    const permanentBlogs = await Blog.find({});
+    const temporaryBlogs = await TempBlog.find({});
+    const allBlogs = [...permanentBlogs, ...temporaryBlogs];
+    res.status(200).json(allBlogs);
+  } catch (error) {
+    console.error('Error fetching all blogs:', error);
+    res.status(500).json({ message: 'Error fetching all blogs', error: error.message });
   }
 });
 

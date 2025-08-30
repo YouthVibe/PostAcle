@@ -67,4 +67,19 @@ router.post('/login', async (req, res) => {
   }
 });
 
+// Get all users (only owner can do this)
+router.get('/', authMiddleware, async (req, res) => {
+  if (!req.user.permissions.isOwner) {
+    return res.status(403).json({ message: 'Only owners can view all users' });
+  }
+
+  try {
+    const users = await User.find({}, '-password'); // Exclude passwords from the results
+    res.status(200).json(users);
+  } catch (error) {
+    console.error('Get all users error:', error);
+    res.status(500).json({ message: 'Error fetching users', error: error.message });
+  }
+});
+
 export default router;
