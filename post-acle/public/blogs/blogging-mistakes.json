@@ -1,12 +1,8 @@
 {
-  "title": "Why Most People Won't Succeed in Blog Writing",
-  "previewDescription": "Discover the most common mistakes that make you a noob in blogging and learn how to create valuable content that ranks and retains readers.",
-  "previewImageURL": "/images/c1.jpg",
-  "tags": ["blogging", "content creation", "AI blogging", "SEO", "mistakes"],
+  "_id": "68b32c7d0ab9cc9c53ad14fe",
+  "blogID": "blogging-mistakes",
+  "__v": 0,
   "author": "Swaraj Puppalwar",
-  "publishedDate": "2025-07-19",
-  "wordsUsed": 500,
-  "targetRegion": "Global",
   "content": [
     {
       "contentType": "text",
@@ -61,5 +57,18 @@
       "contentType": "text",
       "content": "## Summary\n\nAvoid shortcuts. Don’t let AI write everything. Research, write, and add your voice. Focus on quality and value. Money will come once you build trust."
     }
-  ]
+  ],
+  "previewDescription": "Discover the most common mistakes that make you a noob in blogging and learn how to create valuable content that ranks and retains readers.",
+  "previewImageURL": "/images/c1.jpg",
+  "publishedDate": "2025-07-19T00:00:00.000Z",
+  "tags": [
+    "blogging",
+    "content creation",
+    "AI blogging",
+    "SEO",
+    "mistakes"
+  ],
+  "targetRegion": "Global",
+  "title": "Why Most People Won't Succeed in Blog Writing",
+  "wordsUsed": 500
 }
