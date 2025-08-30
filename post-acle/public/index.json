@@ -1,6 +1,13 @@
 [
   {
-    "title": "Why Most People Won't Succeed in Blog Writing",
+    "_id": "68b32b820ab9cc9c53ad14f4",
+    "blogID": "blogging-mistakes",
+    "__v": 0,
+    "author": "PostAcle",
+    "blogNumber": 101,
+    "category": "Technology",
+    "previewImage": "https://www.post-acle.blog/images/c1.jpg",
+    "publishedDate": "2025-07-19T14:00:00.000Z",
     "tags": [
       "blogging",
       "content creation",
@@ -8,71 +15,86 @@
       "SEO",
       "mistakes"
     ],
-    "category": "Technology",
-    "previewImage": "https://www.post-acle.blog/images/c1.jpg",
-    "blogNumber": 101,
-    "blogID": "blogging-mistakes",
-    "wordsUsed": 500,
-    "publishedDate": "2025-07-19T14:00:00.000Z",
-    "author": "PostAcle",
-    "targetRegion": "Global"
+    "targetRegion": "Global",
+    "title": "Why Most People Won't Succeed in Blog Writing",
+    "wordsUsed": 500
   },
   {
-    "title": "My 1-Year Experience with Vibe Coding & Mistakes to Avoid and How to Do It Right",
+    "_id": "68b32b820ab9cc9c53ad14f5",
+    "blogID": "vibe-coding",
+    "__v": 0,
+    "author": "Swaraj Puppalwar",
+    "blogNumber": 102,
+    "category": "Technology",
+    "previewImage": "https://www.post-acle.blog/images/v1.png",
+    "publishedDate": "2025-07-22T00:00:00.000Z",
     "tags": [
       "AI Coding",
       "Vibe Coding",
       "Development Tips",
       "Productivity"
     ],
-    "category": "Technology",
-    "previewImage": "https://www.post-acle.blog/images/v1.png",
-    "blogNumber": 102,
-    "blogID": "vibe-coding",
-    "wordsUsed": 500,
-    "publishedDate": "2025-07-22T00:00:00.000Z",
-    "author": "Swaraj Puppalwar",
-    "targetRegion": "Global"
+    "targetRegion": "Global",
+    "title": "My 1-Year Experience with Vibe Coding & Mistakes to Avoid and How to Do It Right",
+    "wordsUsed": 500
   },
   {
-    "title": "Dreams, Goals, and True Wealth",
+    "_id": "68b32b820ab9cc9c53ad14f6",
+    "blogID": "dreams-goals-wealth",
+    "__v": 0,
+    "author": "Saiprasad Nalamwar",
+    "blogNumber": 103,
+    "category": "Personal Growth",
+    "previewImage": "https://www.post-acle.blog/images/dreams-assets.jpg",
+    "publishedDate": "2025-08-16T00:00:00.000Z",
     "tags": [
       "success",
       "finance",
       "dreams",
       "motivation"
     ],
-    "category": "Personal Growth",
-    "previewImage": "https://www.post-acle.blog/images/dreams-assets.jpg",
-    "blogNumber": 103,
-    "blogID": "dreams-goals-wealth",
-    "wordsUsed": 316,
-    "publishedDate": "2025-08-16T00:00:00.000Z",
-    "author": "Saiprasad Nalamwar",
-    "targetRegion": "Global"
+    "targetRegion": "Global",
+    "title": "Dreams, Goals, and True Wealth",
+    "wordsUsed": 316
   },
   {
-    "title": "Gadgets Impact on Students Performance",
-    "tags": ["gadgets", "education", "students", "performance", "technology"],
+    "_id": "68b32b820ab9cc9c53ad14f7",
+    "blogID": "gadgets-impact",
+    "__v": 0,
+    "author": "Saiprasad Nalamwar",
+    "blogNumber": 104,
     "category": "Education",
     "previewImage": "https://www.post-acle.blog/images/gadgets-impact.jpg",
-    "blogNumber": 104,
-    "blogID": "gadgets-impact",
-    "wordsUsed": 720,
     "publishedDate": "2025-08-18T00:00:00.000Z",
-    "author": "Saiprasad Nalamwar",
-    "targetRegion": "Global"
+    "tags": [
+      "gadgets",
+      "education",
+      "students",
+      "performance",
+      "technology"
+    ],
+    "targetRegion": "Global",
+    "title": "Gadgets Impact on Students Performance",
+    "wordsUsed": 720
   },
   {
-    "title": "Mobile Phones: A Blessing or a Curse",
-    "tags": ["mobile phones", "technology", "communication", "smartphones", "health"],
+    "_id": "68b32b820ab9cc9c53ad14f8",
+    "blogID": "mobile-phones-impact",
+    "__v": 0,
+    "author": "Saiprasad Nalamwar",
+    "blogNumber": 105,
     "category": "Technology",
     "previewImage": "https://www.post-acle.blog/images/mobile-phones-cover.jpg",
-    "blogNumber": 105,
-    "blogID": "mobile-phones-impact",
-    "wordsUsed": 860,
     "publishedDate": "2025-08-18T00:00:00.000Z",
-    "author": "Saiprasad Nalamwar",
-    "targetRegion": "Global"
+    "tags": [
+      "mobile phones",
+      "technology",
+      "communication",
+      "smartphones",
+      "health"
+    ],
+    "targetRegion": "Global",
+    "title": "Mobile Phones: A Blessing or a Curse",
+    "wordsUsed": 860
   }
 ]
