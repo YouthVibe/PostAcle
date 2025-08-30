@@ -1,58 +1,65 @@
 {
-    "title": "My 1-Year Experience with Vibe Coding & Mistakes to Avoid and How to Do It Right",
-    "previewDescription": "As middle-class developers, we often rely on AI to fulfill our dream projects—but AI alone isn't magic. Here's my raw, personal journey into vibe coding, what I learned, and how you can do it better.",
-    "previewImageURL": "https://www.post-acle.blog/images/v1.png",
-    "targetRegion": "Global",
-    "tags": ["AI Coding", "Vibe Coding", "Development Tips", "Productivity"],
-    "author": "Swaraj Puppalwar",
-    "publishedDate": "2025-07-22",
-    "wordsUsed": 500,
-    "content": [
-      {
-        "contentType": "text",
-        "content": "# Introduction\nThe rise of AI tools has changed how we code. From the first time I saw ChatGPT to now using agentic IDEs, my journey with vibe coding has been wild. This blog post is a personal story of what vibe coding truly is, my mistakes, and how you can do it better."
-      },
-      {
-        "contentType": "text",
-        "content": "## What is Vibe Coding?\n'Vibe coding' means coding with the help of AI tools while staying in flow. You don’t write all the code yourself; instead, you guide AI with clarity and structure to build your project. This term was popularized by OpenAI’s CEO."
-      },
-      {
-        "contentType": "text",
-        "content": "## My First Experience\nWhen I first used AI (ChatGPT), I was amazed by its coding skills. But I quickly realized it sucked at handling large, complex projects. Then came the agentic coders, agentic IDEs, and new models like Claude 3.7 Sonnet and GPT-4 Sonnet, which revolutionized vibe coding."
-      },
-      {
-        "contentType": "text",
-        "content": "## Mistakes I Made While Vibe Coding\n1. **One Prompt for Everything**: I used to say things like \"Make me a full social media app in Next.js\". It never worked well.\n2. **Single Chat Syndrome**: I worked on an entire project in a single AI chat. That ruined accuracy.\n3. **Lack of Prompt Detailing**: I didn’t describe what I wanted clearly.\n4. **No Feature Breakdown**: I didn't break the project into parts.\n\n### What I Learned:\n- Always break your project into tasks and features.\n- Start a new chat for each task.\n- Be detailed and explicit with your instructions.\n- Think like a project manager, not a magic wand user."
-      },
-      {
-        "contentType": "highlight",
-        "content": {
-          "type": "tip",
-          "content": "Never dump your entire project in a single prompt or chat. Split, detail, and conquer."
-        }
-      },
-      {
-        "contentType": "text",
-        "content": "## Best Free AI Stack for Middle-Class Devs\n- **Claude 3.5 Sonnet (Free 50 requests/month)**: Great for bug fixing, enhancing UI/UX, and refining logic.\n- **Gemini 2.5 Flash (Free on Trae AI, 1000 requests/month)**: Perfect for prototyping and getting structure.\n\nUse Gemini 2.5 Flash to build your app's foundation and Claude 3.5 Sonnet to polish it for production.\n\nIf you have budget:\n- **GitHub Copilot** or **Cursor AI** (Paid) can save a lot of time.\n\nBut if you're broke like me, use the combo above. It’s powerful if used right."
-      },
-      {
-        "contentType": "accordion",
-        "content": {
-          "title": "My Tech Stack for Vibe Coding",
-          "content": "- **Frontend**: React, Next.js\n- **Backend**: Node.js, Express\n- **AI Tools**: Claude 3.5/3.7 Sonnet, Gemini 2.5 Flash, Copilot (free trial), Trae AI\n- **IDE**: VS Code + Cursor AI (if paid)\n- **Strategy**: Break project into modules. Prototype with Gemini, perfect with Claude."
-        }
-      },
-      {
-        "contentType": "highlight",
-        "content": {
-          "type": "warning",
-          "content": "Don’t overload your AI with massive context. Keep it concise. Huge prompts = crashes."
-        }
-      },
-      {
-        "contentType": "text",
-        "content": "## Final Words\nVibe coding isn’t just about chilling with AI; it’s about collaborating smartly. Let AI be your co-pilot—not your only pilot. Mistakes are part of learning, and I’ve made plenty so you don’t have to. Break tasks down, stay organized, and use the right models.\n\nNow go, vibe build your dreams."
+  "_id": "68b32c7d0ab9cc9c53ad1502",
+  "blogID": "vibe-coding",
+  "__v": 0,
+  "author": "Swaraj Puppalwar",
+  "content": [
+    {
+      "contentType": "text",
+      "content": "# Introduction\nThe rise of AI tools has changed how we code. From the first time I saw ChatGPT to now using agentic IDEs, my journey with vibe coding has been wild. This blog post is a personal story of what vibe coding truly is, my mistakes, and how you can do it better."
+    },
+    {
+      "contentType": "text",
+      "content": "## What is Vibe Coding?\n'Vibe coding' means coding with the help of AI tools while staying in flow. You don’t write all the code yourself; instead, you guide AI with clarity and structure to build your project. This term was popularized by OpenAI’s CEO."
+    },
+    {
+      "contentType": "text",
+      "content": "## My First Experience\nWhen I first used AI (ChatGPT), I was amazed by its coding skills. But I quickly realized it sucked at handling large, complex projects. Then came the agentic coders, agentic IDEs, and new models like Claude 3.7 Sonnet and GPT-4 Sonnet, which revolutionized vibe coding."
+    },
+    {
+      "contentType": "text",
+      "content": "## Mistakes I Made While Vibe Coding\n1. **One Prompt for Everything**: I used to say things like \"Make me a full social media app in Next.js\". It never worked well.\n2. **Single Chat Syndrome**: I worked on an entire project in a single AI chat. That ruined accuracy.\n3. **Lack of Prompt Detailing**: I didn’t describe what I wanted clearly.\n4. **No Feature Breakdown**: I didn't break the project into parts.\n\n### What I Learned:\n- Always break your project into tasks and features.\n- Start a new chat for each task.\n- Be detailed and explicit with your instructions.\n- Think like a project manager, not a magic wand user."
+    },
+    {
+      "contentType": "highlight",
+      "content": {
+        "type": "tip",
+        "content": "Never dump your entire project in a single prompt or chat. Split, detail, and conquer."
       }
-    ]
-  }
-  
+    },
+    {
+      "contentType": "text",
+      "content": "## Best Free AI Stack for Middle-Class Devs\n- **Claude 3.5 Sonnet (Free 50 requests/month)**: Great for bug fixing, enhancing UI/UX, and refining logic.\n- **Gemini 2.5 Flash (Free on Trae AI, 1000 requests/month)**: Perfect for prototyping and getting structure.\n\nUse Gemini 2.5 Flash to build your app's foundation and Claude 3.5 Sonnet to polish it for production.\n\nIf you have budget:\n- **GitHub Copilot** or **Cursor AI** (Paid) can save a lot of time.\n\nBut if you're broke like me, use the combo above. It’s powerful if used right."
+    },
+    {
+      "contentType": "accordion",
+      "content": {
+        "title": "My Tech Stack for Vibe Coding",
+        "content": "- **Frontend**: React, Next.js\n- **Backend**: Node.js, Express\n- **AI Tools**: Claude 3.5/3.7 Sonnet, Gemini 2.5 Flash, Copilot (free trial), Trae AI\n- **IDE**: VS Code + Cursor AI (if paid)\n- **Strategy**: Break project into modules. Prototype with Gemini, perfect with Claude."
+      }
+    },
+    {
+      "contentType": "highlight",
+      "content": {
+        "type": "warning",
+        "content": "Don’t overload your AI with massive context. Keep it concise. Huge prompts = crashes."
+      }
+    },
+    {
+      "contentType": "text",
+      "content": "## Final Words\nVibe coding isn’t just about chilling with AI; it’s about collaborating smartly. Let AI be your co-pilot—not your only pilot. Mistakes are part of learning, and I’ve made plenty so you don’t have to. Break tasks down, stay organized, and use the right models.\n\nNow go, vibe build your dreams."
+    }
+  ],
+  "previewDescription": "As middle-class developers, we often rely on AI to fulfill our dream projects—but AI alone isn't magic. Here's my raw, personal journey into vibe coding, what I learned, and how you can do it better.",
+  "previewImageURL": "https://www.post-acle.blog/images/v1.png",
+  "publishedDate": "2025-07-22T00:00:00.000Z",
+  "tags": [
+    "AI Coding",
+    "Vibe Coding",
+    "Development Tips",
+    "Productivity"
+  ],
+  "targetRegion": "Global",
+  "title": "My 1-Year Experience with Vibe Coding & Mistakes to Avoid and How to Do It Right",
+  "wordsUsed": 500
+}
