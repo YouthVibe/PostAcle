@@ -13,6 +13,11 @@ import userRoutes from './routes/userRoutes.js';
 import blogRoutes from './routes/blogRoutes.js';
 import generateBlogRoutes from './routes/generateBlogRoutes.js';
 import writerRoutes from './routes/writerRoutes.js';
+import githubRoutes from './routes/githubRoutes.js';
+// const { Octokit } = require("@octokit/rest");
+
+
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -28,6 +33,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/blogs', blogRoutes);
 app.use('/api/generate', generateBlogRoutes);
 app.use('/api/writer', writerRoutes);
+app.use('/api/github', githubRoutes);
 
 app.get('/', (req, res) => {
   res.send('Backend server is running!');
