@@ -20,4 +20,33 @@ async function main() {
 main();
 */
 
+
+export async function generateBlogContent(rawText) {
+  try {
+    const model = ai.getGenerativeModel({ model: "gemini-pro" });
+
+    const prompt = `Generate a blog post from the following raw text. Provide a title, and the main content. The content should be well-structured with paragraphs. Raw text: ${rawText}`;
+
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const text = response.text();
+
+    // Attempt to parse title and content from the generated text
+    // This is a basic example, you might need more sophisticated parsing
+    const lines = text.split('\n');
+    let title = 'Generated Blog Post';
+    let content = text;
+
+    if (lines.length > 0 && lines[0].trim().length > 0) {
+      title = lines[0].replace(/^(Title:|제목:)\s*/i, '').trim();
+      content = lines.slice(1).join('\n').trim();
+    }
+
+    return { title, content };
+  } catch (error) {
+    console.error('Error generating content from Gemini:', error);
+    throw new Error('Failed to generate blog content.');
+  }
+}
+
 export default ai;

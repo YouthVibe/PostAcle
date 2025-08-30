@@ -1,9 +1,9 @@
-const Blog = require('../models/blog');
-const TempBlog = require('../models/tempBlog');
-const { generateBlogContent } = require('./gemini'); // Assuming gemini.js has a function for content generation
+import Blog from '../models/blog.js';
+import TempBlog from '../models/tempBlog.js';
+import { generateBlogContent } from './gemini.js';
 
 // Generate blog from raw text
-exports.generateBlog = async (req, res) => {
+export const generateBlog = async (req, res) => {
   try {
     const { rawText } = req.body;
 
@@ -32,7 +32,7 @@ exports.generateBlog = async (req, res) => {
 };
 
 // Modify existing blog
-exports.modifyBlog = async (req, res) => {
+export const modifyBlog = async (req, res) => {
   try {
     const { blogId } = req.params;
     const { title, content, tags, categories, status } = req.body;
@@ -64,7 +64,7 @@ exports.modifyBlog = async (req, res) => {
 };
 
 // Get all blogs for a specific writer
-exports.getWriterBlogs = async (req, res) => {
+export const getWriterBlogs = async (req, res) => {
   try {
     const blogs = await Blog.find({ author: req.user.id }).sort({ createdAt: -1 });
     res.status(200).json(blogs);

@@ -1,18 +1,20 @@
-const express = require('express');
-const router = express.Router();
-const writerController = require('../controllers/writerController');
-const authMiddleware = require('../middlewares/authMiddleware');
+import express from 'express';
+import { Router } from 'express';
+import { generateBlog, modifyBlog, getWriterBlogs } from '../controllers/writerController.js';
+import authMiddleware from '../middlewares/authMiddleware.js';
+
+const router = Router();
 
 // Protect writer routes with authentication middleware
 router.use(authMiddleware);
 
 // Generate blog from raw text
-router.post('/generate-blog', writerController.generateBlog);
+router.post('/generate-blog', generateBlog);
 
 // Modify existing blog
-router.put('/modify-blog/:blogId', writerController.modifyBlog);
+router.put('/modify-blog/:blogId', modifyBlog);
 
 // Get all blogs for the authenticated writer
-router.get('/my-blogs', writerController.getWriterBlogs);
+router.get('/my-blogs', getWriterBlogs);
 
-module.exports = router;
+export default router;
