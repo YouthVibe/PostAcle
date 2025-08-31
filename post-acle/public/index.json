@@ -96,5 +96,26 @@
     "targetRegion": "Global",
     "title": "Mobile Phones: A Blessing or a Curse",
     "wordsUsed": 860
+  },
+  {
+    "_id": "68b3d5dd0ab9cc9c53ad1515",
+    "blogID": "ollama-local-llm-guide-20250720",
+    "__v": 0,
+    "author": "Swaraj Puppalwar",
+    "previewImage": "https://res.cloudinary.com/dhm3s9p2f/image/upload/v1756615768/blog_images/xvzekuk50i698fd7a2fl.jpg",
+    "publishedDate": "2025-07-20T00:00:00.000Z",
+    "tags": [
+      "Ollama",
+      "LLM",
+      "Local AI",
+      "Artificial Intelligence",
+      "Open Source",
+      "Privacy",
+      "Offline AI",
+      "Machine Learning"
+    ],
+    "targetRegion": "Global",
+    "title": "All About Ollama: Bringing LLMs to Your Local Machine",
+    "wordsUsed": 634
   }
 ]
