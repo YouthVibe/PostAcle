@@ -157,9 +157,14 @@ router.post('/approve/:blogID', authMiddleware, async (req, res) => {
     const indexData = {
       blogID: blogData.blogID,
       title: blogData.title,
-      blogNumber: blogData.blogNumber || req.body.blogNumber, // fallback from request
-      previewImage: blogData.previewImage || req.body.previewImage,
-      category: blogData.category || req.body.category
+      author: blogData.author || req.body.author,
+      blogNumber: blogData.blogNumber || req.body.blogNumber,
+      category: blogData.category || req.body.category,
+      previewImage: blogData.previewImage || blogData.previewImageURL || req.body.previewImage,
+      publishedDate: blogData.publishedDate || req.body.publishedDate,
+      tags: blogData.tags || req.body.tags,
+      targetRegion: blogData.targetRegion || req.body.targetRegion,
+      wordsUsed: blogData.wordsUsed || req.body.wordsUsed
     };
 
     const newIndexEntry = await Index.findOneAndUpdate(

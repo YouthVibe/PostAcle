@@ -11,6 +11,7 @@ const ai = new GoogleGenAI({ "GEMINI_API_KEY": process.env.GEMINI_API_KEY });
 const generateBlogJson = async (rawText) => {
   try {
     const response = await ai.models.generateContent({
+      // model: "gemini-2.5-pro",
       model: "gemini-2.5-flash",
       contents: `Given the following raw blog text, generate a JSON object that adheres to the BlogPost schema. Also, provide search keywords for relevant images from Pixabay. The blog content should be an array of objects, where each object has a 'contentType' (e.g., 'text', 'image', 'chart') and 'content'. For 'text' content, use markdown. For 'image' content, the 'content' should be a URL. Ensure all required fields are present and valid. The blogID should be a unique string. The wordsUsed should be an accurate count of words in the generated content.
 
